@@ -48,7 +48,7 @@
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/ureadmyname/basicBot/master/lang/langIndex.json",
         maximumAfk: 120,
         afkRemoval: false,
         maximumDc: 120,
@@ -101,6 +101,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/ureadmyname/BasicbotMod/master/Mod.js", extend);
+    $.getScript("https://rawgit.com/ureadmyname/basicBot/master/basicBot.js", extend);
 
 }).call(this);
