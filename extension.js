@@ -30,7 +30,6 @@
          //Commands functionality goes here.
          }}}
          */
-candyCommand: {
                 bot.commands.candyCommand: 'candy',
                 rank: 'user',
                 type: 'startsWith',
@@ -84,8 +83,7 @@ candyCommand: {
                             }
                         }
                     }
-                }
-            },
+                },
 
         bot.loadChat();
 
