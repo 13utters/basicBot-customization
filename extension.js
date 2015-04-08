@@ -33,8 +33,8 @@
          }
 
          */
-         
-         CandyCommand: {
+
+            CandyCommand: {
                 command: 'Candy',
                 rank: 'user',
                 type: 'startsWith',
@@ -71,9 +71,8 @@
                         }
                     }
                 }
-            },
-         
-         
+            };
+
         //Load the chat package again to account for any changes
         bot.loadChat();
 
@@ -82,31 +81,31 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "qtbot",
+        botName: "basicBot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
         chatLink: "https://rawgit.com/" + fork + "/basicBot/master/lang/en.json",
-        maximumAfk: 180,
-        afkRemoval: false,
-        maximumDc: 120,
-        bouncerPlus: false,
-        blacklistEnabled: false,
+        maximumAfk: 120,
+        afkRemoval: true,
+        maximumDc: 60,
+        bouncerPlus: true,
+        blacklistEnabled: true,
         lockdownEnabled: false,
         lockGuard: false,
         maximumLocktime: 10,
-        cycleGuard: false,
+        cycleGuard: true,
         maximumCycletime: 10,
         voteSkip: false,
         voteSkipLimit: 10,
-        timeGuard: false,
+        timeGuard: true,
         maximumSongLength: 10,
-        autodisable: false,
+        autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
-        lockskipPosition: 1,
+        lockskipPosition: 3,
         lockskipReasons: [
             ["theme", "This song does not fit the room theme. "],
             ["op", "This song is on the OP list. "],
@@ -121,9 +120,9 @@
         motdEnabled: false,
         motdInterval: 5,
         motd: "Temporary Message of the Day",
-        filterChat: false,
+        filterChat: true,
         etaRestriction: false,
-        welcome: false,
+        welcome: true,
         opLink: null,
         rulesLink: null,
         themeLink: null,
@@ -132,7 +131,7 @@
         website: null,
         intervalMessages: [],
         messageInterval: 5,
-        songstats: false,
+        songstats: true,
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
