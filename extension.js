@@ -33,39 +33,44 @@
          }
 
          */
-bot.commands.candyCommand = {
-        command: 'candy',
-        rank: 'user',
-        type: 'startsWith',
-        candies: ['has given you a THE MOD WORKED!',
+         bot.commands.candyCommand = {
+                command: 'Candy',
+                rank: 'user',
+                type: 'startsWith',
+                candies: ['has given you a THE MOD WORKED!',
                     'has given you a THE MOD WORKED!'
                 ],
-                    functionality: function (chat, cmd) {
+                getCandy: function () {
+                    var c = Math.floor(Math.random() * this.candies.length);
+                    return this.candies[c];
+                },
+                functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!bot.commands.executable(this.rank, chat)) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         var msg = chat.message;
+
                         var space = msg.indexOf(' ');
                         if (space === -1) {
-                            API.sendChat(bot.chat.eatcandy);
+                            API.sendChat(basicBot.chat.eatcandy);
                             return false;
                         }
                         else {
                             var name = msg.substring(space + 2);
-                            var user = bot.userUtilities.lookupUserName(name);
+                            var user = basicBot.userUtilities.lookupUserName(name);
                             if (user === false || !user.inRoom) {
-                                return API.sendChat(subChat(bot.chat.nousercandy, {name: name}));
+                                return API.sendChat(subChat(basicBot.chat.nousercandy, {name: name}));
                             }
                             else if (user.username === chat.un) {
-                                return API.sendChat(subChat(bot.chat.selfcandy, {name: name}));
+                                return API.sendChat(subChat(basicBot.chat.selfcandy, {name: name}));
                             }
                             else {
-                                return API.sendChat(subChat(bot.chat.candy, {nameto: user.username, namefrom: chat.un, candy: this.getCandy()}));
+                                return API.sendChat(subChat(basicBot.chat.candy, {nameto: user.username, namefrom: chat.un, candy: this.getCandy()}));
                             }
                         }
                     }
                 }
-        };
+            },
 
         //Load the chat package again to account for any changes
         bot.loadChat();
@@ -75,7 +80,7 @@ bot.commands.candyCommand = {
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "bot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
