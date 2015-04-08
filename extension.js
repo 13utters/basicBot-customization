@@ -31,9 +31,50 @@
          }
          }
          }
-
+         bot.commands.baconCommand = {
+              command: 'bacon',  //The command to be called. With the standard command literal this would be: !bacon
+              rank: 'user', //Minimum user permission to use the command
+              type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+              functionality: function (chat, cmd) {
+                  if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                  if (!bot.commands.executable(this.rank, chat)) return void (0);
+                  else {
+                      API.sendChat("/me Bacon!!!");
+                  }
+              }
+          };
          */
         //Load the chat package again to account for any changes
+        bot.commands.candyCommand = {
+        command: 'candy',
+        rank: 'user',
+                    functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.eatcandy);
+                            return false;
+                        }
+                        else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nousercandy, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selfcandy, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.candy, {nameto: user.username, namefrom: chat.un, candy: this.getCandy()}));
+                            }
+                        }
+                    }
+                }
+        };
         bot.loadChat();
 
     }
