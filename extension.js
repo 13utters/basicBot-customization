@@ -31,41 +31,9 @@
          }
          }
          }
+
          */
-         
-  /*      bot.commands.candyCommand = {
-        command: 'candy',
-        rank: 'user',
-        type: 'startsWith',
-        candies: ['has given you a THE MOD WORKED!',
-                    'has given you a THE MOD WORKED!'
-                ],
-                    functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!bot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        var msg = chat.message;
-                        var space = msg.indexOf(' ');
-                        if (space === -1) {
-                            API.sendChat(bot.chat.eatcandy);
-                            return false;
-                        }
-                        else {
-                            var name = msg.substring(space + 2);
-                            var user = bot.userUtilities.lookupUserName(name);
-                            if (user === false || !user.inRoom) {
-                                return API.sendChat(subChat(bot.chat.nousercandy, {name: name}));
-                            }
-                            else if (user.username === chat.un) {
-                                return API.sendChat(subChat(bot.chat.selfcandy, {name: name}));
-                            }
-                            else {
-                                return API.sendChat(subChat(bot.chat.candy, {nameto: user.username, namefrom: chat.un, candy: this.getCandy()}));
-                            }
-                        }
-                    }
-                }
-        }; */
+
         bot.commands.baconCommand = {
             command: 'bacon',  //The command to be called. With the standard command literal this would be: !bacon
             rank: 'user', //Minimum user permission to use the command
@@ -78,7 +46,8 @@
                 }
             }
         };
-                  //Load the chat package again to account for any changes
+
+        //Load the chat package again to account for any changes
         bot.loadChat();
 
     }
@@ -86,14 +55,14 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "bot",
+        botName: "basicBot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
-        maximumAfk: 180,
+        maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 60,
         bouncerPlus: true,
@@ -110,7 +79,7 @@
         autodisable: true,
         commandCooldown: 30,
         usercommandsEnabled: true,
-        lockskipPosition: 2,
+        lockskipPosition: 3,
         lockskipReasons: [
             ["theme", "This song does not fit the room theme. "],
             ["op", "This song is on the OP list. "],
@@ -125,7 +94,7 @@
         motdEnabled: false,
         motdInterval: 5,
         motd: "Temporary Message of the Day",
-        filterChat: false,
+        filterChat: true,
         etaRestriction: false,
         welcome: true,
         opLink: null,
@@ -139,8 +108,8 @@
         songstats: true,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/Yemasthui/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
