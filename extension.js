@@ -45,7 +45,7 @@
           };
          */
         //Load the chat package again to account for any changes
-        bot.commands.candyCommand = {
+  /*      bot.commands.candyCommand = {
         command: 'candy',
         rank: 'user',
         type: 'startsWith',
@@ -77,7 +77,7 @@
                         }
                     }
                 }
-        };
+        }; */
         bot.loadChat();
 
     }
