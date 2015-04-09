@@ -64,7 +64,7 @@ command: 'candy',
 rank: 'user',
 type: 'startsWith',
 candies: ['has given you a chocolate chip candy!',
-'has given you a soft homemade oatmeal candy!',
+'has given you a soft homemade oatmeal candy!'
 ],
 getCandy: function () {
 var c = Math.floor(Math.random() * this.candies.length);
