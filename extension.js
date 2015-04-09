@@ -60,20 +60,20 @@ API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday 
 }
 };
 
-        bot.commands.propsCommand = {
-	command: 'props',
+        bot.commands.bleepbloopCommand = {
+	command: 'bleepbloop',
 	rank: 'user',
 	type: 'exact',
 	functionality: function (chat, cmd) {
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                var theprops = ['great song!', 'great song, brah!', 'nice song!'];
+                var thebleepbloop = ['great song!', 'great song, brah!', 'nice song!'];
 
-var randomIndex = Math.floor(Math.random() * theprops.length);
+var randomIndex = Math.floor(Math.random() * thebleepbloop.length);
 
-var randomString = theprops[randomIndex];
-                        API.sendChat(subChat(basicbot.chat.props, {name: chat.un, response: basicBot.settings.props[randomIndex]}));
+var randomString = thebleepbloop[randomIndex];
+                        API.sendChat(subChat(basicbot.chat.bleepbloop, {name: chat.un, response: basicBot.settings.bleepbloop[randomIndex]}));
                     }
                 }
             };
