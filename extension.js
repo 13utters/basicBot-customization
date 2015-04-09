@@ -158,7 +158,7 @@ return API.sendChat(subChat(basicBot.chat.candy, {nameto: user.username, namefro
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            OP: "http://i.imgur.com/GvTNwOn.jpg"
         }
     }));
 
