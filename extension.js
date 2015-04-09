@@ -46,18 +46,6 @@
                 }
             }
         };   */
-    var subChat = function (chat, obj) {
-        if (typeof chat === "undefined") {
-            API.chatLog("There is a chat text missing.");
-            console.log("There is a chat text missing.");
-            return "[Error] No text message found.";
-        }
-        var lit = '%%';
-        for (var prop in obj) {
-            chat = chat.replace(lit + prop.toUpperCase() + lit, obj[prop]);
-        }
-        return chat;
-    };
 
 bot.commands.candyCommand = {
 command: 'candy',
