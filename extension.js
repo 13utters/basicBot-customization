@@ -55,7 +55,7 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-API.sendChat("/me Like other genres than edm? Then you better be here wednesday and friday, any genre is allowed!!!");
+API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday and Friday, any genre is allowed!!!");
 }
 }
 };
@@ -72,7 +72,7 @@ API.sendChat("/me Like other genres than edm? Then you better be here wednesday 
                         var argument = msg.substring(cmd.length + 1);
                         var randomProps = Math.floor(Math.random() * basicBot.settings.props.length);
                         var randomSentence = Math.floor(Math.random() * 1);
-                        API.sendChat(subChat(basicBot.chat.props, {name: chat.un, question: argument, response: basicBot.settings.Props[randomProps]}));
+                        API.sendChat(basicBot.chat.props, {name: chat.un, question: response: basicBot.settings.Props[randomProps]}));
                      }
                 }
             },
