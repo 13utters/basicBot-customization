@@ -56,9 +56,9 @@ bot.commands.favCommand = {
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
 API.sendChat("remember to click the star in the top bar to favourite this room!!!");
-
-
-
+}
+}
+},
 
 
 bot.commands.candyCommand = {
