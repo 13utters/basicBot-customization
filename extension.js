@@ -59,7 +59,7 @@ API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday 
 }
 }
 };
-        
+   /*     
         bot.commands.propsCommand = {
 	command: 'props',
 	rank: 'user',
@@ -75,7 +75,7 @@ API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday 
                         API.sendChat(subChat(basicBot.chat.props, {name: chat.un, botname: basicBot.settings.botName, question: argument, response: basicBot.settings.props[randomProps]}));
                 }
             };
-
+*/
 bot.commands.favCommand = {
 	command: 'fav',
 	rank: 'manager',
