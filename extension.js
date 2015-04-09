@@ -59,7 +59,7 @@ API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday 
 }
 }
 };
-   /*     
+
         bot.commands.propsCommand = {
 	command: 'props',
 	rank: 'user',
@@ -68,14 +68,16 @@ API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday 
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                        var msg = chat.message;
-                        var argument = msg.substring(cmd.length + 1);
-                        var randomProps = Math.floor(Math.random() * basicBot.settings.props.length);
-                        var randomSentence = Math.floor(Math.random() * 1);
-                        API.sendChat(subChat(basicBot.chat.props, {name: chat.un, botname: basicBot.settings.botName, question: argument, response: basicBot.settings.props[randomProps]}));
+                var theprops = ['great song!', 'great song, brah!', 'nice song!'];
+
+var randomIndex = Math.floor(Math.random() * theprops.length);
+
+var randomString = theprops[randomIndex];
+                        API.sendChat(subChat(basicbot.chat.props, {name: chat.un, response: basicBot.settings.props[randomIndex]}));
+                    }
                 }
             };
-*/
+
 bot.commands.favCommand = {
 	command: 'fav',
 	rank: 'manager',
@@ -181,8 +183,6 @@ return API.sendChat(subChat(basicBot.chat.candy, {nameto: user.username, namefro
 ],
 candies: ['has given you a chocolate chip candy!',
 'has given you a soft homemade oatmeal candy!'
-],
-props: ['great song, brah!'
 ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
