@@ -47,6 +47,19 @@
             }
         };   */
         
+        bot.commands.shuffleCommand = {
+	command: 'shuffle',
+	rank: 'user',
+	type: 'exact',
+	functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+API.sendChat("/me Like other genres than edm? Then you better be here wednesday and friday, any genre is allowed!!!");
+}
+}
+};
+        
         bot.commands.propsCommand = {
 	command: 'props',
 	rank: 'user',
@@ -55,13 +68,11 @@
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                	var crowd = API.getUsers();
                         var msg = chat.message;
                         var argument = msg.substring(cmd.length + 1);
-                        var randomUser = Math.floor(Math.random() * crowd.length);
                         var randomProps = Math.floor(Math.random() * basicBot.settings.props.length);
                         var randomSentence = Math.floor(Math.random() * 1);
-                        API.sendChat(subChat(basicBot.chat.props, {name: chat.un, botname: basicBot.settings.botName, question: argument, response: basicBot.settings.Props[randomProps]}));
+                        API.sendChat(subChat(basicBot.chat.props, {name: chat.un, question: argument, response: basicBot.settings.Props[randomProps]}));
                      }
                 }
             },
