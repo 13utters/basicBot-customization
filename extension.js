@@ -72,10 +72,9 @@ API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday 
                         var argument = msg.substring(cmd.length + 1);
                         var randomProps = Math.floor(Math.random() * basicBot.settings.props.length);
                         var randomSentence = Math.floor(Math.random() * 1);
-                        API.sendChat(basicBot.chat.props, {name: chat.un, question: response: basicBot.settings.Props[randomProps]}));
-                     }
+                        API.sendChat(subChat(basicBot.chat.props, {name: chat.un, botname: basicBot.settings.botName, question: argument, response: basicBot.settings.props[randomProps]}));
                 }
-            },
+            };
 
 bot.commands.favCommand = {
 	command: 'fav',
