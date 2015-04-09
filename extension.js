@@ -60,6 +60,19 @@ API.sendChat("/me remember to click the star in the top bar to favorite this roo
 }
 };
 
+bot.commands.trollCommand = {
+	command: 'troll',
+	rank: 'user',
+	type: 'exact',
+	functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+API.sendChat("/me :trollface:");
+}
+}
+};
+
 
 bot.commands.candyCommand = {
 command: 'candy',
