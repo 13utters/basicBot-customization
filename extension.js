@@ -47,6 +47,25 @@
             }
         };   */
         
+        bot.commands.propsCommand = {
+	command: 'props',
+	rank: 'user',
+	type: 'exact',
+	functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                	var crowd = API.getUsers();
+                        var msg = chat.message;
+                        var argument = msg.substring(cmd.length + 1);
+                        var randomUser = Math.floor(Math.random() * crowd.length);
+                        var randomProps = Math.floor(Math.random() * basicBot.settings.props.length);
+                        var randomSentence = Math.floor(Math.random() * 1);
+                        API.sendChat(subChat(basicBot.chat.props, {name: chat.un, botname: basicBot.settings.botName, question: argument, response: basicBot.settings.Props[randomProps]}));
+                     }
+                }
+            },
+
 bot.commands.favCommand = {
 	command: 'fav',
 	rank: 'manager',
@@ -78,9 +97,6 @@ bot.commands.candyCommand = {
 command: 'candy',
 rank: 'user',
 type: 'startsWith',
-candies: ['has given you a chocolate chip candy!',
-'has given you a soft homemade oatmeal candy!'
-],
 getCandy: function () {
 var c = Math.floor(Math.random() * this.candies.length);
 return this.candies[c];
@@ -152,7 +168,12 @@ return API.sendChat(subChat(basicBot.chat.candy, {nameto: user.username, namefro
             ["sound", "The song you played had bad sound quality or no sound. "],
             ["nsfw", "The song you contained was NSFW (image or sound). "],
             ["unavailable", "The song you played was not available for some users. "]
-        ],
+],
+candies: ['has given you a chocolate chip candy!',
+'has given you a soft homemade oatmeal candy!'
+],
+props: ['great song, brah!'
+],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
         motdEnabled: false,
