@@ -104,41 +104,6 @@ API.sendChat("/me :trollface:");
 }
 }
 };
-
-bot.commands.candyCommand = {
-command: 'candy',
-rank: 'user',
-type: 'startsWith',
-getCandy: function () {
-var c = Math.floor(Math.random() * this.candies.length);
-return this.candies[c];
-},
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-else {
-var msg = chat.message;
-var space = msg.indexOf(' ');
-if (space === -1) {
-API.sendChat(basicBot.chat.eatcandy);
-return false;
-}
-else {
-var name = msg.substring(space + 2);
-var user = basicBot.userUtilities.lookupUserName(name);
-if (user === false || !user.inRoom) {
-return API.sendChat(subChat(basicBot.chat.nousercandy, {name: name}));
-}
-else if (user.username === chat.un) {
-return API.sendChat(subChat(basicBot.chat.selfcandy, {name: name}));
-}
-else {
-return API.sendChat(subChat(basicBot.chat.candy, {nameto: user.username, namefrom: chat.un, candy: this.getCandy()}));
-}
-}
-}
-}
-};
         //Load the chat package again to account for any changes
         bot.loadChat();
 
