@@ -62,7 +62,7 @@ API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday 
 
         bot.commands.bleepbloopCommand = {
 	command: 'bleepbloop',
-	rank: 'user',
+	rank: 'bouncer',
 	type: 'exact',
 	functionality: function (chat, cmd) {
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -80,7 +80,7 @@ var randomString = thebleepbloop[randomIndex];
 
 bot.commands.favCommand = {
 	command: 'fav',
-	rank: 'manager',
+	rank: 'user',
 	type: 'exact',
 	functionality: function (chat, cmd) {
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
@@ -191,7 +191,7 @@ candies: ['has given you a chocolate chip candy!',
         motd: "Temporary Message of the Day",
         filterChat: false,
         etaRestriction: false,
-        welcome: false,
+        welcome: true,
         opLink: null,
         rulesLink: null,
         themeLink: null,
