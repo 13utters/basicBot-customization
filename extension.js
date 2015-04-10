@@ -118,13 +118,6 @@ API.sendChat("/me :trollface:");
 }
 };
 
-$('span.emoji-trollface').css({
-    '-webkit-transform': 'scale(2.1)',
-    '-moz-transform': 'scale(2.1)',
-    '-o-transform': 'scale(2.1)'
-});
-
-
 bot.commands.candyCommand = {
 command: 'candy',
 rank: 'user',
