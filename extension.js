@@ -145,6 +145,7 @@ API.sendChat("/me :trollface:");
             ["sound", "The song you played had bad sound quality or no sound. "],
             ["nsfw", "The song you contained was NSFW (image or sound). "],
             ["unavailable", "The song you played was not available for some users. "]
+    ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
         motdEnabled: false,
@@ -164,7 +165,7 @@ API.sendChat("/me :trollface:");
         songstats: false,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
+            NSFW: "https://rawgit.com/ureadmyname/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
             OP: "https://rawgit.com/ureadmyname/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
