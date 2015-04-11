@@ -60,7 +60,7 @@ API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday 
 }
 }
 };
-
+/*
         bot.commands.bleepbloopCommand = {
 	command: 'bleepbloop',
 	rank: 'bouncer',
@@ -77,7 +77,7 @@ var randomString = thebleepbloop[randomIndex];
                         API.sendChat(subChat(basicbot.chat.bleepbloop, {name: chat.un, response: basicBot.settings.bleepbloop[randomIndex]}));
                     }
                 }
-            };
+            }; */
 
 bot.commands.favCommand = {
 	command: 'fav',
