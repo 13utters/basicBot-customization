@@ -152,7 +152,7 @@ API.sendChat("/me :trollface:");
         motd: "Temporary Message of the Day",
         filterChat: false,
         etaRestriction: false,
-        welcome: true,
+        welcome: false,
         opLink: null,
         rulesLink: null,
         themeLink: null,
@@ -165,7 +165,7 @@ API.sendChat("/me :trollface:");
         commandLiteral: "!",
         blacklists: {
             NSFW: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "http://i.imgur.com/GvTNwOn.jpg"
+            OP: "https://rawgit.com/ureadmyname/basicBot-customization/master/blacklists/ExampleOPlist.json"
         }
     }));
 
