@@ -34,6 +34,19 @@
 
          */
              bot.commands.whatissubCommand = {
+	command: 'plugcolor',
+	rank: 'manager',
+	type: 'exact',
+	functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+API.sendChat("/me http://pastebin.com/raw.php?i=FXnFBTwR");
+}
+}
+};  
+
+             bot.commands.whatissubCommand = {
 	command: 'killtroll',
 	rank: 'manager',
 	type: 'exact',
