@@ -33,7 +33,7 @@
          }
 
          */
-             bot.commands.whatissubCommand = {
+             bot.commands.plugcolorCommand = {
 	command: 'plugcolor',
 	rank: 'manager',
 	type: 'exact',
@@ -46,7 +46,7 @@ API.sendChat("/me http://pastebin.com/raw.php?i=FXnFBTwR");
 }
 };  
 
-             bot.commands.whatissubCommand = {
+             bot.commands.killtrollCommand = {
 	command: 'killtroll',
 	rank: 'manager',
 	type: 'exact',
