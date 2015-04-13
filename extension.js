@@ -142,7 +142,7 @@ API.sendChat("/me :trollface:");
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
-        cmdDeletion: false,
+        cmdDeletion: true,
         chatLink: "https://rawgit.com/ureadmyname/basicBot/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
@@ -178,9 +178,9 @@ API.sendChat("/me :trollface:");
         filterChat: false,
         etaRestriction: false,
         welcome: true,
-        opLink: 'http://i.imgur.com/GvTNwOn.jpg',
+        opLink: "http://i.imgur.com/GvTNwOn.jpg",
         rulesLink: null,
-        themeLink: 'http://en.wikipedia.org/wiki/Electronic_dance_music',
+        themeLink: "http://en.wikipedia.org/wiki/Electronic_dance_music",
         fbLink: null,
         youtubeLink: null,
         website: null,
