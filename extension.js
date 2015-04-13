@@ -142,13 +142,13 @@ API.sendChat("/me :trollface:");
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
-        cmdDeletion: true,
+        cmdDeletion: false,
         chatLink: "https://rawgit.com/ureadmyname/basicBot/master/lang/en.json",
         maximumAfk: 120,
-        afkRemoval: false,
-        maximumDc: 60,
+        afkRemoval: true,
+        maximumDc: 180,
         bouncerPlus: false,
-        blacklistEnabled: false,
+        blacklistEnabled: true,
         lockdownEnabled: false,
         lockGuard: false,
         maximumLocktime: 10,
@@ -156,7 +156,7 @@ API.sendChat("/me :trollface:");
         maximumCycletime: 10,
         voteSkip: false,
         voteSkipLimit: 10,
-        timeGuard: false,
+        timeGuard: true,
         maximumSongLength: 10,
         autodisable: true,
         commandCooldown: 30,
@@ -166,7 +166,6 @@ API.sendChat("/me :trollface:");
             ["theme", "This song does not fit the room theme. "],
             ["op", "This song is on the OP list. "],
             ["history", "This song is in the history. "],
-            ["mix", "You played a mix, which is against the rules. "],
             ["sound", "The song you played had bad sound quality or no sound. "],
             ["nsfw", "The song you contained was NSFW (image or sound). "],
             ["unavailable", "The song you played was not available for some users. "]
@@ -178,20 +177,20 @@ API.sendChat("/me :trollface:");
         motd: "Temporary Message of the Day",
         filterChat: false,
         etaRestriction: false,
-        welcome: false,
-        opLink: null,
+        welcome: true,
+        opLink: 'http://i.imgur.com/GvTNwOn.jpg',
         rulesLink: null,
-        themeLink: null,
+        themeLink: 'http://en.wikipedia.org/wiki/Electronic_dance_music',
         fbLink: null,
         youtubeLink: null,
         website: null,
-        intervalMessages: [],
-        messageInterval: 5,
+        intervalMessages: [!fav],
+        messageInterval: 30,
         songstats: false,
         commandLiteral: "!",
         blacklists: {
-            NSFW: "https://rawgit.com/ureadmyname/basicBot-customization/master/blacklists/ExampleNSFWlist.json",
-            OP: "https://rawgit.com/ureadmyname/basicBot-customization/master/blacklists/ExampleOPlist.json"
+            NSFW: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleNSFWlist.json",
+            OP: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleOPlist.json"
         }
     }));
 
