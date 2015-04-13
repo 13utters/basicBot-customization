@@ -177,7 +177,7 @@ API.sendChat("/me :trollface:");
         etaRestriction: false,
         welcome: true,
         opLink: "http://i.imgur.com/GvTNwOn.jpg",
-        rulesLink: null,
+        rulesLink: "http://pastebin.com/raw.php?i=8zMjwSRu",
         themeLink: "http://en.wikipedia.org/wiki/Electronic_dance_music",
         fbLink: null,
         youtubeLink: null,
