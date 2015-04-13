@@ -184,7 +184,7 @@ API.sendChat("/me :trollface:");
         fbLink: null,
         youtubeLink: null,
         website: null,
-        intervalMessages: [!fav],
+        intervalMessages: [],
         messageInterval: 30,
         songstats: false,
         commandLiteral: "!",
