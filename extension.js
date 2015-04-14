@@ -1,33 +1,35 @@
 (function () {
-    //Link location of your fork so you don't have to modify so many things.
     var fork = "ureadmyname";
 		
-    //Define our function responsible for extending the bot.
     function extend() {
-        //If the bot hasn't been loaded properly, try again in 1 second(s).
         if (!window.bot) {
             return setTimeout(extend, 1 * 1000);
         }
 
-        //Precaution to make sure it is assigned properly.
         var bot = window.bot;
         var autoRoulette = true;
         var autoFav = true;
-        //Load custom settings set below
+        var autoShuffle = true;
         
         bot.retrieveSettings();
+        
+setInterval(function () {
+            if(autoShuffle === true) {
+                API.sendChat("!shuffle");
+            }
+        }, 1000 * 60 * 49);
         
 setInterval(function () {
             if(autoFav === true) {
                 API.sendChat("!fav");
             }
-        }, 1000 * 60 * 58);
+        }, 1000 * 60 * 67);
         
 setInterval(function () {
             if(autoRoulette === true) {
                 API.sendChat("!roulette");
             }
-        }, 1000 * 60 * 94);
+        }, 1000 * 60 * 91);
 
              bot.commands.plugcolorCommand = {
 	command: 'plugcolor',
@@ -82,7 +84,6 @@ API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday 
 }
 };
 
-
             bot.commands.automateRoulette = {
             command: ['autoroulette'],
             rank: 'manager',
@@ -97,7 +98,19 @@ API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday 
             }
         };
 
-
+            bot.commands.automateShuffle = {
+            command: ['autoshuffle'],
+            rank: 'manager',
+            type: 'exact',
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    autoShuffle = !autoShuffle;
+                    API.sendChat("/me Shuffle now set to " + autoShuffle);
+                }
+            }
+        };
 
         bot.commands.bleepbloopCommand = {
 	command: 'bleepbloop',
@@ -129,7 +142,6 @@ var randomString = thebleepbloop[randomIndex];
             }
         };
             
-
 bot.commands.favCommand = {
 	command: 'fav',
 	rank: 'user',
@@ -155,12 +167,9 @@ API.sendChat("/me :trollface:");
 }
 }
 };
-        //Load the chat package again to account for any changes
         bot.loadChat();
 
     }
-
-    //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "basicBot",
@@ -220,7 +229,6 @@ API.sendChat("/me :trollface:");
         }
     }));
 
-    //Start the bot and extend it when it has loaded.
     $.getScript("https://rawgit.com/ureadmyname/basicBot/master/basicBot.js", extend);
 
 }).call(this);
