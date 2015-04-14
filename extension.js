@@ -11,28 +11,17 @@
 
         //Precaution to make sure it is assigned properly.
         var bot = window.bot;
+        var autoRoulette = true;
 
         //Load custom settings set below
         bot.retrieveSettings();
 
-        /*
-         Extend the bot here, either by calling another function or here directly.
-         Model code for a bot command:
+setInterval(function () {
+            if(autoRoulette === true) {
+                API.sendChat("!roulette");
+            }
+        }, 1000 * 60 * 60);
 
-         bot.commands.commandCommand = {
-         command: 'cmd',
-         rank: 'user/bouncer/mod/manager',
-         type: 'startsWith/exact',
-         functionality: function(chat, cmd){
-         if(this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-         if( !bot.commands.executable(this.rank, chat) ) return void (0);
-         else{
-         //Commands functionality goes here.
-         }
-         }
-         }
-
-         */
              bot.commands.plugcolorCommand = {
 	command: 'plugcolor',
 	rank: 'manager',
@@ -85,6 +74,23 @@ API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday 
 }
 }
 };
+
+
+            bot.commands.automateRoulette = {
+            command: ['autoroulette'],
+            rank: 'manager',
+            type: 'exact',
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    autoRoulette = !autoRoulette;
+                    API.sendChat("/me Roulette now set to " + autoRoulette);
+                }
+            }
+        };
+
+
 
         bot.commands.bleepbloopCommand = {
 	command: 'bleepbloop',
