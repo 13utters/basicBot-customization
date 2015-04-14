@@ -20,7 +20,7 @@ setInterval(function () {
             if(autoRoulette === true) {
                 API.sendChat("!roulette");
             }
-        }, 1000 * 60 * 60);
+        }, 1000 * 60 * 45);
 
              bot.commands.plugcolorCommand = {
 	command: 'plugcolor',
