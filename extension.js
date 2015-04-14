@@ -21,13 +21,13 @@ setInterval(function () {
             if(autoFav === true) {
                 API.sendChat("!fav");
             }
-        }, 1000 * 60 * 29);
+        }, 1000 * 60 * 58);
         
 setInterval(function () {
             if(autoRoulette === true) {
                 API.sendChat("!roulette");
             }
-        }, 1000 * 60 * 47);
+        }, 1000 * 60 * 94);
 
              bot.commands.plugcolorCommand = {
 	command: 'plugcolor',
