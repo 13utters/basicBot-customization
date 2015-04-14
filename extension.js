@@ -12,15 +12,22 @@
         //Precaution to make sure it is assigned properly.
         var bot = window.bot;
         var autoRoulette = true;
-
+        var autoFav = true;
         //Load custom settings set below
+        
         bot.retrieveSettings();
-
+        
+setInterval(function () {
+            if(autoFav === true) {
+                API.sendChat("!fav");
+            }
+        }, 1000 * 60 * 29);
+        
 setInterval(function () {
             if(autoRoulette === true) {
                 API.sendChat("!roulette");
             }
-        }, 1000 * 60 * 45);
+        }, 1000 * 60 * 47);
 
              bot.commands.plugcolorCommand = {
 	command: 'plugcolor',
@@ -107,6 +114,21 @@ var randomString = thebleepbloop[randomIndex];
                     }
                 }
             };
+            
+            bot.commands.automateFav = {
+            command: ['autofav'],
+            rank: 'manager',
+            type: 'exact',
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    autoFav = !autoFav;
+                    API.sendChat("/me Fav now set to " + autoFav);
+                }
+            }
+        };
+            
 
 bot.commands.favCommand = {
 	command: 'fav',
