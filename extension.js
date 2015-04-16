@@ -44,6 +44,81 @@ API.sendChat("/me http://pastebin.com/raw.php?i=FXnFBTwR");
 }
 };  
 
+bot.commands.propCommand = {
+	command: 'prop',
+	rank: 'manager',
+	type: 'exact',
+	props: ['nice play!',
+                    'great song!',
+                    'amazing play bruh',
+                    'lovin this song!'
+                ],
+ getprop: function () {
+                    var idk = Math.floor(Math.random() * this.props.length);
+                    return this.props[idk];
+                },
+                 functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.doprops);
+                            return false;
+                        }
+                        else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nopropstogive, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.propyourselfup, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.prop, {nameto: user.username, namefrom: chat.un, prop: this.getprop()}));
+                            }
+                        }
+                    }
+                }
+            },
+
+            cycleCommand: {
+                command: 'cycle',
+                rank: 'manager',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        basicBot.roomUtilities.changeDJCycle();
+                    }
+                }
+            },
+
+            cycleguardCommand: {
+                command: 'cycleguard',
+                rank: 'bouncer',
+                type: 'exact',
+                functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        if (basicBot.settings.cycleGuard) {
+                            basicBot.settings.cycleGuard = !basicBot.settings.cycleGuard;
+                            return API.sendChat(subChat(basicBot.chat.toggleoff, {name: chat.un, 'function': basicBot.chat.cycleguard}));
+                        }
+                        else {
+                            basicBot.settings.cycleGuard = !basicBot.settings.cycleGuard;
+                            return API.sendChat(subChat(basicBot.chat.toggleon, {name: chat.un, 'function': basicBot.chat.cycleguard}));
+                        }
+
+                    }
+                }
+            },
+
+
              bot.commands.killtrollCommand = {
 	command: 'killtroll',
 	rank: 'manager',
