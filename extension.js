@@ -47,7 +47,7 @@ API.sendChat("/me http://pastebin.com/raw.php?i=FXnFBTwR");
 bot.commands.propCommand = {
 	command: 'prop',
 	rank: 'user',
-	type: 'exact',
+	type: 'startsWith',
 	props: ['nice play!',
                     'great song!',
                     'amazing play bruh',
@@ -78,7 +78,7 @@ bot.commands.propCommand = {
                                 return API.sendChat(subChat(basicBot.chat.upprop, {name: name}));
                             }
                             else {
-                                return API.sendChat(subChat(basicBot.chat.prop, {nameto: user.username, namefrom: chat.un, prop: this.getprop()}));
+                                return API.sendChat(subChat(basicBot.chat.prop, {nameto: user.username, namefrom: chat.un, prop: this.getProp()}));
                             }
                         }
                     }
