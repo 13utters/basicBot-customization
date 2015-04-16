@@ -62,19 +62,20 @@ bot.commands.propCommand = {
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
                         var msg = chat.message;
+                        
                         var space = msg.indexOf(' ');
                         if (space === -1) {
-                            API.sendChat(basicBot.chat.doprops);
+                            API.sendChat(basicBot.chat.doprop);
                             return false;
                         }
                         else {
                             var name = msg.substring(space + 2);
                             var user = basicBot.userUtilities.lookupUserName(name);
                             if (user === false || !user.inRoom) {
-                                return API.sendChat(subChat(basicBot.chat.nopropstogive, {name: name}));
+                                return API.sendChat(subChat(basicBot.chat.noprop, {name: name}));
                             }
                             else if (user.username === chat.un) {
-                                return API.sendChat(subChat(basicBot.chat.propyourselfup, {name: name}));
+                                return API.sendChat(subChat(basicBot.chat.upprop, {name: name}));
                             }
                             else {
                                 return API.sendChat(subChat(basicBot.chat.prop, {nameto: user.username, namefrom: chat.un, prop: this.getprop()}));
