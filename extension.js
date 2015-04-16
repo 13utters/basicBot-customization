@@ -46,7 +46,7 @@ API.sendChat("/me http://pastebin.com/raw.php?i=FXnFBTwR");
 
 bot.commands.propCommand = {
 	command: 'prop',
-	rank: 'manager',
+	rank: 'user',
 	type: 'exact',
 	props: ['nice play!',
                     'great song!',
