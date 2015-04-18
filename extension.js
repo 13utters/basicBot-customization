@@ -85,41 +85,6 @@ bot.commands.propCommand = {
                 }
             },*/
 
-            cycleCommand: {
-                command: 'cycle',
-                rank: 'manager',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        basicBot.roomUtilities.changeDJCycle();
-                    }
-                }
-            },
-
-            cycleguardCommand: {
-                command: 'cycleguard',
-                rank: 'bouncer',
-                type: 'exact',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        if (basicBot.settings.cycleGuard) {
-                            basicBot.settings.cycleGuard = !basicBot.settings.cycleGuard;
-                            return API.sendChat(subChat(basicBot.chat.toggleoff, {name: chat.un, 'function': basicBot.chat.cycleguard}));
-                        }
-                        else {
-                            basicBot.settings.cycleGuard = !basicBot.settings.cycleGuard;
-                            return API.sendChat(subChat(basicBot.chat.toggleon, {name: chat.un, 'function': basicBot.chat.cycleguard}));
-                        }
-
-                    }
-                }
-            },
-
-
              bot.commands.killtrollCommand = {
 	command: 'killtroll',
 	rank: 'manager',
