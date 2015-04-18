@@ -43,7 +43,7 @@ API.sendChat("/me http://pastebin.com/raw.php?i=FXnFBTwR");
 }
 }
 };  
-
+/*
 bot.commands.propCommand = {
 	command: 'prop',
 	rank: 'user',
@@ -83,7 +83,7 @@ bot.commands.propCommand = {
                         }
                     }
                 }
-            },
+            },*/
 
             cycleCommand: {
                 command: 'cycle',
