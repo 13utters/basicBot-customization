@@ -203,7 +203,7 @@ bot.commands.favCommand = {
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-API.sendChat("/me remember to click the star in the top bar to favorite this room!!!");
+API.sendChat("/me Remember to click the star in the top bar to favorite this room!!!");
 }
 }
 };
