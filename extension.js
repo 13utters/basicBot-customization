@@ -97,7 +97,45 @@ API.sendChat("/me http://i.imgur.com/bwNSflr.jpg");
 }
 }
 };  
-        
+   
+              bot.commands.candyCommand = {
+	command: 'candy',
+	rank: 'user',
+	type: 'startsWith',
+	candies: ['C CANDY',
+                    'B CANDY',
+                    'A CANDY'
+                ],
+                 getCandy: function () {
+                    var ca = Math.floor(Math.random() * this.candies.length);
+                    return this.candies[ca];
+                },
+	functionality: function (chat, cmd) {
+                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
+                    else {
+                        var msg = chat.message;
+                        var space = msg.indexOf(' ');
+                        if (space === -1) {
+                            API.sendChat(basicBot.chat.eatcandy);
+                            return false;
+                        }
+                        else {
+                            var name = msg.substring(space + 2);
+                            var user = basicBot.userUtilities.lookupUserName(name);
+                            if (user === false || !user.inRoom) {
+                                return API.sendChat(subChat(basicBot.chat.nousercandy, {name: name}));
+                            }
+                            else if (user.username === chat.un) {
+                                return API.sendChat(subChat(basicBot.chat.selfcandy, {name: name}));
+                            }
+                            else {
+                                return API.sendChat(subChat(basicBot.chat.candy, {nameto: user.username, namefrom: chat.un, candy: this.getCandy()}));
+                            }
+                        }
+                    }
+                }
+            },
               bot.commands.whatissubCommand = {
 	command: 'whatissub',
 	rank: 'user',
