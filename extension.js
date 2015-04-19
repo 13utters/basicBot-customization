@@ -44,46 +44,29 @@ API.sendChat("/me http://pastebin.com/raw.php?i=FXnFBTwR");
 }
 };  
 /*
-bot.commands.propCommand = {
-	command: 'prop',
+bot.commands.propsCommand = {
+	command: 'props',
 	rank: 'user',
 	type: 'startsWith',
-	props: ['nice play!',
+	prop: ['nice play!',
                     'great song!',
                     'amazing play bruh',
                     'lovin this song!'
                 ],
- getprop: function () {
-                    var idk = Math.floor(Math.random() * this.props.length);
-                    return this.props[idk];
+                getprop: function () {
+                    var c = Math.floor(Math.random() * this.prop.length);
+                    return this.prop[c];
                 },
-                 functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        var msg = chat.message;
-                        
-                        var space = msg.indexOf(' ');
-                        if (space === -1) {
-                            API.sendChat(basicBot.chat.doprop);
-                            return false;
-                        }
-                        else {
-                            var name = msg.substring(space + 2);
-                            var user = basicBot.userUtilities.lookupUserName(name);
-                            if (user === false || !user.inRoom) {
-                                return API.sendChat(subChat(basicBot.chat.noprop, {name: name}));
-                            }
-                            else if (user.username === chat.un) {
-                                return API.sendChat(subChat(basicBot.chat.upprop, {name: name}));
-                            }
-                            else {
-                                return API.sendChat(subChat(basicBot.chat.prop, {nameto: user.username, namefrom: chat.un, prop: this.getProp()}));
-                            }
-                        }
-                    }
-                }
-            },*/
+	functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+API.sendChat("/me http://i.imgur.com/bwNSflr.jpg");
+}
+}
+};         */
+                    
+                    
 
              bot.commands.killtrollCommand = {
 	command: 'killtroll',
@@ -96,38 +79,8 @@ bot.commands.propCommand = {
 API.sendChat("/me http://i.imgur.com/bwNSflr.jpg");
 }
 }
-};  
-   
-              bot.commands.candyCommand = {
-	command: 'candy',
-	rank: 'user',
-	type: 'startsWith',
-	functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                        var msg = chat.message;
-                        var space = msg.indexOf(' ');
-                        if (space === -1) {
-                            API.sendChat(basicBot.chat.eatcandy);
-                            return false;
-                        }
-                        else {
-                            var name = msg.substring(space + 2);
-                            var user = basicBot.userUtilities.lookupUserName(name);
-                            if (user === false || !user.inRoom) {
-                                return API.sendChat(subChat(basicBot.chat.nousercandy, {name: name}));
-                            }
-                            else if (user.username === chat.un) {
-                                return API.sendChat(subChat(basicBot.chat.selfcandy, {name: name}));
-                            }
-                            else {
-                                return API.sendChat(subChat(basicBot.chat.candy, {nameto: user.username, namefrom: chat.un, candy: this.getCandy()}));
-                            }
-                        }
-                    }
-                }
-            },
+};
+            
               bot.commands.whatissubCommand = {
 	command: 'whatissub',
 	rank: 'user',
@@ -261,7 +214,7 @@ API.sendChat("/me :trollface:");
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
-        chatLink: "https://rawgit.com/ureadmyname/basicBot/master/lang/en.json",
+        chatLink: "https://rawgit.com/ureadmyname/basicBot/master/lang/langIndex.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 180,
@@ -289,11 +242,6 @@ API.sendChat("/me :trollface:");
             ["crapiplayedthewrongsong", "That song wasn't the song the person wanted to play. "],
             ["unavailable", "The song you played was not available for some users. "]
     ],
-         candies: [
-        'C CANDY.',
-        'B CANDY.',
-        'A CANDY.'
-        ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
         motdEnabled: false,
