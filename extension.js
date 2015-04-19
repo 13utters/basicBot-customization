@@ -43,7 +43,7 @@ API.sendChat("/me http://pastebin.com/raw.php?i=FXnFBTwR");
 }
 }
 };  
-
+/*
 bot.commands.propsCommand = {
 	command: 'props',
 	rank: 'user',
@@ -82,7 +82,7 @@ functionality: function (chat, cmd) {
                         }
                     }
                 }
-            },
+            }, */
 
              bot.commands.killtrollCommand = {
 	command: 'killtroll',
@@ -96,7 +96,19 @@ API.sendChat("/me http://i.imgur.com/bwNSflr.jpg");
 }
 }
 };
-            
+         
+            bot.commands.dcinfoCommand = {
+	command: 'dcinfo',
+	rank: 'user',
+	type: 'exact',
+	functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+API.sendChat("/me Do !dc if you have recently disconnected to get your position on the waitlist back.");
+}
+}
+};   
               bot.commands.whatissubCommand = {
 	command: 'whatissub',
 	rank: 'user',
@@ -224,7 +236,7 @@ API.sendChat("/me :trollface:");
     }
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "qtbot",
         language: "english",
         startupCap: 1, // 1-200
         startupVolume: 0, // 0-100
