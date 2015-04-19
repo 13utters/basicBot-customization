@@ -43,6 +43,7 @@ API.sendChat("/me http://pastebin.com/raw.php?i=FXnFBTwR");
 }
 }
 };  
+
 bot.commands.propsCommand = {
 	command: 'props',
 	rank: 'user',
