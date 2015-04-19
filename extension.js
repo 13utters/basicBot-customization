@@ -242,7 +242,7 @@ API.sendChat("/me :trollface:");
         startupVolume: 0, // 0-100
         startupEmoji: false, // true or false
         cmdDeletion: true,
-        chatLink: "https://rawgit.com/ureadmyname/basicBot/master/lang/langIndex.json",
+        chatLink: "https://rawgit.com/ureadmyname/basicBot/master/lang/en.json",
         maximumAfk: 120,
         afkRemoval: true,
         maximumDc: 180,
@@ -277,7 +277,7 @@ API.sendChat("/me :trollface:");
         motd: "Temporary Message of the Day",
         filterChat: false,
         etaRestriction: false,
-        welcome: false,
+        welcome: true,
         opLink: "http://pastebin.com/raw.php?i=TmHQYit2",
         rulesLink: "http://pastebin.com/raw.php?i=8zMjwSRu",
         themeLink: "http://en.wikipedia.org/wiki/Electronic_dance_music",
