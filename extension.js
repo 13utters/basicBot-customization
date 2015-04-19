@@ -102,14 +102,6 @@ API.sendChat("/me http://i.imgur.com/bwNSflr.jpg");
 	command: 'candy',
 	rank: 'user',
 	type: 'startsWith',
-	candies: ['C CANDY',
-                    'B CANDY',
-                    'A CANDY'
-                ],
-                 getCandy: function () {
-                    var ca = Math.floor(Math.random() * this.candies.length);
-                    return this.candies[ca];
-                },
 	functionality: function (chat, cmd) {
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
@@ -297,6 +289,11 @@ API.sendChat("/me :trollface:");
             ["crapiplayedthewrongsong", "That song wasn't the song the person wanted to play. "],
             ["unavailable", "The song you played was not available for some users. "]
     ],
+         candies: [
+        'C CANDY.',
+        'B CANDY.',
+        'A CANDY.'
+        ],
         afkpositionCheck: 15,
         afkRankCheck: "ambassador",
         motdEnabled: false,
