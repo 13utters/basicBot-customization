@@ -50,7 +50,7 @@ bot.commands.propsCommand = {
 	type: 'startsWith',
 	prop: ['nice play!',
                     'great song!',
-                    'amazing play bruh',
+                    'amazing song!',
                     'lovin this song!'
                 ],
                 getprop: function () {
@@ -74,7 +74,7 @@ functionality: function (chat, cmd) {
                                 return API.sendChat(subChat(basicBot.chat.nouserprops, {name: name}));
                             }
                             else if (user.username === chat.un) {
-                                return API.sendChat(subChat(basicBot.chat.sselfprops, {name: name}));
+                                return API.sendChat(subChat(basicBot.chat.selfprops, {name: name}));
                             }
                             else {
                                 return API.sendChat(subChat(basicBot.chat.props, {nameto: user.username, namefrom: chat.un, props: this.getprop()}));
