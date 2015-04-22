@@ -219,6 +219,19 @@ API.sendChat("/me Remember to click the star in the top bar to favorite this roo
 }
 };
 
+bot.commands.doarefreshCommand = {
+	command: 'ref',
+	rank: 'user',
+	type: 'exact',
+	functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+API.sendChat("/me Having a problem or issue with plug.dj? Try refreshing =)");
+}
+}
+};
+
 bot.commands.trollCommand = {
 	command: 'troll',
 	rank: 'user',
