@@ -279,7 +279,7 @@ API.sendChat("/me :trollface:");
         etaRestriction: false,
         welcome: true,
         opLink: "http://pastebin.com/raw.php?i=TmHQYit2",
-        rulesLink: "http://pastebin.com/raw.php?i=8zMjwSRu",
+        rulesLink: "http://goo.gl/5SNSgo",
         themeLink: "http://en.wikipedia.org/wiki/Electronic_dance_music",
         fbLink: null,
         youtubeLink: null,
