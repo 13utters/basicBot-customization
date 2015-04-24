@@ -32,8 +32,8 @@ setInterval(function () {
             }
         }, 1000 * 60 * 91);
         
-            ballCommand: {
-                command: ['8ball', 'ask'],
+            asktehbotCommand: {
+                command: ['asktehbot'],
                 rank: 'user',
                 type: 'startsWith',
                 functionality: function (chat, cmd) {
