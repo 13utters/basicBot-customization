@@ -307,7 +307,7 @@ API.sendChat("/me :trollface:");
         welcome: true,
         opLink: "http://pastebin.com/raw.php?i=TmHQYit2",
         rulesLink: "http://goo.gl/5SNSgo",
-        themeLink: "http://en.wikipedia.org/wiki/Electronic_dance_music",
+        themeLink: "http://en.wikipedia.org/wiki/List_of_electronic_music_genres",
         fbLink: null,
         youtubeLink: null,
         website: null,
