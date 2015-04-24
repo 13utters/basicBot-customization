@@ -32,25 +32,6 @@ setInterval(function () {
             }
         }, 1000 * 60 * 91);
         
-            asktehbotCommand: {
-                command: ['asktehbot'],
-                rank: 'user',
-                type: 'startsWith',
-                functionality: function (chat, cmd) {
-                    if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                    if (!basicBot.commands.executable(this.rank, chat)) return void (0);
-                    else {
-                            var crowd = API.getUsers();
-                            var msg = chat.message;
-                            var argument = msg.substring(cmd.length + 1);
-                            var randomUser = Math.floor(Math.random() * crowd.length);
-                            var randomBall = Math.floor(Math.random() * basicBot.settings.ball.length);
-                            var randomSentence = Math.floor(Math.random() * 1);
-                            API.sendChat(subChat(basicBot.chat.ball, {name: chat.un, botname: basicBot.settings.botName, question: argument, response: basicBot.settings.ball[randomBall]}));
-                     }
-                }
-            },
-        
                      bot.commands.countdownCommand = {
 	command: 'countdown',
 	rank: 'manager',
@@ -77,7 +58,6 @@ API.sendChat("/me djcycle is the setting that adds you back onto the waitlist af
 }
 }; 
 
-
              bot.commands.plugcolorCommand = {
 	command: 'plugcolor',
 	rank: 'user',
@@ -89,7 +69,7 @@ API.sendChat("/me djcycle is the setting that adds you back onto the waitlist af
 API.sendChat("/me http://pastebin.com/raw.php?i=FXnFBTwR");
 }
 }
-};  
+};
 /*
 bot.commands.propsCommand = {
 	command: 'props',
@@ -143,7 +123,7 @@ API.sendChat("/me http://i.imgur.com/bwNSflr.jpg");
 }
 }
 };
-         
+
             bot.commands.dcinfoCommand = {
 	command: 'dcinfo',
 	rank: 'user',
@@ -155,7 +135,8 @@ API.sendChat("/me http://i.imgur.com/bwNSflr.jpg");
 API.sendChat("/me Do !dc if you have recently disconnected to get your position on the waitlist back.");
 }
 }
-};   
+};
+
               bot.commands.whatissubCommand = {
 	command: 'whatissub',
 	rank: 'user',
@@ -168,7 +149,7 @@ API.sendChat("/me http://goo.gl/Lcw6wX what are subscriptions?");
 }
 }
 };  
-        
+
         bot.commands.twitchCommand = {
 	command: 'twitch',
 	rank: 'user',
@@ -181,7 +162,7 @@ API.sendChat("/me http://www.twitch.tv/theqtpi");
 }
 }
 };
-        
+
         bot.commands.shuffleCommand = {
 	command: 'shuffle',
 	rank: 'user',
@@ -238,7 +219,7 @@ var randomString = thebleepbloop[randomIndex];
                     }
                 }
             };
-            
+
             bot.commands.automateFav = {
             command: ['autofav'],
             rank: 'manager',
@@ -252,7 +233,7 @@ var randomString = thebleepbloop[randomIndex];
                 }
             }
         };
-            
+
 bot.commands.favCommand = {
 	command: 'fav',
 	rank: 'user',
@@ -291,9 +272,9 @@ API.sendChat("/me :trollface:");
 }
 }
 };
-        bot.loadChat();
 
-    }
+bot.loadChat();
+}
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
         botName: "qtbot",
