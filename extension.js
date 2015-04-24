@@ -10,6 +10,7 @@
         var autoRoulette = true;
         var autoFav = true;
         var autoShuffle = true;
+        var time= 1000* 60;
         
         bot.retrieveSettings();
         
@@ -31,6 +32,19 @@ setInterval(function () {
             }
         }, 1000 * 60 * 91);
         
+                     bot.commands.countdownCommand = {
+	command: 'countdown',
+	rank: 'manager',
+	type: 'exact',
+	functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+return: API.sendChat(subChat(time,"minute countdown until", chat.message));
+}
+}
+};
+        
              bot.commands.djcycleinfoCommand = {
 	command: 'djcycleinfo',
 	rank: 'user',
@@ -39,7 +53,7 @@ setInterval(function () {
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-API.sendChat("/me djcycle is the setting that adds you back onto the waitlist after playing a song, if it's disabled you will have to manually do this.");");
+API.sendChat("/me djcycle is the setting that adds you back onto the waitlist after playing a song, if it's disabled you will have to manually do this.");
 }
 }
 }; 
