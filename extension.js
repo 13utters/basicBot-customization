@@ -30,10 +30,24 @@ setInterval(function () {
                 API.sendChat("!roulette");
             }
         }, 1000 * 60 * 91);
+        
+             bot.commands.djcycleinfoCommand = {
+	command: 'djcycleinfo',
+	rank: 'user',
+	type: 'exact',
+	functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+API.sendChat("/me djcycle is the setting that adds you back onto the waitlist after playing a song, if it's disabled you will have to manually do this.");");
+}
+}
+}; 
+
 
              bot.commands.plugcolorCommand = {
 	command: 'plugcolor',
-	rank: 'manager',
+	rank: 'user',
 	type: 'exact',
 	functionality: function (chat, cmd) {
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
