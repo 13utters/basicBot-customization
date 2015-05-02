@@ -268,7 +268,7 @@ bot.loadChat();
             ["history", "This song is in the history. "],
             ["sound", "The song you played had bad sound quality or no sound. "],
             ["nsfw", "The song you contained was NSFW (image or sound). "],
-            ["crapiplayedthewrongsong", "That song wasn't the song the person wanted to play. "],
+            ["crapiplayedthewrongsong", "That song wasn't the song the person wanted to play :P "],
             ["unavailable", "The song you played was not available for some users. "]
             ],
         afkpositionCheck: 15,
