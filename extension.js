@@ -10,10 +10,11 @@
         var autoRoulette = true;
         var autoFav = true;
         var autoShuffle = true;
+        var autoRules = true;
         var time= 1000* 60;
         
         bot.retrieveSettings();
-        // do the "rules" timer, as 53
+        // change "1000 * 60" to, "time"
         
 setInterval(function () {
             if(autoShuffle === true) {
@@ -21,11 +22,18 @@ setInterval(function () {
             }
         }, 1000 * 60 * 49);
         
+        
 setInterval(function () {
             if(autoFav === true) {
                 API.sendChat("!fav");
             }
         }, 1000 * 60 * 67);
+        
+        setInterval(function () {
+            if(autoRules === true) {
+                API.sendChat("!rules");
+            }
+        }, 1000 * 60 * 78);
         
 setInterval(function () {
             if(autoRoulette === true) {
@@ -33,7 +41,7 @@ setInterval(function () {
             }
         }, 1000 * 60 * 91);
         
-                     bot.commands.countdownCommand = {
+/*                     bot.commands.countdownCommand = {
 	command: 'countdown',
 	rank: 'manager',
 	type: 'exact',
@@ -44,7 +52,7 @@ setInterval(function () {
 API.sendChat("/me + time minute countdown until chat.message");
 }
 }
-};
+}; */
         
              bot.commands.djcycleinfoCommand = {
 	command: 'djcycleinfo',
@@ -160,10 +168,25 @@ API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday 
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
                     autoShuffle = !autoShuffle;
-                    API.sendChat("/me Shuffle now set to " + autoShuffle);
+                    API.sendChat("/me Shuffle Message now set to " + autoShuffle);
                 }
             }
         };
+
+            bot.commands.automateRules = {
+            command: ['autoRules'],
+            rank: 'manager',
+            type: 'exact',
+            functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    autoRules = !autoRules;
+                    API.sendChat("/me Rules now set to " + autoRules);
+                }
+            }
+        };
+
 
         bot.commands.bleepbloopCommand = {
 	command: 'bleepbloop',
@@ -190,7 +213,7 @@ var randomString = thebleepbloop[randomIndex];
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
                     autoFav = !autoFav;
-                    API.sendChat("/me Fav now set to " + autoFav);
+                    API.sendChat("/me Fav Message now set to " + autoFav);
                 }
             }
         };
