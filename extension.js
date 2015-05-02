@@ -13,6 +13,7 @@
         var time= 1000* 60;
         
         bot.retrieveSettings();
+        // do the "rules" timer, as 53
         
 setInterval(function () {
             if(autoShuffle === true) {
