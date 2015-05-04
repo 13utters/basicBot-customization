@@ -20,6 +20,6 @@ ALL 8BALL RESPONSES!
 |**I have my doubts.**|**Outlook so so.**|
 |**Looks good to me!**|**Who knows?**|
 |**Looking good!**|**Probably.**|
-|**IDC, at all.**|**DEEZ NUTS!**|
-|**YOLO.**|**STFU.**|
+|**IDC, at all.**|**STFU.**|
+|**DEEZ NUTS!**|**YOLO.**|
 |**Forget about it.**|
