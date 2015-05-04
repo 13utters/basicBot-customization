@@ -2,7 +2,7 @@ ALL 8BALL RESPONSES!
 ====================
 | | |
 |:---------------------------------------------------:|:---------------------------------------------------:|
-|**Signs point to yes.|I don't know, ask QTπ.**|
+|**Signs point to yes.**|**I don't know, ask QTπ.**|
 |STFU.|I would answer but qtbot is drunk right now, shhhh.|
 |YOLO.|The #dolphingang would know, i don't.|
 |IDC, at all.|DEEZ NUTS!|
