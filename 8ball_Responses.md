@@ -10,8 +10,8 @@ ALL 8BALL RESPONSES!
 |The #dolphingang would know, i don't.|
 |IDC, at all.|
 |Deez nuts.|
-|I.D.G.A.F|
-|Yer, something like that|
+|I.D.G.A.F.|
+|Yer, something like that.|
 |Reply hazy, try again.|
 |Without a doubt.|
 |My sources say no.|
