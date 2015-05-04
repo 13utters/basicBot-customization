@@ -1,6 +1,6 @@
 ALL 8BALL RESPONSES!
 ====================
-
+| |
 |:---------------------------------------------------:|
 |Signs point to yes.|
 |I don't know, ask QTπ.|
