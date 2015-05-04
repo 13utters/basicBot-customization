@@ -16,16 +16,10 @@ ALL 8BALL RESPONSES!
 |Cannot predict now.|Most likely.|
 |Ask again later.|My reply is no.|
 |Outlook good.|Don't count on it.|
-|Yes, in due time.|
-|My sources say no.|
-|Definitely not.|
-|You will have to wait.|
-|I have my doubts.|
-|Outlook so so.|
-|Looks good to me!|
-|Who knows?|
-|Looking good!|
-|Probably.|
-|Are you kidding?|
-|Don't bet on it.|
+|Yes, in due time.|My sources say no.|
+|Definitely not.|You will have to wait.|
+|I have my doubts.|Outlook so so.|
+|Looks good to me!|Who knows?|
+|Looking good!|Probably.|
+|Are you kidding?|Don't bet on it.|
 |Forget about it.|
