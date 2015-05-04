@@ -2,9 +2,8 @@ ALL 8BALL RESPONSES!
 ====================
 | | |
 |:---------------------------------------------------:|:---------------------------------------------------:|
-|**I would answer but qtbot is drunk right now, shhhh.**|**STFU.**|
+|**I would answer but qtbot is drunk right now, shhhh.**|**The #dolphingang would know, i don't.**|
 |**You may rely on it.**|**Concentrate and ask again.**|
-|**YOLO.**|**The #dolphingang would know, i don't.**|
 |**Signs point to yes.**|**I don't know, ask QTπ.**|
 |**Outlook not so good.**|**It is decidedly so.**|
 |**Better not tell you now.**|**Very doubtful.**|
@@ -22,4 +21,5 @@ ALL 8BALL RESPONSES!
 |**Looks good to me!**|**Who knows?**|
 |**Looking good!**|**Probably.**|
 |**Are you kidding?**|**Don't bet on it.**|
+|**YOLO.**|**STFU.**|
 |**Forget about it.**|
