@@ -53,7 +53,20 @@ API.sendChat("/me + time minute countdown until chat.message");
 }
 }
 }; */
-        
+
+             bot.commands.rouletteinfoCommand = {
+	command: 'rouletteinfo',
+	rank: 'user',
+	type: 'exact',
+	functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+API.sendChat("/me Roulette is run every 90 mins, do !join to join when it starts if you win you get first on the waitlist!");
+}
+}
+};
+
              bot.commands.djcycleinfoCommand = {
 	command: 'djcycleinfo',
 	rank: 'user',
