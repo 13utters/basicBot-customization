@@ -2,8 +2,8 @@ ALL 8BALL RESPONSES!
 ====================
 | | |
 |:---------------------------------------------------:|:---------------------------------------------------:|
-|Signs point to yes.||I don't know, ask QTπ.|
-|I don't know, ask QTπ.|
+|Signs point to yes.|I don't know, ask QTπ.|
+|I don't know, ask QTπ.|STFU.|
 |STFU.|
 |I would answer but qtbot is drunk right now, shhhh.|
 |YOLO.|
