@@ -3,14 +3,14 @@ ALL 8BALL RESPONSES!
 | | |
 |:---------------------------------------------------:|:---------------------------------------------------:|
 |**I would answer but qtbot is drunk right now, shhhh.**|**The #dolphingang would know, i don't.**|
-|**Concentrate and ask again.**|**I don't know, ask QTπ.**|
-|**Outlook not so good.**|**It is decidedly so.**|
+|**Concentrate and ask again.**|**Yer, something like that.**|
+|**Better not tell you now.**|**It is decidedly so.**|
 |**Signs point to yes.**|**You may rely on it.**|
-|**Better not tell you now.**|**Very doubtful.**|
+|**Outlook not so good.**|**Very doubtful.**|
 |**Reply hazy, try again.**|**Without a doubt.**|
 |**You will have to wait.**|**Definitely not.**|
 |**My sources say no.**|**As I see it, yes.**|
-|**Yer, something like that.**|**I.D.G.A.F.**|
+|**I don't know, ask QTπ.**|**I.D.G.A.F.**|
 |**Yes, in due time.**|**My sources say no.**|
 |**Are you kidding?**|**Don't bet on it.**|
 |**Yes - definitely.**|**It is certain.**|
