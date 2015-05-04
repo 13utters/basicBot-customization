@@ -2,7 +2,7 @@ ALL 8BALL RESPONSES!
 ====================
 
 | Response |
-
+|:---------------------------------------------------:|
 |Signs point to yes.|
 |I don't know, ask QTπ.|
 |STFU.|
