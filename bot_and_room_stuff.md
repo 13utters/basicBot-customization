@@ -31,7 +31,7 @@ Banned Lists.
 -------------
 |Name|Link|
 |:-------------------------------------------------:|:-------------------------------------------------:|
-|NSFW|https://github.com/ureadmyname/basicBot-customization/blob/master/ExampleNSFWlist.json|
+|N.S.F.W|https://github.com/ureadmyname/basicBot-customization/blob/master/ExampleNSFWlist.json|
 |OP|https://github.com/ureadmyname/basicBot-customization/blob/master/ExampleOPlist.json|
 
 Settings.
@@ -46,8 +46,8 @@ Lang Files.
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |LangIndex|https://github.com/ureadmyname/basicBot/blob/master/lang/langIndex.json|
 |English|https://github.com/ureadmyname/basicBot/blob/master/lang/en.json|
-|French|https://github.com/ureadmyname/basicBot/blob/master/lang/fr.json|
 |Portuguese|https://github.com/ureadmyname/basicBot/blob/master/lang/pt.json|
+|French|https://github.com/ureadmyname/basicBot/blob/master/lang/fr.json|
 
 Git Attributes.
 ---------------
