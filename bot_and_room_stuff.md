@@ -54,7 +54,6 @@ Git Attributes.
 |Name|Link|
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |.gitattributes|https://github.com/ureadmyname/basicBot/blob/master/.gitattributes|
-|other .gitattributes|https://github.com/ureadmyname/basicBot-customization/blob/master/.gitignore|
 
 Git Ignore.
 -----------
