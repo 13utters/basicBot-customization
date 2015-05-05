@@ -8,17 +8,17 @@ ALL 8BALL RESPONSES!
 |**Reply hazy, try again.**|**You will have to wait.**|
 |**Outlook not so good.**|**Cannot predict now.**|
 |**It is decidedly so.**|**Signs point to yes.**|
-|**You may rely on it.**|**Definitely not.**|
+|**You may rely on it.**|**Don't count on it.**|
 |**My sources say no.**|**As I see it, yes.**|
-|**Without a doubt.**|**I.D.G.A.F.**|
-|**Yes, in due time.**|**My sources say no.**|
+|**I have my doubts.**|**Looks good to me!**|
+|**Yes - definitely.**|**Yes, in due time.**|
 |**Are you kidding?**|**Don't bet on it.**|
 |**Yes - definitely.**|**It is certain.**|
 |**Very doubtful.**|**Most likely.**|
 |**Ask again later.**|**My reply is no.**|
-|**Don't count on it.**|**Outlook good.**|
-|**I have my doubts.**|**Outlook so so.**|
-|**Looks good to me!**|**Who knows?**|
+|**Definitely not.**|**Outlook good.**|
+|**Without a doubt.**|**Outlook so so.**|
+|**I.D.G.A.F.**|**Who knows?**|
 |**Looking good!**|**Probably.**|
 |**IDC, at all.**|**STFU.**|
 |**DEEZ NUTS!**|**YOLO.**|
