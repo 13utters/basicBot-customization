@@ -12,14 +12,13 @@ ALL 8BALL RESPONSES!
 |**My sources say no.**|**As I see it, yes.**|
 |**I have my doubts.**|**Looks good to me!**|
 |**Yes - definitely.**|**Yes, in due time.**|
-|**Are you kidding?**|**Don't bet on it.**|
-|**Yes - definitely.**|**It is certain.**|
-|**Very doubtful.**|**Most likely.**|
-|**Ask again later.**|**My reply is no.**|
-|**Definitely not.**|**Outlook good.**|
-|**Without a doubt.**|**Outlook so so.**|
-|**I.D.G.A.F.**|**Who knows?**|
-|**Looking good!**|**Probably.**|
-|**IDC, at all.**|**STFU.**|
-|**DEEZ NUTS!**|**YOLO.**|
-|**Forget about it.**|
+|**Are you kidding?**|**Ask again later.**|
+|**Don't bet on it.**|**Forget about it.**|
+|**Without a doubt.**|**Definitely not.**|
+|**My reply is no.**|**It is certain.**|
+|**Very doubtful.**|**Outlook so so.**|
+|**Looking good!**|**Outlook good.**|
+|**IDC, at all.**|**Most likely.**|
+|**DEEZ NUTS!**|**I.D.G.A.F.**|
+|**Who knows?**|**Probably.**|
+|**STFU.**|**YOLO.**|
