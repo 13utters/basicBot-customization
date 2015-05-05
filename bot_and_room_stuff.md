@@ -4,6 +4,18 @@ Everything To Do With The Bot And The Room
 Coding Stuffs.
 ===============
 
+Main Script.
+------------
+|Name|Link|
+|:-------------------------------------------------:|:-------------------------------------------------:|
+|basicBot.js|https://github.com/ureadmyname/basicBot/blob/master/basicBot.js|
+
+Commands.
+---------
+|Name|Link|
+|:-------------------------------------------------:|:-------------------------------------------------:|
+|Command List|https://github.com/ureadmyname/basicBot/blob/master/commands.md|
+
 Lang Files.
 -----------
 |Name|Link|
@@ -25,18 +37,6 @@ Git Ignore.
 |Name|Link|
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |.gitignore|https://github.com/ureadmyname/basicBot/blob/master/.gitignore|
-
-Main Script.
-------------
-|Name|Link|
-|:-------------------------------------------------:|:-------------------------------------------------:|
-|basicBot.js|https://github.com/ureadmyname/basicBot/blob/master/basicBot.js|
-
-Commands.
----------
-|Name|Link|
-|:-------------------------------------------------:|:-------------------------------------------------:|
-|Command List|https://github.com/ureadmyname/basicBot/blob/master/commands.md|
 
 8ball Responses.
 ----------------
