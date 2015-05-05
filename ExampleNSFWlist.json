@@ -1,13 +1,29 @@
 {
     "1":{
-        "mid": "1:NSFWsongID1"
+        "mid": ""
     },
     "2":{
-        "title": "This is a NSFW song",
-        "author": "The NSFW band",
-        "mid": "1:NSFWsongID2"
+        "mid": ""
     },
     "3":{
-        "mid": "1:NSFWsongID3"
+        "mid": ""
+    },
+    "4":{
+        "mid": ""
+    },
+    "5":{
+        "mid": ""
+    },
+    "6":{
+        "mid": ""
+    },
+    "7":{
+        "mid": ""
+    },
+    "8":{
+        "mid": ""
+    },
+    "9":{
+        "mid": ""
     }
 }
