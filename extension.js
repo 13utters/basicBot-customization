@@ -316,7 +316,7 @@ bot.loadChat();
         filterChat: false,
         etaRestriction: false,
         welcome: true,
-        opLink: "http://pastebin.com/raw.php?i=TmHQYit2",
+        opLink: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleOPlist.json",
         rulesLink: "http://goo.gl/5SNSgo",
         themeLink: "http://en.wikipedia.org/wiki/List_of_electronic_music_genres",
         fbLink: null,
