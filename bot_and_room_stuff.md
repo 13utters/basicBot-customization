@@ -1,9 +1,6 @@
 Everything To Do With The Bot And The Room.
 ===========================================
 
-Coding Stuffs.
-===============
-
 Main Script.
 ------------
 |Name|Link|
