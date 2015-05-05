@@ -21,6 +21,12 @@ Commands.
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |Command List|https://github.com/ureadmyname/basicBot/blob/master/commands.md|
 
+PlugCubed.
+----------
+|Name|Link|
+|:-------------------------------------------------:|:-------------------------------------------------:|
+|Website Link|https://plugcubed.net/|
+
 8ball Responses.
 ----------------
 |Name|Link|
