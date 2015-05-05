@@ -60,3 +60,13 @@ Git Ignore.
 |Name|Link|
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |.gitignore|https://github.com/ureadmyname/basicBot/blob/master/.gitignore|
+
+PlugColor.
+-----------
+|Name|Link|
+|:-------------------------------------------------:|:-------------------------------------------------:|
+|PlugColor|http://pastebin.com/raw.php?i=FXnFBTwR|
+
+Allowed Genres.
+---------------
+|List Of Genres|http://en.wikipedia.org/wiki/List_of_electronic_music_genres|
