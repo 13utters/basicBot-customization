@@ -54,6 +54,32 @@ API.sendChat("/me + time minute countdown until chat.message");
 }
 }; */
 
+             bot.commands.responsesCommand = {
+	command: 'responses',
+	rank: 'user',
+	type: 'exact',
+	functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+API.sendChat("/me all 8ball responses: https://goo.gl/8mGaAB");
+}
+}
+};
+
+             bot.commands.allbotstuffCommand = {
+	command: 'allbotstuff',
+	rank: 'user',
+	type: 'exact',
+	functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+API.sendChat("/me everything to do with the room and bot: https://goo.gl/At5qWh");
+}
+}
+};
+
              bot.commands.rouletteinfoCommand = {
 	command: 'rouletteinfo',
 	rank: 'user',
