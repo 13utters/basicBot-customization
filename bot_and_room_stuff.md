@@ -40,7 +40,7 @@ Settings.
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |SettingsOverview|https://github.com/ureadmyname/basicBot-customization/blob/master/settingsOverview.md|
 
-Lang Files.
+Language Files.
 -----------
 |Name|Link|
 |:-------------------------------------------------:|:-------------------------------------------------:|
