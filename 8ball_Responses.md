@@ -21,4 +21,4 @@ ALL 8BALL RESPONSES!
 |**IDC, at all.**|**Most likely.**|
 |**DEEZ NUTS!**|**I.D.G.A.F.**|
 |**Who knows?**|**Probably.**|
-|**STFU.**|**YOLO.**|
+|**S.T.F.U.**|**Y.O.L.O.**|
