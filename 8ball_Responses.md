@@ -2,7 +2,7 @@ ALL 8BALL RESPONSES!
 ====================
 | | |
 |:---------------------------------------------------:|:---------------------------------------------------:|
-|**I would answer but qtbot is drunk right now, shhhh.**|**The #dolphingang would know, i don't.**|
+|**I would answer but qtbot is drunk right now, shhhh.**|**The #dolphingang would know, I don't.**|
 |**Concentrate and ask again.**|**Yer, something like that.**|
 |**Better not tell you now.**|**I don't know, ask QTπ.**|
 |**Reply hazy, try again.**|**You will have to wait.**|
