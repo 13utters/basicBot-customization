@@ -69,4 +69,6 @@ PlugColor.
 
 Allowed Genres.
 ---------------
+|Name|Link|
+|:-------------------------------------------------:|:-------------------------------------------------:|
 |List Of Genres|http://en.wikipedia.org/wiki/List_of_electronic_music_genres|
