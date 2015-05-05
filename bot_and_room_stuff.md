@@ -6,6 +6,7 @@ Coding Stuffs.
 
 Lang Files.
 -----------
+|Name|Link|
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |LangIndex|https://github.com/ureadmyname/basicBot/blob/master/lang/langIndex.json|
 |English|https://github.com/ureadmyname/basicBot/blob/master/lang/en.json|
