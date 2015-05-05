@@ -32,7 +32,7 @@ Banned Lists.
 |Name|Link|
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |N.S.F.W|https://github.com/ureadmyname/basicBot-customization/blob/master/ExampleNSFWlist.json|
-|OP|https://github.com/ureadmyname/basicBot-customization/blob/master/ExampleOPlist.json|
+|O.P|https://github.com/ureadmyname/basicBot-customization/blob/master/ExampleOPlist.json|
 
 Settings.
 ---------
