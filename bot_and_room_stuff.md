@@ -33,6 +33,12 @@ PlugCubed.
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |Responses|https://github.com/ureadmyname/basicBot-customization/blob/master/8ball_Responses.md|
 
+Prop Responses.
+---------------
+|Name|Link|
+|:-------------------------------------------------:|:-------------------------------------------------:|
+|Responses|https://github.com/ureadmyname/basicBot-customization/blob/master/Prop_Responses.md|
+
 Banned Lists.
 -------------
 |Name|Link|
