@@ -54,8 +54,8 @@ API.sendChat("");
 }
 }; */
 
-             bot.commands.propresponsesCommand = {
-	command: 'theprops',
+             bot.commands.propresponseCommand = {
+	command: 'tehproops',
 	rank: 'user',
 	type: 'exact',
 	functionality: function (chat, cmd) {
