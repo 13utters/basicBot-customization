@@ -52,7 +52,7 @@ setInterval(function () {
 API.sendChat("");
 }
 }
-}; */
+}; 
 
              bot.commands.propresponseCommand = {
 	command: 'tehproops',
@@ -65,7 +65,7 @@ API.sendChat("");
 API.sendChat("/me all props: https://goo.gl/RYnKS1");
 }
 }
-};
+};*/
 
              bot.commands.8responsesCommand = {
 	command: '8responses',
