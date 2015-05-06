@@ -40,7 +40,7 @@ setInterval(function () {
                 API.sendChat("!roulette");
             }
         }, 1000 * 60 * 91);
-        
+ /*       
              bot.commands.countdownCommand = {
 	command: 'countdown',
 	rank: 'manager',
@@ -52,7 +52,7 @@ setInterval(function () {
 API.sendChat("");
 }
 }
-}; 
+}; */
 
              bot.commands.propresponseCommand = {
 	command: 'tehproops',
@@ -67,8 +67,8 @@ API.sendChat("/me all props: https://goo.gl/RYnKS1");
 }
 };
 
-             bot.commands.8responsesCommand = {
-	command: '8responses',
+             bot.commands.eightresponsesCommand = {
+	command: 'eightresponses',
 	rank: 'user',
 	type: 'exact',
 	functionality: function (chat, cmd) {
