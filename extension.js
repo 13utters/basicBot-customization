@@ -248,7 +248,7 @@ API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday 
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                var thebleepbloop = ['great song!', 'great song, brah!', 'nice song!'];
+                var thebleepbloop = [' . ', ' .. ', ' ... '];
 var randomIndex = Math.floor(Math.random() * thebleepbloop.length);
 var randomString = thebleepbloop[randomIndex];
                         API.sendChat(subChat(basicbot.chat.bleepbloop, {name: chat.un, response: basicBot.settings.bleepbloop[randomIndex]}));
