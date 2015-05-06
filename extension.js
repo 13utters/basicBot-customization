@@ -41,7 +41,7 @@ setInterval(function () {
             }
         }, 1000 * 60 * 91);
         
-/*                     bot.commands.countdownCommand = {
+             bot.commands.countdownCommand = {
 	command: 'countdown',
 	rank: 'manager',
 	type: 'exact',
@@ -78,7 +78,7 @@ API.sendChat("/me all props: https://goo.gl/RYnKS1");
 API.sendChat("/me all 8ball responses: https://goo.gl/8mGaAB");
 }
 }
-};*/
+};
 
              bot.commands.allbotstuffCommand = {
 	command: 'allbotstuff',
