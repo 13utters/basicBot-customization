@@ -54,6 +54,8 @@ Language Files.
 |English|https://github.com/ureadmyname/basicBot/blob/master/lang/en.json|
 |Portuguese|https://github.com/ureadmyname/basicBot/blob/master/lang/pt.json|
 |French|https://github.com/ureadmyname/basicBot/blob/master/lang/fr.json|
+|Turkish|https://github.com/ureadmyname/basicBot/blob/master/lang/tr.json|
+|Serbian|https://github.com/ureadmyname/basicBot/blob/master/lang/sr.json|
 
 Git Attributes.
 ---------------
