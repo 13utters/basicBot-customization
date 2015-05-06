@@ -65,7 +65,7 @@ API.sendChat("");
 API.sendChat("/me all props: https://goo.gl/RYnKS1");
 }
 }
-};*/
+};
 
              bot.commands.8responsesCommand = {
 	command: '8responses',
@@ -78,7 +78,7 @@ API.sendChat("/me all props: https://goo.gl/RYnKS1");
 API.sendChat("/me all 8ball responses: https://goo.gl/8mGaAB");
 }
 }
-};
+};*/
 
              bot.commands.allbotstuffCommand = {
 	command: 'allbotstuff',
