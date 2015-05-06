@@ -54,8 +54,8 @@ API.sendChat("");
 }
 }; */
 
-             bot.commands.responsesCommand = {
-	command: 'responses',
+             bot.commands.8responsesCommand = {
+	command: '8responses',
 	rank: 'user',
 	type: 'exact',
 	functionality: function (chat, cmd) {
