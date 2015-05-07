@@ -328,7 +328,7 @@ bot.loadChat();
         motd: "Temporary Message of the Day",
         filterChat: false,
         etaRestriction: false,
-        welcome: true,
+        welcome: false,
         opLink: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleOPlist.json",
         rulesLink: "http://goo.gl/5SNSgo",
         themeLink: "http://en.wikipedia.org/wiki/List_of_electronic_music_genres",
