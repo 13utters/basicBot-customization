@@ -21,6 +21,12 @@ Commands.
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |Command List|https://github.com/ureadmyname/basicBot/blob/master/commands.md|
 
+Rules.
+------
+|Name|Link|
+|:-------------------------------------------------:|:-------------------------------------------------:|
+|Rules|https://github.com/ureadmyname/AnEDMTrap/blob/master/rules.md|
+
 PlugCubed.
 ----------
 |Name|Link|
