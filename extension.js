@@ -295,7 +295,7 @@ bot.loadChat();
         cmdDeletion: true,
         chatLink: "https://rawgit.com/ureadmyname/basicBot/master/lang/en.json",
         maximumAfk: 120,
-        afkRemoval: true,
+        afkRemoval: false,
         maximumDc: 180,
         bouncerPlus: false,
         blacklistEnabled: true,
