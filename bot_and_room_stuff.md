@@ -39,6 +39,12 @@ Prop Responses.
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |Responses|https://github.com/ureadmyname/basicBot-customization/blob/master/Prop_Responses.md|
 
+All Candies.
+------------
+|Name|Link|
+|:-------------------------------------------------:|:-------------------------------------------------:|
+|Candies|https://github.com/ureadmyname/basicBot-customization/blob/master/All_Candies.md|
+
 Banned Lists.
 -------------
 |Name|Link|
