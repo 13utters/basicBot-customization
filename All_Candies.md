@@ -12,5 +12,5 @@ Candies!
 |**An Andes Thin Mint**|**A Mr Goodbar**|
 |**A Nutrageous Bar**|**A Baby Ruth**|
 |**A Milkyway Bar**|**A Rolo Bar**|
-|**A Twizzler**|**A Tootsie Rool**|
+|**A Twizzler**|**A Tootsie Roll**|
 |**A PayDay Bar**|**A Heath Bar**|
