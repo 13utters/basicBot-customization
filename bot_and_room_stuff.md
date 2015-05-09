@@ -51,6 +51,13 @@ All Candies.
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |Candies|https://github.com/ureadmyname/basicBot-customization/blob/master/All_Candies.md|
 
+Shots.
+------
+|Name|Link|
+|:-------------------------------------------------:|:-------------------------------------------------:|
+|Shots|https://github.com/ureadmyname/basicBot-customization/blob/master/Shots.md|
+
+
 Banned Lists.
 -------------
 |Name|Link|
