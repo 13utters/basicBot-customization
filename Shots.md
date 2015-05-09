@@ -1,15 +1,15 @@
 Shots:
 ======
 |||
-|:---------------:|:---------------:|
-|**Lemon Drop**|**Smirnoff**|
-|**Tequila**|**Cement Mixer**|
-|**Jim Beam**|**Jack Daniels**|
-|**Johnny Walker**|**Jager Bomb**|
-|**Jell-O-Shot**|**Liquid Cocaine**|
+|:------------------:|:------------------:|
 |**Slippery Nipple**|**Redheaded Slut**|
-|**B-52**|**Black Rose**|
-|**Fireball**|**Grasshopper**|
+|**Jell-O-Shot**|**Liquid Cocaine**|
+|**Johnny Walker**|**Jager Bomb**|
 |**Irish Car Bomb**|**Kamikaze**|
 |**Melon Ball**|**Sammy Jager**|
+|**Jim Beam**|**Jack Daniels**|
+|**Fireball**|**Grasshopper**|
+|**Tequila**|**Cement Mixer**|
+|**Lemon Drop**|**Smirnoff**|
+|**B-52**|**Black Rose**|
 |**Tequila Slammer**|
