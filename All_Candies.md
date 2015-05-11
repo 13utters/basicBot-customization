@@ -2,6 +2,8 @@ Candies!
 =========
 | | |
 |:--------------------------------:|:--------------------------------:|
+|**A Bowl Of Neapolitan Ice Cream**|**A Bowl Of Chocolate Ice Cream**|
+|**A Bowl Of Strawberry Ice Cream**|**A Bowl Of Vanilla Ice Cream**|
 |**A Reeses Peanut butter cup**|**A Packet Of Hershey's Caramels**|
 |**A Dove Chocolate Bar**|**A Hershey Almond Toffee Bar**|
 |**A Packet Of Sourpatch Kids**|**A Jollyrancher**|
@@ -12,6 +14,7 @@ Candies!
 |**A Packet Of Tim Tams**|**A Chokito Bar**|
 |**A Packet Of Jelly Bellys**|**A KitKat**|
 |**A Snickers Bar**|**A Packet Of M&M's**|
+|**A Sour Punch Straw**|**A Gum Wrapper**|
 |**An Andes Thin Mint**|**A Mr Goodbar**|
 |**A Nutrageous Bar**|**A Baby Ruth**|
 |**A Milkyway Bar**|**A Rolo Bar**|
