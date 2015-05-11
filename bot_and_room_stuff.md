@@ -57,6 +57,12 @@ Shots.
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |Shots|https://github.com/ureadmyname/basicBot-customization/blob/master/Shots.md|
 
+Fortunes.
+----------
+|Name|Link|
+|:-------------------------------------------------:|:-------------------------------------------------:|
+|Fortunes|https://github.com/ureadmyname/basicBot-customization/blob/master/fortunes.md|
+
 
 Banned Lists.
 -------------
