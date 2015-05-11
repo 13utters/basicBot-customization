@@ -87,6 +87,8 @@ Language Files.
 |French|https://github.com/ureadmyname/basicBot/blob/master/lang/fr.json|
 |Turkish|https://github.com/ureadmyname/basicBot/blob/master/lang/tr.json|
 |Serbian|https://github.com/ureadmyname/basicBot/blob/master/lang/sr.json|
+|Chinese|https://rawgit.com/ureadmyname/basicBot/master/lang/zh.json|
+|Dutch|https://rawgit.com/ureadmyname/basicBot/master/lang/nl.json|
 
 Git Attributes.
 ---------------
