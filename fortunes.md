@@ -1,6 +1,6 @@
 Fortunes:
 =========
-|||
+||
 |:-----------------------------------------------------------------------------------------:|
 
 |**What ever you're goals in life, embrace it visualize it, and for it will be yours.**|
