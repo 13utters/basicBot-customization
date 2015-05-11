@@ -101,7 +101,7 @@ API.sendChat("/me djcycle is the setting that adds you back onto the waitlist af
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-API.sendChat("/me Plugcolor v1.1.1, http://pastebin.com/raw.php?i=FXnFBTwR");
+API.sendChat("/me PlugColor v1.1.5, http://git.io/vU4nM");
 }
 }
 };
