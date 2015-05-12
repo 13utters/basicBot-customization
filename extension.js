@@ -75,8 +75,8 @@ API.sendChat("/me Roulette is run every 90 mins, do !join to join when it starts
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                var hours: getHours();
-API.sendChat(+hours);
+                var atimeamount: getHours();
+API.sendChat(+atimeamount);
 }
 }
 }; 
