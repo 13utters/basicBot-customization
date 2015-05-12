@@ -40,19 +40,6 @@ setInterval(function () {
                 API.sendChat("!roulette");
             }
         }, 1000 * 60 * 91);
- /*       
-             bot.commands.countdownCommand = {
-	command: 'countdown',
-	rank: 'manager',
-	type: 'exact',
-	functionality: function (chat, cmd) {
-                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-                if (!bot.commands.executable(this.rank, chat)) return void (0);
-                else {
-API.sendChat("");
-}
-}
-}; */
 
              bot.commands.allbotstuffCommand = {
 	command: 'allbotstuff',
@@ -79,6 +66,20 @@ API.sendChat("/me Roulette is run every 90 mins, do !join to join when it starts
 }
 }
 };
+
+             bot.commands.countdownwCommand = {
+	command: 'countdownw',
+	rank: 'user',
+	type: 'exact',
+	functionality: function (chat, cmd) {
+                if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                var hours: getHours();
+API.sendChat(+hours);
+}
+}
+}; 
 
              bot.commands.djcycleinfoCommand = {
 	command: 'djcycleinfo',
@@ -222,10 +223,10 @@ API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday 
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                 if (!bot.commands.executable(this.rank, chat)) return void (0);
                 else {
-                var thebleepbloop = [' . ', ' .. ', ' ... '];
+                var thebleepbloop = ['abc', 'ab', 'a'];
 var randomIndex = Math.floor(Math.random() * thebleepbloop.length);
-var randomString = thebleepbloop[randomIndex];
-                        API.sendChat(subChat(basicbot.chat.bleepbloop, {name: chat.un, response: basicBot.settings.bleepbloop[randomIndex]}));
+var randomString = bleepbloop[something];
+                        API.sendChat(subChat(basicbot.chat.asdfasdf, {name: chat.un, response: basicBot.settings.asdfasdf[something]}));
                     }
                 }
             };
