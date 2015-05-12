@@ -69,7 +69,7 @@ API.sendChat("/me Roulette is run every 90 mins, do !join to join when it starts
 
              bot.commands.countdownwCommand = {
 	command: 'countdownw',
-	rank: 'user',
+	rank: 'manager',
 	type: 'exact',
 	functionality: function (chat, cmd) {
                 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
