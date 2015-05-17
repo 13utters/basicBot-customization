@@ -31,7 +31,7 @@ PlugCubed.
 ----------
 |Name|Link|
 |:-------------------------------------------------:|:-------------------------------------------------:|
-|Website Link|https://plugcubed.net/|
+|PlugCubed|https://plugcubed.net/|
 
 8ball Responses.
 ----------------
