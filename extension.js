@@ -4,7 +4,7 @@ function extend() {
 if (!window.bot) {
 return setTimeout(extend, 1 * 1000);
 }
-//
+
 var autoFav = true;
 var autoRoulette = true;
 var autoRules = true;
