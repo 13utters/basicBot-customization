@@ -12,11 +12,6 @@ var autoShuffle = true;
 var bot = window.bot;
 var minute= 1000* 60;
 
-autoFav = !autoFav;
-autoRoulette = !autoRoulette;
-autoRules = !autoRules;
-autoShuffle = !autoShuffle;
-
 bot.retrieveSettings();
 
 setInterval(function () {
@@ -63,7 +58,9 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Fav Message now set to " + autoFav);}}};
+else {
+autoFav = !autoFav;
+API.sendChat("/me Fav Message now set to " + autoFav);}}};
 
 bot.commands.automateRoulette = {
 command: ['autoroulette'],
@@ -72,7 +69,9 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Roulette now set to " + autoRoulette);}}};
+else {
+autoRoulette = !autoRoulette;
+API.sendChat("/me Roulette now set to " + autoRoulette);}}};
                     
 bot.commands.automateRules = {
 command: ['autoRules'],
@@ -81,7 +80,9 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Rules now set to " + autoRules);}}};
+else {
+autoRules = !autoRules;
+API.sendChat("/me Rules now set to " + autoRules);}}};
 
 bot.commands.automateShuffle = {
 command: ['autoshuffle'],
@@ -90,7 +91,9 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Shuffle Message now set to " + autoShuffle);}}};
+else {
+autoShuffle = !autoShuffle;
+API.sendChat("/me Shuffle Message now set to " + autoShuffle);}}};
 
 bot.commands.bleepbloopCommand = {
 command: 'bleepbloop',
@@ -100,15 +103,6 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else{API.sendChat(subChat(basicbot.chat.asdfasdf, {name: chat.un, response: basicBot.settings.asdfasdf}));}}};
-
-bot.commands.countdownwCommand = {
-command: 'countdownw',
-rank: 'manager',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat(getHours());}}}; 
 
 bot.commands.dcinfoCommand = {
 command: 'dcinfo',
