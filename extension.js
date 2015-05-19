@@ -2,8 +2,9 @@
 
 function extend() {
 if (!window.bot) {
-return setTimeout(extend, 1 * 1000);}
-
+return setTimeout(extend, 1 * 1000);
+}
+/*
 var autoFav = true;
 var autoRoulette = true;
 var autoRules = true;
@@ -199,7 +200,7 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me http://www.twitch.tv/theqtpi");}}};
-
+*/
 bot.loadChat();}
 localStorage.setItem("basicBotsettings", JSON.stringify({
 
