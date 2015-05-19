@@ -4,7 +4,7 @@ function extend() {
 if (!window.bot) {
 return setTimeout(extend, 1 * 1000);
 }
-/*
+//
 var autoFav = true;
 var autoRoulette = true;
 var autoRules = true;
@@ -21,23 +21,31 @@ bot.retrieveSettings();
 
 setInterval(function () {
 if(autoShuffle === true) {
-API.sendChat("!shuffle");}},
-minute * 49);
+API.sendChat("!shuffle");
+}
+},
+1000 * 60 * 49);
 
 setInterval(function () {
 if(autoFav === true) {
-API.sendChat("!fav");}},
-minute * 67);
+API.sendChat("!fav");
+}
+},
+1000 * 60 * 67);
         
 setInterval(function () {
 if(autoRules === true) {
-API.sendChat("!rules");}},
-minute * 78);
+API.sendChat("!rules");
+}
+},
+1000 * 60 * 78);
         
 setInterval(function () {
 if(autoRoulette === true) {
-API.sendChat("!roulette");}},
-minute * 91);
+API.sendChat("!roulette");
+}
+},
+1000 * 60 * 91);
 
 bot.commands.allbotstuffCommand = {
 command: 'allbotstuff',
@@ -91,7 +99,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else{API.sendChat(subChat(basicbot.chat.asdfasdf, {name: chat.un, response: basicBot.settings.asdfasdf}));}}}};
+else{API.sendChat(subChat(basicbot.chat.asdfasdf, {name: chat.un, response: basicBot.settings.asdfasdf}));}}};
 
 bot.commands.countdownwCommand = {
 command: 'countdownw',
@@ -200,7 +208,7 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me http://www.twitch.tv/theqtpi");}}};
-*/
+//
 bot.loadChat();}
 localStorage.setItem("basicBotsettings", JSON.stringify({
 
