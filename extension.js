@@ -74,7 +74,7 @@ autoRoulette = !autoRoulette;
 API.sendChat("/me Roulette now set to " + autoRoulette);}}};
                     
 bot.commands.automateRules = {
-command: ['autoRules'],
+command: ['autorules'],
 rank: 'manager',
 type: 'exact',
 functionality: function (chat, cmd) {
