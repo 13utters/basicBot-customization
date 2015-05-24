@@ -49,7 +49,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me everything to do with the room and bot: https://goo.gl/At5qWh");}}};
+else {API.sendChat("/me Everything to do with the room and bot: https://goo.gl/At5qWh");}}};
 
 bot.commands.automateFav = {
 command: ['autofav'],
@@ -93,7 +93,7 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
 autoShuffle = !autoShuffle;
-API.sendChat("/me Shuffle Message now set to " + autoShuffle);}}};
+API.sendChat("/me Shuffle message now set to " + autoShuffle);}}};
 
 bot.commands.bleepbloopCommand = {
 command: 'bleepbloop',
@@ -111,7 +111,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Do !dc if you have recently disconnected to get your position on the waitlist back.");}}};
+else {API.sendChat("/me Do !dc if you have recently disconnected to get your position on the waitlist back!");}}};
 
 bot.commands.djcycleinfoCommand = {
 command: 'djcycleinfo',
@@ -120,7 +120,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me djcycle is the setting that adds you back onto the waitlist after playing a song, if it's disabled you will have to manually do this.");}}};
+else {API.sendChat("/me Djcycle is a setting that automatically adds you back onto the waitlist after playing a song. If it's disabled you will have to manually add yourself back.");}}};
 
 bot.commands.favCommand = {
 command: 'fav',
@@ -129,7 +129,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Remember to click the star in the top bar to favorite this room!!!");}}};
+else {API.sendChat("/me Remember to click the star in the top bar to favorite this room!!");}}};
 
 bot.commands.killtrollCommand = {
 command: 'killtroll',
@@ -165,7 +165,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Roulette is run every 90 mins, do !join to join when it starts if you win you get first on the waitlist!");}}};
+else {API.sendChat("/me Roulette is run every 90 mins, do !join to join when it starts. If you win you get first on the waitlist!");}}};
 
 bot.commands.shuffleCommand = {
 command: 'shuffle',
@@ -174,7 +174,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday and Friday, any genre is allowed!!!");}}};
+else {API.sendChat("/me Like other genres than EDM? Then you better be here Wednesday and Friday, any genre is allowed!");}}};
 
 bot.commands.whatissubCommand = {
 command: 'subinfo',
@@ -183,16 +183,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me what are subscriptions? http://goo.gl/Lcw6wX");}}};  
-
-bot.commands.trollCommand = {
-command: 'troll',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me :trollface:");}}};
+else {API.sendChat("/me What are subscriptions? http://goo.gl/Lcw6wX");}}};  
 
 bot.commands.twitchCommand = {
 command: 'twitch',
