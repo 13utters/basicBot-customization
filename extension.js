@@ -9,6 +9,7 @@ var autoFav = true;
 var autoRoulette = true;
 var autoRules = true;
 var autoShuffle = true;
+var autoTwitch = false;
 var bot = window.bot;
 var minute= 1000* 60;
 
@@ -41,6 +42,13 @@ API.sendChat("!roulette");
 }
 },
 1000 * 60 * 91);
+
+setInterval(function () {
+if(autoRoulette === true) {
+API.sendChat("!twitch");
+}
+},
+1000 * 60 * 30);
 
 bot.commands.allbotstuffCommand = {
 command: 'allbotstuff',
@@ -94,6 +102,17 @@ if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
 autoShuffle = !autoShuffle;
 API.sendChat("/me Shuffle message now set to " + autoShuffle);}}};
+
+bot.commands.automateTwitch = {
+command: ['autotwitch'],
+rank: 'manager',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {
+autoTwitch = !autoTwitch;
+API.sendChat("/me Twitch message now set to " + autoTwitch);}}};
 
 bot.commands.bleepbloopCommand = {
 command: 'bleepbloop',
