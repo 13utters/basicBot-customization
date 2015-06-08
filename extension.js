@@ -45,7 +45,7 @@ API.sendChat("!roulette");
 
 setInterval(function () {
 if(autoRoulette === true) {
-API.sendChat("!twitch");
+API.sendChat("!twitchlive");
 }
 },
 1000 * 60 * 30);
@@ -220,7 +220,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me What are subscriptions? http://goo.gl/Lcw6wX");}}};  
+else {API.sendChat("/me What are subscriptions? http://goo.gl/Lcw6wX");}}};
 
 bot.commands.twitchCommand = {
 command: 'twitch',
@@ -230,6 +230,15 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me http://www.twitch.tv/theqtpi");}}};
+
+bot.commands.twitchliveCommand = {
+command: 'twitchlive',
+rank: 'manager',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me TheQTpi is live right now! Come watch her stream now: http://www.twitch.tv/theqtpi");}}};
 //
 bot.loadChat();}
 localStorage.setItem("basicBotsettings", JSON.stringify({
