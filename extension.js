@@ -44,7 +44,7 @@ API.sendChat("!roulette");
 1000 * 60 * 91);
 
 setInterval(function () {
-if(autoRoulette === true) {
+if(autoTwitch === true) {
 API.sendChat("!twitchlive");
 }
 },
