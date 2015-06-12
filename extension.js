@@ -300,6 +300,6 @@ commandLiteral: "!",
 blacklists: {
 NSFW: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleNSFWlist.json",
 OP: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleOPlist.json"
-BANNED: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/BANNEDlist.json"}}));
+BANNED: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleBANNEDlist.json"}}));
 $.getScript("https://rawgit.com/ureadmyname/basicBot/master/basicBot.js", extend);
 }).call(this);
