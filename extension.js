@@ -245,11 +245,13 @@ localStorage.setItem("basicBotsettings", JSON.stringify({
 
 botName: "qtbot",
 language: "english",
+chatLink: "https://rawgit.com/ureadmyname/basicBot/master/lang/en.json",
 startupCap: 1,
 startupVolume: 0,
 startupEmoji: false,
+autowoot: true,
+smartSkip: false,
 cmdDeletion: true,
-chatLink: "https://rawgit.com/ureadmyname/basicBot/master/lang/en.json",
 maximumAfk: 120,
 afkRemoval: false,
 maximumDc: 180,
@@ -262,13 +264,14 @@ cycleGuard: false,
 maximumCycletime: 10,
 voteSkip: false,
 voteSkipLimit: 10,
+historySkip: false,
 timeGuard: true,
 maximumSongLength: 10,
 autodisable: true,
 commandCooldown: 15,
 usercommandsEnabled: true,
-lockskipPosition: 1,
-lockskipReasons: [
+skipPosition: 1,
+kipReasons: [
 ["theme", "This song does not fit the room theme. "],
 ["op", "This song is on the OP list. "],
 ["history", "This song is in the history. "],
@@ -296,6 +299,7 @@ songstats: false,
 commandLiteral: "!",
 blacklists: {
 NSFW: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleNSFWlist.json",
-OP: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleOPlist.json"}}));
+OP: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleOPlist.json"
+BANNED: "https://rawgit.com/" + fork + "/basicBot-customization/master/blacklists/BANNEDlist.json"}}));
 $.getScript("https://rawgit.com/ureadmyname/basicBot/master/basicBot.js", extend);
 }).call(this);
