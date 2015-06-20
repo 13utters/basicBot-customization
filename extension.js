@@ -295,7 +295,7 @@ youtubeLink: "No YT link at the moment.",
 website: "No website at the moment.",
 intervalMessages: [],
 messageInterval: 30,
-songstats: false,
+songstats: true,
 commandLiteral: "!",
 blacklists: {
 NSFW: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleNSFWlist.json",
