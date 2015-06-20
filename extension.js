@@ -281,7 +281,7 @@ skipReasons: [
 ["unavailable", "The song you played was not available for some users. "]],
 afkpositionCheck: 15,
 afkRankCheck: "ambassador",
-motdEnabled: false,
+motdEnabled: true,
 motdInterval: 5,
 motd: "Temporary Message of the Day",
 filterChat: false,
