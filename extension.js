@@ -48,7 +48,7 @@ if(autoTwitch === true) {
 API.sendChat("!twitchlive");
 }
 },
-1000 * 60 * 30);
+1000 * 60 * 15);
 
 bot.commands.allbotstuffCommand = {
 command: 'allbotstuff',
