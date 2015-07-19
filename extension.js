@@ -159,6 +159,15 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Remember to click the star in the top bar to favorite this room!!");}}};
 
+bot.commands.illuminatiCommand = {
+command: 'illuminati',
+rank: 'user',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me http://i.imgur.com/7JEucMA.png");}}};
+
 bot.commands.killtrollCommand = {
 command: 'killtroll',
 rank: 'bouncer',
@@ -194,6 +203,15 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Roulette is run every 90 mins, do !join to join when it starts. If you win you get first on the waitlist!");}}};
+
+bot.commands.rule8Command = {
+command: 'rule8',
+rank: 'user',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me http://goo.gl/5SNSgo Rule 8: Please don't beg to be part of the community staff.");}}};
 
 bot.commands.shuffleCommand = {
 command: 'shuffle',
