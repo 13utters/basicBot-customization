@@ -10,8 +10,10 @@ var autoRoulette = true;
 var autoRules = true;
 var autoShuffle = true;
 var autoTwitch = false;
+var AautoQuestion = true;
+var auto = false;
 var bot = window.bot;
-var minute= 1000* 60;
+var minute= 1000 * 60;
 
 bot.retrieveSettings();
 
@@ -42,6 +44,13 @@ API.sendChat("!roulette");
 }
 },
 1000 * 60 * 91);
+
+setInterval(function () {
+if(autoQuestion === true) {
+API.sendChat("!question");
+}
+},
+1000 * 60 * 103);
 
 setInterval(function () {
 if(autoTwitch === true) {
@@ -185,6 +194,15 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me PlugColor v1.1.5, http://git.io/vU4nM");}}};
+
+bot.commands.questionCommand = {
+command: 'question',
+rank: 'user',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me It would be extremely appreciated if you take 1 minute out of your day to answer our weekly question to help us better our community :) questionpro.com/t/ALh4WZSud2");}}};
 
 bot.commands.doarefreshCommand = {
 command: 'ref',
