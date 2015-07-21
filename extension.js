@@ -11,7 +11,6 @@ var autoRules = true;
 var autoShuffle = true;
 var autoTwitch = false;
 var autoQuestion = true;
-var auto = false;
 var bot = window.bot;
 var minute= 1000 * 60;
 
