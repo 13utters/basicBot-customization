@@ -20,6 +20,24 @@ Commands.
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |Command List|https://github.com/ureadmyname/basicBot/blob/master/commands.md|
 
+Bookmarks.
+----------
+|Name|Link|
+|:-------------------------------------------------:|:-------------------------------------------------:|
+|Bookmarks|https://github.com/ureadmyname/code/blob/master/bookmark.js|
+
+Tips To Get Staff.
+------------------
+|Name|Link|
+|:-------------------------------------------------:|:-------------------------------------------------:|
+|Tips|https://github.com/ureadmyname/Tips-To-Getting-Staff/blob/master/Tips.md|
+
+Staff.
+------
+|Name|Link|
+|:-------------------------------------------------:|:-------------------------------------------------:|
+|Staff|https://github.com/ureadmyname/AnEDMTrap/blob/master/Staff.md|
+
 Rules.
 ------
 |Name|Link|
@@ -61,7 +79,6 @@ Fortunes.
 |Name|Link|
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |Fortunes|https://github.com/ureadmyname/basicBot-customization/blob/master/fortunes.md|
-
 
 Banned Lists.
 -------------
@@ -116,3 +133,9 @@ Allowed Genres.
 |Name|Link|
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |List Of Genres|http://en.wikipedia.org/wiki/List_of_electronic_music_genres|
+
+Room Settings Coming Soon.
+--------------------------
+|Name|Link|
+|:-------------------------------------------------:|:-------------------------------------------------:|
+|Room Settings|https://github.com/ureadmyname/Room-Settings|
