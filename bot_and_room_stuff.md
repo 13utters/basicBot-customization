@@ -2,7 +2,6 @@ Everything To Do With The Bot And The Room.
 ===========================================
 
 
-
 Main Script.
 ------------
 |Name|Link|
@@ -70,6 +69,8 @@ Banned Lists.
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |N.S.F.W|https://github.com/ureadmyname/basicBot-customization/blob/master/ExampleNSFWlist.json|
 |O.P|https://github.com/ureadmyname/basicBot-customization/blob/master/ExampleOPlist.json|
+|BANNED|https://github.com/ureadmyname/basicBot-customization/blob/master/ExampleBANNEDlist.json|
+|Song Names|https://github.com/ureadmyname/basicBot-customization/blob/master/skiplists.txt|
 
 Settings.
 ---------
@@ -83,12 +84,14 @@ Language Files.
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |LangIndex|https://github.com/ureadmyname/basicBot/blob/master/lang/langIndex.json|
 |English|https://github.com/ureadmyname/basicBot/blob/master/lang/en.json|
-|Portuguese|https://github.com/ureadmyname/basicBot/blob/master/lang/pt.json|
+|Portuguese|https://github.com/ureadmyname/basicBot/blob/master/lang/pt-BR.json|
 |French|https://github.com/ureadmyname/basicBot/blob/master/lang/fr.json|
 |Turkish|https://github.com/ureadmyname/basicBot/blob/master/lang/tr.json|
 |Serbian|https://github.com/ureadmyname/basicBot/blob/master/lang/sr.json|
-|Chinese|https://rawgit.com/ureadmyname/basicBot/master/lang/zh.json|
-|Dutch|https://rawgit.com/ureadmyname/basicBot/master/lang/nl.json|
+|Chinese|https://github.com/ureadmyname/basicBot/blob/master/lang/zh-TW.json|
+|Dutch|https://github.com/ureadmyname/basicBot/blob/master/lang/nl.json|
+|German|https://github.com/ureadmyname/basicBot/blob/master/lang/de.json|
+|Spanish|https://github.com/ureadmyname/basicBot/blob/master/lang/es-ES.json|
 
 Git Attributes.
 ---------------
@@ -106,7 +109,7 @@ PlugColor.
 -----------
 |Name|Link|
 |:-------------------------------------------------:|:-------------------------------------------------:|
-|PlugColor|http://pastebin.com/raw.php?i=FXnFBTwR|
+|PlugColor|http://git.io/vU4nM|
 
 Allowed Genres.
 ---------------
