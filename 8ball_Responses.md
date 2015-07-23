@@ -22,3 +22,4 @@ ALL 8BALL RESPONSES!
 |**DEEZ NUTS!**|**I.D.G.A.F.**|
 |**Who knows?**|**Probably.**|
 |**S.T.F.U.**|**Y.O.L.O.**|
+|**:trollface:**||
