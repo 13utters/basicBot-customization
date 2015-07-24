@@ -192,7 +192,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me It would be extremely appreciated if you take 1 minute out of your day to answer our weekly question to help us better our community :) http://www.questionpro.com/t/ALh4WZSud2");}}};
+else {API.sendChat("/me It would be extremely appreciated if you take 1 minute out of your day to answer a couple questions to help us better our community :) http://questionpro.com/t/ALh4WZSvjx");}}};
 
 bot.commands.doarefreshCommand = {
 command: 'ref',
