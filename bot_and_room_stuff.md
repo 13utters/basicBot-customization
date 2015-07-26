@@ -89,6 +89,10 @@ Banned Lists.
 |BANNED|https://github.com/ureadmyname/basicBot-customization/blob/master/ExampleBANNEDlist.json|
 |Song Names|https://github.com/ureadmyname/basicBot-customization/blob/master/skiplists.txt|
 
+All Videos Not Allowed.
+-----------------------
+|All Video Links|https://github.com/ureadmyname/AnEDMTrap/blob/master/Videos.txt|
+
 Settings.
 ---------
 |Name|Link|
