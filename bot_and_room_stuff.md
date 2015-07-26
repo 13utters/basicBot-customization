@@ -90,7 +90,6 @@ Banned Lists.
 |Song Names|https://github.com/ureadmyname/basicBot-customization/blob/master/skiplists.txt|
 
 All Videos Not Allowed.
------------------------
 |:-------------------------------------------------:|:-------------------------------------------------:|
 |Name|Link|
 |All Video Links|https://github.com/ureadmyname/AnEDMTrap/blob/master/Videos.txt|
