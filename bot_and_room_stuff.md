@@ -91,6 +91,8 @@ Banned Lists.
 
 All Videos Not Allowed.
 -----------------------
+|:-------------------------------------------------:|:-------------------------------------------------:|
+|Name|Link|
 |All Video Links|https://github.com/ureadmyname/AnEDMTrap/blob/master/Videos.txt|
 
 Settings.
