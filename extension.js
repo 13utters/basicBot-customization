@@ -228,7 +228,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Like other genres than EDM? Then you better be here Monday and Friday, any genre is allowed!");}}};
+else {API.sendChat("/me Like other genres than EDM? Then you better be here Monday and Friday, any genre is allowed! Shuffle time is run 12am EST till 12pm PDT");}}};
 
 bot.commands.staffCommand = {
 command: 'staff',
