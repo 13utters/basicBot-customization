@@ -46,4 +46,4 @@ OP LIST:
 ##### 41. Virtual Riot - Idols (EDM Mashup)
 ##### 42. Waka Flocka - No Handz (CRNKN Remix)
 ##### 43. Yellow Claw - Shotgun ft. Rochelle
-##### 44. Darude Sandstorm
+##### 44. Darude - Sandstorm
