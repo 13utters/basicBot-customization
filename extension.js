@@ -58,6 +58,15 @@ API.sendChat("!twitchlive");
 },
 1000 * 60 * 15);
 
+bot.commands.abuseCommand = {
+command: 'abuse',
+rank: 'user',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me Please do not abuse the !dc command, !dc is for use when you have internet issues not for when you leave to another room or go and do something else.");}}};
+
 bot.commands.allbotstuffCommand = {
 command: 'allbotstuff',
 rank: 'user',
@@ -305,7 +314,7 @@ motd: "Temporary Message of the Day",
 filterChat: false,
 etaRestriction: false,
 welcome: true,
-opLink: "OP List: http://git.io/vOTmj",
+opLink: "http://git.io/vOTmj",
 rulesLink: "http://goo.gl/5SNSgo",
 themeLink: "Community Theme: http://en.wikipedia.org/wiki/List_of_electronic_music_genres",
 fbLink: "No FB link at the moment.",
