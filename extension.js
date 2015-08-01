@@ -65,7 +65,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Please do not abuse the !dc command, !dc is for use when you have internet issues not for when you leave to another room or go and do something else.");}}};
+else {API.sendChat("/me Please do not abuse the !dc command. !dc is for when you have internet issues; Not for when you leave to go to another community and or leave to go do something else.");}}};
 
 bot.commands.allbotstuffCommand = {
 command: 'allbotstuff',
