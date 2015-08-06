@@ -10,6 +10,7 @@ var autoRoulette = true;
 var autoRules = true;
 var autoShuffle = true;
 var autoTwitch = false;
+var autoSellout = true;
 var autoQuestion = true;
 var bot = window.bot;
 var minute= 1000 * 60;
@@ -36,6 +37,13 @@ API.sendChat("!rules");
 }
 },
 1000 * 60 * 78);
+
+setInterval(function () {
+if(autoSellout === true) {
+API.sendChat("!Sellout");
+}
+},
+1000 * 60 * 55);
         
 setInterval(function () {
 if(autoRoulette === true) {
@@ -97,6 +105,17 @@ if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
 autoRoulette = !autoRoulette;
 API.sendChat("/me Roulette now set to " + autoRoulette);}}};
+
+bot.commands.automateSellout = {
+command: ['autosellout'],
+rank: 'manager',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {
+autoSellout = !autoRoulette;
+API.sendChat("/me Sellout now set to " + autoSellout);}}};
                     
 bot.commands.automateRules = {
 command: ['autorules'],
