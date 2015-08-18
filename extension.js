@@ -10,7 +10,6 @@ var autoRoulette = true;
 var autoRules = true;
 var autoShuffle = true;
 var autoTwitch = false;
-var autoSellout = true;
 var autoQuestion = true;
 var bot = window.bot;
 var minute= 1000 * 60;
@@ -37,13 +36,6 @@ API.sendChat("!rules");
 }
 },
 1000 * 60 * 78);
-
-setInterval(function () {
-if(autoSellout === true) {
-API.sendChat("!Sellout");
-}
-},
-1000 * 60 * 55);
         
 setInterval(function () {
 if(autoRoulette === true) {
@@ -105,17 +97,6 @@ if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
 autoRoulette = !autoRoulette;
 API.sendChat("/me Roulette now set to " + autoRoulette);}}};
-
-bot.commands.automateSellout = {
-command: ['autosellout'],
-rank: 'manager',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {
-autoSellout = !autoSellout;
-API.sendChat("/me Sellout now set to " + autoSellout);}}};
                     
 bot.commands.automateRules = {
 command: ['autorules'],
@@ -185,15 +166,6 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Remember to click the star in the top bar to favorite this room!! http://i.imgur.com/sXDxQgj.png");}}};
-
-bot.commands.selloutCommand = {
-command: 'sellout',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me QTbot is going sellout mode! Interested in being a manager for life? Check out this link! http://git.io/vOSC2");}}};
 
 bot.commands.illuminatiCommand = {
 command: 'illuminati',
