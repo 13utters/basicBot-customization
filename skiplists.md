@@ -27,7 +27,7 @@ OP LIST:
 ##### 22. Jay Z - Dirt Off Your Shoulder (Brillz & Z Trip Remix)
 ##### 23. Keys N Krates - Dum Dee Dum (JiKay Remix)
 ##### 24. Krewella - Come And Get It (Razihel Remix)
-##### 25. Krewella- Come and Get It
+##### 25. Krewella - Come and Get It
 ##### 26. Levels by Avicii (Skrillex Remix)
 ##### 27. Meg & Dia - Monster (DotEXE Remix)
 ##### 28. OMFG - Hello
