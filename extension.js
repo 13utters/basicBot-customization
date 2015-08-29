@@ -16,6 +16,11 @@ var minute= 1000 * 60;
 
 bot.retrieveSettings();
 
+var spamWords = ['spam1234', 'spam2341', 'spam3412', 'spam4123'];
+for (var i = 0; i < spamWords.length; i++) {
+window.bot.chatUtilities.spam.push(spamWords[i]);
+}
+
 setInterval(function () {
 if(autoShuffle === true) {
 API.sendChat("!shuffle");
@@ -272,11 +277,13 @@ localStorage.setItem("basicBotsettings", JSON.stringify({
 botName: "qtbot",
 language: "english",
 chatLink: "https://rawgit.com/ureadmyname/basicBot/master/lang/en.json",
+scriptLink: "https://rawgit.com/ureadmyname/basicBot/master/basicBot.js",
+roomlock: false,
 startupCap: 1,
 startupVolume: 0,
 startupEmoji: false,
-autoskip: false,
 autowoot: true,
+autoskip: false,
 smartSkip: true,
 cmdDeletion: true,
 maximumAfk: 120,
