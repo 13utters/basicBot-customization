@@ -251,7 +251,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me https://github.com/ureadmyname/Tips-To-Getting-Staff/blob/master/Tips.md");}}};  
+else {API.sendChat("/me Tips for trying to get staff: https://github.com/ureadmyname/Tips-To-Getting-Staff/blob/master/Tips.md");}}};  
 
 bot.commands.whatissubCommand = {
 command: 'subinfo',
