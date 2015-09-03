@@ -31,44 +31,45 @@ OP LIST:
 ##### 26. Eiffel 65 - Blue (KNY Factory Remix)
 ##### 27. Electro-Light - Symbolism
 ##### 28. Fetty Wap - Trap Queen (Crankdat Remix)
-##### 29. Flo Rida - GDFR (K Theory Remix)
-##### 30. Flux Pavillion - I Can't Stop
-##### 31. Galantis - Peanut Butter Jelly
-##### 32. Galantis - Runaway (U & I)
-##### 33. Galantis - You
-##### 34. Imagine Dragons - Radioactive (Synchronice Remix)
-##### 35. Itro & Tobu - Cloud 9
-##### 36. Jay-Z & Kanye West - Niggas In Paris (Onderkoffer Remix)
-##### 37. Jay Z - Dirt Off Your Shoulder (Brillz & Z Trip Remix)
-##### 38. Jetta - I'd Love to Change the World (Matstubs Remix)
-##### 39. KDrew - Bullseye
-##### 40. KDrew - Circles
-##### 41. Knife Party - Bonfire
-##### 42. Knife Party - Internet Friends
-##### 43. Krewella - Come And Get It (Razihel Remix)
-##### 44. Krewella - Come and Get It
-##### 45. Krewella - Enjoy the Ride 
-##### 46. Levels by Avicii (Skrillex Remix)
-##### 47. M4SONIC - Virus (Live Launchpad Original)
-##### 48. M4SONIC - Weapon (Live Launchpad Mashup)
-##### 49. Major Lazer & DJ Snake - Lean On (feat. MØ)
-##### 50. Mako - Our Story
-##### 51. Martin Garrix & Jay Hardway - Wizard
-##### 52. Martin Garrix - Animals
-##### 53. Meg & Dia - Monster (DotEXE Remix)
-##### 54. OMFG - Hello
-##### 55. OMFG - I Love You
-##### 56. Rae Sremmurd - No Type
-##### 57. Skrillex & Damian "Jr. Gong" Marley - Make It Bun Dem
-##### 58. Skrillex & The Doors - Breakn' A Sweat
-##### 59. Skrillex - Bangarang feat. Sirah
-##### 60. Skrillex - First Of The Year (Equinox)
-##### 61. Skrillex - Kill Everybody
-##### 62. Skrillex - Scary Monsters And Nice Sprites
-##### 63. Spag Heddy - Love On First Sine 
-##### 64. Spooky Scary Skeletons (Remix)
-##### 65. Sqeepo - Irish Swag 
-##### 66. TheFatRat - Unity
-##### 67. Virtual Riot - Energy Drink
-##### 68. Waka Flocka - No Handz (CRNKN Remix)
-##### 69. Yellow Claw - Shotgun ft. Rochelle
+##### 29. Fetty Wap - Trap Queen (K Theory Remix)
+##### 30. Flo Rida - GDFR (K Theory Remix)
+##### 31. Flux Pavillion - I Can't Stop
+##### 32. Galantis - Peanut Butter Jelly
+##### 33. Galantis - Runaway (U & I)
+##### 34. Galantis - You
+##### 35. Imagine Dragons - Radioactive (Synchronice Remix)
+##### 36. Itro & Tobu - Cloud 9
+##### 37. Jay-Z & Kanye West - Niggas In Paris (Onderkoffer Remix)
+##### 38. Jay Z - Dirt Off Your Shoulder (Brillz & Z Trip Remix)
+##### 39. Jetta - I'd Love to Change the World (Matstubs Remix)
+##### 40. KDrew - Bullseye
+##### 41. KDrew - Circles
+##### 42. Knife Party - Bonfire
+##### 43. Knife Party - Internet Friends
+##### 44. Krewella - Come And Get It (Razihel Remix)
+##### 45. Krewella - Come and Get It
+##### 46. Krewella - Enjoy the Ride 
+##### 47. Levels by Avicii (Skrillex Remix)
+##### 48. M4SONIC - Virus (Live Launchpad Original)
+##### 49. M4SONIC - Weapon (Live Launchpad Mashup)
+##### 50. Major Lazer & DJ Snake - Lean On (feat. MØ)
+##### 51. Mako - Our Story
+##### 52. Martin Garrix & Jay Hardway - Wizard
+##### 53. Martin Garrix - Animals
+##### 54. Meg & Dia - Monster (DotEXE Remix)
+##### 55. OMFG - Hello
+##### 56. OMFG - I Love You
+##### 57. Rae Sremmurd - No Type
+##### 58. Skrillex & Damian "Jr. Gong" Marley - Make It Bun Dem
+##### 59. Skrillex & The Doors - Breakn' A Sweat
+##### 60. Skrillex - Bangarang feat. Sirah
+##### 61. Skrillex - First Of The Year (Equinox)
+##### 62. Skrillex - Kill Everybody
+##### 63. Skrillex - Scary Monsters And Nice Sprites
+##### 64. Spag Heddy - Love On First Sine 
+##### 65. Spooky Scary Skeletons (Remix)
+##### 66. Sqeepo - Irish Swag 
+##### 67. TheFatRat - Unity
+##### 68. Virtual Riot - Energy Drink
+##### 69. Waka Flocka - No Handz (CRNKN Remix)
+##### 70. Yellow Claw - Shotgun ft. Rochelle
