@@ -50,26 +50,27 @@ OP LIST:
 ##### 45. Krewella - Come and Get It
 ##### 46. Krewella - Enjoy the Ride 
 ##### 47. Levels by Avicii (Skrillex Remix)
-##### 48. M4SONIC - Virus (Live Launchpad Original)
-##### 49. M4SONIC - Weapon (Live Launchpad Mashup)
-##### 50. Major Lazer & DJ Snake - Lean On (feat. MØ)
-##### 51. Mako - Our Story
-##### 52. Martin Garrix & Jay Hardway - Wizard
-##### 53. Martin Garrix - Animals
-##### 54. Meg & Dia - Monster (DotEXE Remix)
-##### 55. OMFG - Hello
-##### 56. OMFG - I Love You
-##### 57. Rae Sremmurd - No Type
-##### 58. Skrillex & Damian "Jr. Gong" Marley - Make It Bun Dem
-##### 59. Skrillex & The Doors - Breakn' A Sweat
-##### 60. Skrillex - Bangarang feat. Sirah
-##### 61. Skrillex - First Of The Year (Equinox)
-##### 62. Skrillex - Kill Everybody
-##### 63. Skrillex - Scary Monsters And Nice Sprites
-##### 64. Spag Heddy - Love On First Sine 
-##### 65. Spooky Scary Skeletons (Remix)
-##### 66. Sqeepo - Irish Swag 
-##### 67. TheFatRat - Unity
-##### 68. Virtual Riot - Energy Drink
-##### 69. Waka Flocka - No Handz (CRNKN Remix)
-##### 70. Yellow Claw - Shotgun ft. Rochelle
+##### 48. Lorde - Tennis Court (Flume Remix)
+##### 49. M4SONIC - Virus (Live Launchpad Original)
+##### 50. M4SONIC - Weapon (Live Launchpad Mashup)
+##### 51. Major Lazer & DJ Snake - Lean On (feat. MØ)
+##### 52. Mako - Our Story
+##### 53. Martin Garrix & Jay Hardway - Wizard
+##### 54. Martin Garrix - Animals
+##### 55. Meg & Dia - Monster (DotEXE Remix)
+##### 56. OMFG - Hello
+##### 57. OMFG - I Love You
+##### 58. Rae Sremmurd - No Type
+##### 59. Skrillex & Damian "Jr. Gong" Marley - Make It Bun Dem
+##### 60. Skrillex & The Doors - Breakn' A Sweat
+##### 61. Skrillex - Bangarang feat. Sirah
+##### 62. Skrillex - First Of The Year (Equinox)
+##### 63. Skrillex - Kill Everybody
+##### 64. Skrillex - Scary Monsters And Nice Sprites
+##### 65. Spag Heddy - Love On First Sine 
+##### 66. Spooky Scary Skeletons (Remix)
+##### 67. Sqeepo - Irish Swag 
+##### 68. TheFatRat - Unity
+##### 69. Virtual Riot - Energy Drink
+##### 70. Waka Flocka - No Handz (CRNKN Remix)
+##### 71. Yellow Claw - Shotgun ft. Rochelle
