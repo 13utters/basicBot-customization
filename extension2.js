@@ -5,6 +5,7 @@ if (!window.bot) {
 return setTimeout(extend, 1 * 1000);
 }
 
+var autoAnything = true;
 var autoFav = true;
 var autoRoulette = true;
 var autoRules = true;
@@ -18,6 +19,13 @@ var spamWords = ['spam1234', 'spam2341', 'spam3412', 'spam4123'];
 for (var i = 0; i < spamWords.length; i++) {
 window.bot.chatUtilities.spam.push(spamWords[i]);
 }
+
+setInterval(function () {
+if(autoFav === true) {
+API.sendChat("!anything");
+}
+},
+1000 * 60 * 67);
 
 setInterval(function () {
 if(autoFav === true) {
@@ -64,6 +72,26 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Everything to do with the room and bot: https://goo.gl/At5qWh");}}};
+
+bot.commands.anythingCommand = {
+command: 'anything',
+rank: 'user',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me Due to plug.dj going out of buisness the last days until the 28th are shuffle days, play any genre!");}}};
+
+bot.commands.automateAnything = {
+command: ['autoanything'],
+rank: 'manager',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {
+autoAnything = !autoAnything;
+API.sendChat("/me Anything Message now set to " + autoAnything);}}};
 
 bot.commands.automateFav = {
 command: ['autofav'],
