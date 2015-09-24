@@ -8,9 +8,7 @@ return setTimeout(extend, 1 * 1000);
 var autoFav = true;
 var autoRoulette = true;
 var autoRules = true;
-var autoShuffle = true;
 var autoTwitch = false;
-var autoQuestion = true;
 var bot = window.bot;
 var minute= 1000 * 60;
 
@@ -20,13 +18,6 @@ var spamWords = ['spam1234', 'spam2341', 'spam3412', 'spam4123'];
 for (var i = 0; i < spamWords.length; i++) {
 window.bot.chatUtilities.spam.push(spamWords[i]);
 }
-
-setInterval(function () {
-if(autoShuffle === true) {
-API.sendChat("!shuffle");
-}
-},
-1000 * 60 * 49);
 
 setInterval(function () {
 if(autoFav === true) {
@@ -48,13 +39,6 @@ API.sendChat("!roulette");
 }
 },
 1000 * 60 * 91);
-
-setInterval(function () {
-if(autoQuestion === true) {
-API.sendChat("!question");
-}
-},
-1000 * 60 * 103);
 
 setInterval(function () {
 if(autoTwitch === true) {
@@ -113,17 +97,6 @@ if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
 autoRules = !autoRules;
 API.sendChat("/me Rules now set to " + autoRules);}}};
-
-bot.commands.automateShuffle = {
-command: ['autoshuffle'],
-rank: 'manager',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {
-autoShuffle = !autoShuffle;
-API.sendChat("/me Shuffle message now set to " + autoShuffle);}}};
 
 bot.commands.automateTwitch = {
 command: ['autotwitch'],
@@ -199,15 +172,6 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me http://i.imgur.com/bwNSflr.jpg");}}};
 
-bot.commands.questionCommand = {
-command: 'question',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me It would be extremely appreciated if you take 1 minute out of your day to answer a couple questions to help us better our community :) http://questionpro.com/t/ALh4WZSw1M");}}};
-
 bot.commands.doarefreshCommand = {
 command: 'ref',
 rank: 'user',
@@ -234,15 +198,6 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me http://goo.gl/5SNSgo Rule 8: Please don't beg to be part of the community staff.");}}};
-
-bot.commands.shuffleCommand = {
-command: 'shuffle',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Like other genres than EDM? Then you better be here Monday and Friday Shuffle, any genre is allowed! Shuffle time is run 12am EST till 12am PDT");}}};
 
 bot.commands.staffCommand = {
 command: 'staff',
