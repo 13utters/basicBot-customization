@@ -25,7 +25,7 @@ if(autoFav === true) {
 API.sendChat("!anything");
 }
 },
-1000 * 60 * 67);
+1000 * 60 * 51);
 
 setInterval(function () {
 if(autoFav === true) {
