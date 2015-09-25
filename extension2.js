@@ -165,6 +165,15 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Djcycle is a setting that automatically adds you back onto the waitlist after playing a song. If it's disabled you will have to manually add yourself back.");}}};
 
+bot.commands.dolphingangCommand = {
+command: 'dolphingang',
+rank: 'user',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me We are trying to get dolphingang back together one last time, support the gang by changing your avatar, #dolphingang for life.");}}};
+
 bot.commands.dubtrackCommand = {
 command: 'dubtrack',
 rank: 'user',
