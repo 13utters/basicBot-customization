@@ -95,7 +95,7 @@ autoAnything = !autoAnything;
 API.sendChat("/me Anything Message now set to " + autoAnything);}}};
 
 bot.commands.automateDubtrack = {
-command: ['dubtrack'],
+command: ['autodubtrack'],
 rank: 'manager',
 type: 'exact',
 functionality: function (chat, cmd) {
