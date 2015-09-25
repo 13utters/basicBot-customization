@@ -6,6 +6,7 @@ return setTimeout(extend, 1 * 1000);
 }
 
 var autoAnything = true;
+var autoDubtrack = true;
 var autoFav = true;
 var autoRoulette = true;
 var autoRules = true;
@@ -28,18 +29,18 @@ API.sendChat("!anything");
 1000 * 60 * 51);
 
 setInterval(function () {
+if(autoDubtrack === true) {
+API.sendChat("!dubtrack");
+}
+},
+1000 * 60 * 59);
+
+setInterval(function () {
 if(autoFav === true) {
 API.sendChat("!fav");
 }
 },
 1000 * 60 * 67);
-        
-setInterval(function () {
-if(autoRules === true) {
-API.sendChat("!rules");
-}
-},
-1000 * 60 * 78);
         
 setInterval(function () {
 if(autoRoulette === true) {
@@ -93,6 +94,17 @@ else {
 autoAnything = !autoAnything;
 API.sendChat("/me Anything Message now set to " + autoAnything);}}};
 
+bot.commands.automateDubtrack = {
+command: ['dubtrack'],
+rank: 'manager',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {
+autoDubtrack = !autoDubtrack;
+API.sendChat("/me Dubtrack Message now set to " + autoDubtrack);}}};
+
 bot.commands.automateFav = {
 command: ['autofav'],
 rank: 'manager',
@@ -114,17 +126,6 @@ if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
 autoRoulette = !autoRoulette;
 API.sendChat("/me Roulette now set to " + autoRoulette);}}};
-                    
-bot.commands.automateRules = {
-command: ['autorules'],
-rank: 'manager',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {
-autoRules = !autoRules;
-API.sendChat("/me Rules now set to " + autoRules);}}};
 
 bot.commands.automateTwitch = {
 command: ['autotwitch'],
@@ -163,6 +164,15 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Djcycle is a setting that automatically adds you back onto the waitlist after playing a song. If it's disabled you will have to manually add yourself back.");}}};
+
+bot.commands.dubtrackCommand = {
+command: 'dubtrack',
+rank: 'user',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me We're changing sites! Plug no longer has funding so we are moving to a new room on a new site, come join us here: https://www.dubtrack.fm/join/its-a-trap-and-edm");}}};
 
 bot.commands.favCommand = {
 command: 'fav',
