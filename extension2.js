@@ -322,7 +322,7 @@ motd: "Temporary Message of the Day",
 filterChat: false,
 etaRestriction: false,
 welcome: true,
-opLink: "http://git.io/vOTmj",
+opLink: "",
 rulesLink: "http://goo.gl/5SNSgo",
 themeLink: "Community Theme: http://en.wikipedia.org/wiki/List_of_electronic_music_genres",
 fbLink: "No FB link at the moment.",
@@ -334,7 +334,7 @@ songstats: false,
 commandLiteral: "!",
 blacklists: {
 NSFW: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleNSFWlist.json",
-OP: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleOPlist.json",
+OP: "OP list is now off due to plug.dj running out of funding",
 BANNED: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleBANNEDlist.json"}}));
 $.getScript("https://rawgit.com/ureadmyname/basicBot/master/basicBot.js", extend);
 }).call(this);
