@@ -10,7 +10,6 @@ var autoRoulette = true;
 var autoRules = true;
 var autoShuffle = true;
 var autoTwitch = false;
-var autoQuestion = true;
 var bot = window.bot;
 var minute= 1000 * 60;
 
@@ -48,13 +47,6 @@ API.sendChat("!roulette");
 }
 },
 1000 * 60 * 91);
-
-setInterval(function () {
-if(autoQuestion === true) {
-API.sendChat("!question");
-}
-},
-1000 * 60 * 103);
 
 setInterval(function () {
 if(autoTwitch === true) {
@@ -198,15 +190,6 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me http://i.imgur.com/bwNSflr.jpg");}}};
-
-bot.commands.questionCommand = {
-command: 'question',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me It would be extremely appreciated if you take 1 minute out of your day to answer a couple questions to help us better our community :) http://questionpro.com/t/ALh4WZSw1M");}}};
 
 bot.commands.doarefreshCommand = {
 command: 'ref',
