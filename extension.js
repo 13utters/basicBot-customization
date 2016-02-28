@@ -324,7 +324,7 @@ songstats: false,
 commandLiteral: "!",
 blacklists: {
 NSFW: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleNSFWlist.json",
-OP: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleOPlist.json",
+OP: "",
 BANNED: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleBANNEDlist.json"}}));
 $.getScript("https://rawgit.com/ureadmyname/basicBot/master/basicBot.js", extend);
 }).call(this);
