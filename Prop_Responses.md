@@ -2,8 +2,10 @@ PROP RESPONSES!
 ===============
 | | |
 |:---------------------------------------------------:|:---------------------------------------------------:|
-|**Love this song <3**|**This song = 11/10 IGN.**|
-|**This track is amazing.**|**Awesometastic.**|
-|**Awesome track.**|**Excellent tune.**|
-|**Great song.**|**Amazing song.**|
-|**Nice Play.**|
+|**awwww fukin sick cunt**|**this song = 11/10 IGN**|
+|**this track is amazing**|**awesometastic play**|
+|**love this song <3**|**this is top shit**|
+|**excellent tune**|**awesome track**|
+|**amazing song**|**just amazing**|
+|**great song**|**nice play**|
+|**killer**||
