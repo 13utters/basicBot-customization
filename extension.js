@@ -236,6 +236,15 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Tips for trying to get staff: http://git.io/vG7Wj");}}};  
 
+bot.commands.steamCommand = {
+command: 'steam',
+rank: 'user',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me Use Steam at all? Come join our Steam community: http://steamcommunity.com/groups/plugdjitsaTRAPandEDM");}}}; 
+
 bot.commands.whatissubCommand = {
 command: 'subinfo',
 rank: 'user',
