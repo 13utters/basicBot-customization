@@ -1,1 +1,1 @@
-javascript:(function(){$.getScript('https://raw.githubusercontent.com/bscBot/source/master/basicBot.js');}());
+javascript:(function(){$.getScript('https://rawgit.com/bscBot/custom/master/extension.js');}());
