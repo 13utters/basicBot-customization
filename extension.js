@@ -5,6 +5,7 @@ if (!window.bot) {
 return setTimeout(extend, 1 * 1000);
 }
 
+var autoDubtrack = true;
 var autoFav = true;
 var autoRoulette = true;
 var autoRules = true;
@@ -49,6 +50,13 @@ API.sendChat("!roulette");
 1000 * 60 * 91);
 
 setInterval(function () {
+if(autoDubtrack === true) {
+API.sendChat("!dubtrack");
+}
+},
+1000 * 60 * 193);
+
+setInterval(function () {
 if(autoTwitch === true) {
 API.sendChat("!twitchlive");
 }
@@ -72,6 +80,17 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Everything to do with the room and bot: https://goo.gl/At5qWh");}}};
+
+bot.commands.automateDubtrack = {
+command: ['autodubtrack'],
+rank: 'manager',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {
+autoDubtrack = !autoDubtrack;
+API.sendChat("/me Dubtrack Message now set to " + autoDubtrack);}}};
 
 bot.commands.automateFav = {
 command: ['autofav'],
