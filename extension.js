@@ -155,6 +155,15 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Djcycle is a setting that automatically adds you back onto the waitlist after playing a song. If it's disabled you will have to manually add yourself back.");}}};
 
+bot.commands.dubtrackCommand = {
+command: 'dubtrack',
+rank: 'user',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me Remember to bookmark our Dubtrack room so if Plug.dj is down you can still hang out with us, it can be found here: https://www.dubtrack.fm/join/its-a-trap-and-edm");}}};
+
 bot.commands.favCommand = {
 command: 'fav',
 rank: 'user',
