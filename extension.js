@@ -47,7 +47,7 @@ if(autoRoulette === true) {
 API.sendChat("!roulette");
 }
 },
-1000 * 60 * 91);
+1000 * 60 * 58);
 
 setInterval(function () {
 if(autoDubtrack === true) {
