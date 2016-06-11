@@ -10,6 +10,7 @@ var autoFav = true;
 var autoRoulette = true;
 var autoRules = true;
 var autoShuffle = true;
+var autoAppear = true;
 var autoTwitch = false;
 var bot = window.bot;
 var minute= 1000 * 60;
@@ -29,6 +30,13 @@ API.sendChat("!shuffle");
 1000 * 60 * 49);
 
 setInterval(function () {
+if(autoRoulette === true) {
+API.sendChat("!roulette");
+}
+},
+1000 * 60 * 58);
+
+setInterval(function () {
 if(autoFav === true) {
 API.sendChat("!fav");
 }
@@ -41,13 +49,13 @@ API.sendChat("!rules");
 }
 },
 1000 * 60 * 78);
-        
+
 setInterval(function () {
-if(autoRoulette === true) {
-API.sendChat("!roulette");
+if(autoAppear === true) {
+API.sendChat("!appear");
 }
 },
-1000 * 60 * 58);
+1000 * 60 * 87);
 
 setInterval(function () {
 if(autoDubtrack === true) {
@@ -80,6 +88,26 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Everything to do with the room and bot: https://goo.gl/At5qWh");}}};
+
+bot.commands.appearCommand = {
+command: 'appear',
+rank: 'user',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me Feel like talking with us, maybe showing your face, join here: https://appear.in/its-a-trap-and-edm");}}};
+
+bot.commands.automateAppear = {
+command: ['autoappear'],
+rank: 'manager',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {
+autoAppear = !autoAppear;
+API.sendChat("/me Appear Message now set to " + autoAppear);}}};
 
 bot.commands.automateDubtrack = {
 command: ['autodubtrack'],
