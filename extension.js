@@ -272,7 +272,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Roulette is run every 90 mins, do !join to join when it starts. If you win you get first on the waitlist!");}}};
+else {API.sendChat("/me Roulette is run every 60 mins, do !join to join when it starts. If you win you get first on the waitlist!");}}};
 
 bot.commands.rule8Command = {
 command: 'rule8',
