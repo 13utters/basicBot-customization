@@ -247,15 +247,6 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me http://i.imgur.com/7JEucMA.png");}}};
 
-bot.commands.killtrollCommand = {
-command: 'killtroll',
-rank: 'bouncer',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me http://i.imgur.com/bwNSflr.jpg");}}};
-
 bot.commands.doarefreshCommand = {
 command: 'ref',
 rank: 'user',
