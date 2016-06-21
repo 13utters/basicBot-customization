@@ -5,12 +5,12 @@ if (!window.bot) {
 return setTimeout(extend, 1 * 1000);
 }
 
+var autoDiscord = true;
 var autoDubtrack = true;
 var autoFav = true;
 var autoRoulette = true;
 var autoRules = true;
 var autoShuffle = true;
-var autoAppear = true;
 var autoTwitch = false;
 var bot = window.bot;
 var minute= 1000 * 60;
@@ -52,7 +52,7 @@ API.sendChat("!rules");
 
 setInterval(function () {
 if(autoAppear === true) {
-API.sendChat("!appear");
+API.sendChat("!discord");
 }
 },
 1000 * 60 * 87);
@@ -98,16 +98,16 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Feel like talking with us, maybe showing your face, join here: https://appear.in/its-a-trap-and-edm");}}};
 
-bot.commands.automateAppear = {
-command: ['autoappear'],
+bot.commands.automateDiscord = {
+command: ['autodiscord'],
 rank: 'manager',
 type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
-autoAppear = !autoAppear;
-API.sendChat("/me Appear Message now set to " + autoAppear);}}};
+autoDiscord = !autoDiscord;
+API.sendChat("/me Discord Message now set to " + autoDiscord);}}};
 
 bot.commands.automateDubtrack = {
 command: ['autodubtrack'],
