@@ -59,6 +59,13 @@ API.sendChat("!discord");
 1000 * 60 * 87);
 
 setInterval(function () {
+if(autoRules === true) {
+API.sendChat("!question");
+}
+},
+1000 * 60 * 109);
+
+setInterval(function () {
 if(autoDubtrack === true) {
 API.sendChat("!dubtrack");
 }
@@ -131,6 +138,17 @@ if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
 autoFav = !autoFav;
 API.sendChat("/me Fav Message now set to " + autoFav);}}};
+
+bot.commands.automateQuestion = {
+command: ['autoquestion'],
+rank: 'manager',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {
+autoQuestion = !autoQuestion;
+API.sendChat("/me Question Message now set to " + autoQuestion);}}};
 
 bot.commands.automateRoulette = {
 command: ['autoroulette'],
