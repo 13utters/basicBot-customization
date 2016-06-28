@@ -8,6 +8,7 @@ return setTimeout(extend, 1 * 1000);
 var autoDiscord = true;
 var autoDubtrack = true;
 var autoFav = true;
+var autoQuestion = true;
 var autoRoulette = true;
 var autoRules = true;
 var autoShuffle = true;
@@ -247,6 +248,15 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me http://i.imgur.com/7JEucMA.png");}}};
 
+bot.commands.questionCommand = {
+command: 'question',
+rank: 'user',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me Want to give input to our community, feel free to answer our weekly question: http://www.questionpro.com/t/ALh4WZU4FE");}}};
+
 bot.commands.doarefreshCommand = {
 command: 'ref',
 rank: 'user',
@@ -389,7 +399,7 @@ songstats: false,
 commandLiteral: "!",
 blacklists: {
 NSFW: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleNSFWlist.json",
-OP: "",
+OP: "https://github.com/ureadmyname/basicBot-customization/blob/master/ExampleOPlist.json",
 BANNED: "https://rawgit.com/ureadmyname/basicBot-customization/master/ExampleBANNEDlist.json"}}));
 $.getScript("https://rawgit.com/ureadmyname/basicBot/master/basicBot.js", extend);
 }).call(this);
