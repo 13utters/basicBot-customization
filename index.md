@@ -35,14 +35,19 @@ OP LIST CODE INDEX:
 |42-43|Krewella - Come & Get It               FIX NUMBERING HERE|
 |44-46|Krewella - Come And Get It (Razihel Remix)|
 |47|DJ Fresh - Gold Dust (Flux Pavilion Remix)|
-|47||
-|48||
-|49||
-|50||
-|50||
-|50||
-|50||
-|50||
-|50||
-|50||
-redo all above at least 42
+|48|DELETED|
+|49|DELETED|
+|50|Darude - Sandstorm|
+|51-52&54-56|Avicii - Levels|
+|53|DELETED|
+|57-58|Benny Benassi - Satisfaction|
+|55||
+|56||
+|57||
+|58||
+|59||
+|59||
+|59||
+|59||
+redo all above at least 51
+check every song on the op list is accounted for here
