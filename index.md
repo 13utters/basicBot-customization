@@ -22,10 +22,21 @@ OP LIST CODE INDEX:
 |23|DJ Snake, Lil Jon - Turn Down For What (Onderkoffer Remix)|
 |24|DJ Snake, Lil Jon - Turn Down for What |
 |25|Waka Flocka - No Handz (CRNKN Remix)|
-|24||
-|25||
-|26||
-|27||
-|27||
-|27||
-redo all above at least 22
+|26|Spooky Scary Skeletons (Remix)|
+|27-28|Virtual Riot - Energy Drink|
+|29|Itro & Tobu - Cloud 9|
+|30|Electro-Light - Symbolism|
+|31|DJ ASSASS1N - Frag Out|
+|32-35|TheFatRat - Unity|
+|36|Meg & Dia - Monster (DotEXE Remix)|
+|37-38|Galantis - Runaway (U & I)|
+|39-40|OMFG - Hello|
+|41|DELETED|
+|42&45|Krewella - Come & Get It|  FIX NUMBERING HERE
+|43-44|Krewella - Come And Get It (Razihel Remix)|
+|44||
+|45||
+|46||
+|47||
+|48||
+redo all above at least 42
