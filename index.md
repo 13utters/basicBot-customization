@@ -21,25 +21,19 @@ OP LIST CODE INDEX:
 |108-110|DJ Snake, Lil Jon - Turn Down For What (Onderkoffer Remix)|
 |111-117|DJ Snake, Lil Jon - Turn Down for What|
 |118-122|Waka Flocka - No Handz (CRNKN Remix)|
-|123|Spooky Scary Skeletons (Remix)|
-|add||
-|27-28|Virtual Riot - Energy Drink|
-|29|Itro & Tobu - Cloud 9|
-|30|Electro-Light - Symbolism|
-|31|DJ ASSASS1N - Frag Out|
-|32-35|TheFatRat - Unity|
+|123-128|Spooky Scary Skeletons (Remix)|
+|129-135|Virtual Riot - Energy Drink|
+|136-138|Electro-Light - Symbolism|
+|139-143|DJ ASSASS1N - Frag Out|
+|144-147|TheFatRat - Unity|
 |36|Meg & Dia - Monster (DotEXE Remix)|
 |37-38|Galantis - Runaway (U & I)|
 |39-40|OMFG - Hello|
-|41|DELETED|
 |42-43|Krewella - Come & Get It|
 |44-46|Krewella - Come And Get It (Razihel Remix)|
 |47|DJ Fresh - Gold Dust (Flux Pavilion Remix)|
-|48|DELETED|
-|49|DELETED|
 |50|Darude - Sandstorm|
 |51-52&54-56|Avicii - Levels|
-|53|DELETED|
 |57-63|Benny Benassi - Satisfaction|
 |64-69|Cash Cash - Michael Jackson|
 |70||
