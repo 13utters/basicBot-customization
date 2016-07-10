@@ -1,1 +1,0 @@
-javascript:(function(){$.getScript('https://rawgit.com/DJHarel/custom/master/extension.js');}());
