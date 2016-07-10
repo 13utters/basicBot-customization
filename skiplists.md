@@ -59,6 +59,7 @@ OP LIST:
 <li> OMFG - Hello </li>
 <li> OMFG - I Love You </li>
 <li> Rae Sremmurd - No Type </li>
+<li> San Holo - We Rise </li>
 <li> Skrillex & Damian "Jr. Gong" Marley - Make It Bun Dem </li>
 <li> Skrillex & The Doors - Breakn' A Sweat </li>
 <li> Skrillex - Bangarang feat. Sirah </li>
@@ -68,19 +69,15 @@ OP LIST:
 <li> Spag Heddy - Love On First Sine </li>
 <li> Spooky Scary Skeletons (Remix) </li>
 <li> Sqeepo - Irish Swag </li>
+<li> The Chainsmokers - Don't Let Me Down </li>
+<li> The Chainsmokers - Roses ft. ROZES </li>
 <li> TheFatRat - Unity </li>
+<li> TheFatRat - Xenogenesis </li>
+<li> Tristam and Braken - Flight </li>
+<li> Tristam and Braken - Frame of Mind </li>
+<li> Twenty One Pilots - Stressed Out (Tomsize Remix) </li>
 <li> Virtual Riot - Energy Drink </li>
+<li> Virtual Riot - Idols </li>
 <li> Waka Flocka - No Handz (CRNKN Remix) </li>
 <li> Yellow Claw - Shotgun ft. Rochelle </li>
-</ol>
-
-<ol>
-<li> The Chainsmokers - Don't Let Me Down </li>
-<li> Tristam and Braken - Frame of Mind </li>
-<li> The Chainsmokers - Roses ft. ROZES </li>
-<li> San Holo - We Rise </li>
-<li> Tristam & Braken - Flight </li>
-<li> Twenty One Pilots - Stressed Out (Tomsize Remix) </li>
-<li> Virtual Riot - Idols </li>
-<li> TheFatRat - Xenogenesis </li>
 </ol>
