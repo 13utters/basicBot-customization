@@ -36,9 +36,7 @@ OP LIST:
 <li> Galantis - Runaway (U & I) </li>
 <li> Galantis - You </li>
 <li> Imagine Dragons - Radioactive (Synchronice Remix) </li>
-<li> Itro & Tobu - Cloud 9 </li>
 <li> Jay-Z & Kanye West - Niggas In Paris (Onderkoffer Remix) </li>
-<li> Jay Z - Dirt Off Your Shoulder (Brillz & Z Trip Remix) </li>
 <li> Jetta - I'd Love to Change the World (Matstubs Remix) </li>
 <li> KDrew - Bullseye </li>
 <li> KDrew - Circles </li>
@@ -68,7 +66,6 @@ OP LIST:
 <li> Skrillex - Scary Monsters And Nice Sprites </li>
 <li> Spag Heddy - Love On First Sine </li>
 <li> Spooky Scary Skeletons (Remix) </li>
-<li> Sqeepo - Irish Swag </li>
 <li> The Chainsmokers - Don't Let Me Down ft. Daya </li>
 <li> The Chainsmokers - Roses ft. ROZES </li>
 <li> The Chainsmokers - #SELFIE </li>
