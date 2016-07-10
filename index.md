@@ -25,23 +25,24 @@ OP LIST CODE INDEX:
 |129-135|Virtual Riot - Energy Drink|
 |136-138|Electro-Light - Symbolism|
 |139-143|DJ ASSASS1N - Frag Out|
-|144-147|TheFatRat - Unity|
-|36|Meg & Dia - Monster (DotEXE Remix)|
-|37-38|Galantis - Runaway (U & I)|
-|39-40|OMFG - Hello|
-|42-43|Krewella - Come & Get It|
-|44-46|Krewella - Come And Get It (Razihel Remix)|
-|47|DJ Fresh - Gold Dust (Flux Pavilion Remix)|
-|50|Darude - Sandstorm|
-|51-52&54-56|Avicii - Levels|
-|57-63|Benny Benassi - Satisfaction|
-|64-69|Cash Cash - Michael Jackson|
-|70||
-|71||
-|72||
-|73||
-|74||
-|75||
-|76||
-redo all above at least 51
+|144-149|TheFatRat - Unity|
+|150-156|Meg & Dia - Monster (DotEXE Remix)|
+|157-159|Galantis - Runaway (U & I)|
+|160-166|OMFG - Hello|
+|167-170|Krewella - Come & Get It|
+|171-178|Krewella - Come And Get It (Razihel Remix)|
+|179-184|DJ Fresh - Gold Dust (Flux Pavilion Remix)|
+|185-188|Darude - Sandstorm|
+|189-192|Avicii - Levels|
+|193-199|Benny Benassi - Satisfaction|
+|200-205|Cash Cash - Michael Jackson|
+|206-210|Cash Cash - Overtime|
+|211-213|CAZZETTE - Beam Me Up|
+|214-216|The Chainsmokers - #SELFIE|
+|217|David Guetta - Hey Mama ft Nicki Minaj, Bebe Rexha & Afrojack|
+|218-|Deorro - Five Hours |
+|220||
+|221||
+|221||
+|221||
 check every song on the op list is accounted for here
