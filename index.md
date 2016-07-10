@@ -42,12 +42,17 @@ OP LIST CODE INDEX:
 |217|David Guetta - Hey Mama ft Nicki Minaj, Bebe Rexha & Afrojack|
 |218-226|Deorro - Five Hours|
 |227-233|Diplo & GTA - Boy Oh Boy|
-|234||
-|221||
-|221||
-|221||
-|221||
+|234-235|Diplo - Revolution (Gioni Remix)|
+|236-240|Fetty Wap - Trap Queen (Crankdat Remix)|
+|241-245|Flo Rida - GDFR (K Theory Remix)|
+|246-250|Galantis - Peanut Butter Jelly|
+|251|Galantis - You|
+|252-256|Daft Punk - Harder, Better, Faster, Stronger|
+|257-||
 |250||
 |250||
-|250||
+|265||
+|265||
+|265||
+|265||
 check every song on the op list is accounted for here
