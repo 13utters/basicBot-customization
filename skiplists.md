@@ -73,3 +73,10 @@ OP LIST:
 <li> Waka Flocka - No Handz (CRNKN Remix) </li>
 <li> Yellow Claw - Shotgun ft. Rochelle </li>
 </ol>
+
+The Chainsmokers - Don't Let Me Down
+Tristam and Braken - Frame of Mind
+The Chainsmokers - Roses ft. ROZES
+San Holo - We Rise
+Tristam & Braken - Flight
+Twenty One Pilots - Stressed Out (Tomsize Remix)
