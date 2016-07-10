@@ -40,14 +40,14 @@ OP LIST CODE INDEX:
 |50|Darude - Sandstorm|
 |51-52&54-56|Avicii - Levels|
 |53|DELETED|
-|57-58|Benny Benassi - Satisfaction|
-|55||
-|56||
-|57||
-|58||
-|59||
-|59||
-|59||
-|59||
+|57-63|Benny Benassi - Satisfaction|
+|64-69|Cash Cash - Michael Jackson|
+|70||
+|71||
+|72||
+|73||
+|74||
+|75||
+|76||
 redo all above at least 51
 check every song on the op list is accounted for here
