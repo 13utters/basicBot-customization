@@ -9,10 +9,9 @@ OP LIST CODE INDEX:
 |18-26|SKRILLEX - Kill EVERYBODY|
 |27-31|Skrillex - First Of The Year (Equinox)|
 |32-41|Benny Benassi ft. Gary Go - Cinema (Skrillex Remix)|
-|42|Levels by Avicii (Skrillex Remix)|
+|42-47|Levels by Avicii (Skrillex Remix)|
+|48|Skrillex & Damian "Jr. Gong" Marley - Make It Bun Dem|
 |add||
-|11|Skrillex & Damian "Jr. Gong" Marley - Make It Bun Dem|
-|12|DELETED|
 |13|Dr. Dre - The Next Episode (San Holo Remix)|
 |14-16|Yellow Claw - Shotgun ft. Rochelle|
 |17|Alan Walker - Fade|
