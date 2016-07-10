@@ -54,12 +54,20 @@ OP LIST CODE INDEX:
 |268-272|Knife Party - Bonfire|
 |273-277|Knife Party - Internet Friends|
 |278-282|Martin Garrix - Animals|
-|283|Major Lazer & DJ Snake - Lean On (feat. MØ)|
-|265||
-|265||
-|265||
-|265||
-|275||
-|275||
-|275||
+|283-285|Major Lazer & DJ Snake - Lean On (feat. MØ)|
+|286-292|Mako - Our Story|
+|293-294|OMFG - I Love You|
+|295-296|Rae Sremmurd - No Type|
+|297-299|Spag Heddy - Love On First Sine|
+|300-302|KDrew - Circles|
+|303-304|Martin Garrix & Jay Hardway - Wizard|
+|305-|Dimitri Vegas, Martin Garrix, Like Mike - Tremor|
+|310||
+|310||
+|310||
+|310||
+|320||
+|320||
+|320||
+|340||
 check every song on the op list is accounted for here
