@@ -58,7 +58,6 @@ OP LIST:
 <li> Rae Sremmurd - No Type </li>
 <li> San Holo - We Rise </li>
 <li> Skrillex & Damian "Jr. Gong" Marley - Make It Bun Dem </li>
-<li> Skrillex & The Doors - Breakn' A Sweat </li>
 <li> Skrillex - Bangarang feat. Sirah </li>
 <li> Skrillex - First Of The Year (Equinox) </li>
 <li> Skrillex - Kill Everybody </li>
