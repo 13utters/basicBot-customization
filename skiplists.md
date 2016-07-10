@@ -2,8 +2,8 @@ OP LIST:
 ========
 <ol>
 <li> Ahrix - Nova </li>
-<li> Alan Walker - Faded </li>
 <li> Alan Walker - Fade </li>
+<li> Alan Walker - Faded </li>
 <li> Alan Walker - Spectre </li>
 <li> AronChupa - I'm an Albatraoz </li>
 <li> Avicii - Levels </li>
@@ -23,8 +23,8 @@ OP LIST:
 <li> Diplo - Revolution (Gioni Remix) </li>
 <li> DJ ASSASS1N - Frag Out </li>
 <li> DJ Fresh - Gold Dust (Flux Pavilion Remix) </li>
-<li> DJ Snake, Lil Jon - Turn Down For What (Onderkoffer Remix) </li>
 <li> DJ Snake, Lil Jon - Turn Down for What </li>
+<li> DJ Snake, Lil Jon - Turn Down For What (Onderkoffer Remix) </li>
 <li> Different Heaven & EH!DE - My Heart </li>
 <li> Dr. Dre - The Next Episode (San Holo Remix) </li>
 <li> Eiffel 65 - Blue (KNY Factory Remix) </li>
