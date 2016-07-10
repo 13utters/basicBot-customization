@@ -12,7 +12,6 @@ OP LIST:
 <li> Cash Cash - Michael Jackson </li>
 <li> Cash Cash - Overtime </li>
 <li> Cazzette - Beam Me Up </li>
-<li> Chainsmokers - #SELFIE </li>
 <li> Chief Keef - Love Sosa (RL Grime Remix) </li>
 <li> Daft Punk - Harder, Better, Faster, Stronger </li>
 <li> Darude - Sandstorm </li>
@@ -72,6 +71,7 @@ OP LIST:
 <li> Sqeepo - Irish Swag </li>
 <li> The Chainsmokers - Don't Let Me Down </li>
 <li> The Chainsmokers - Roses ft. ROZES </li>
+<li> The Chainsmokers - #SELFIE </li>
 <li> TheFatRat - Unity </li>
 <li> TheFatRat - Xenogenesis </li>
 <li> Tristam and Braken - Flight </li>
