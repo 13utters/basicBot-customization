@@ -48,11 +48,18 @@ OP LIST CODE INDEX:
 |246-250|Galantis - Peanut Butter Jelly|
 |251|Galantis - You|
 |252-256|Daft Punk - Harder, Better, Faster, Stronger|
-|257-||
-|250||
-|250||
+|257-258|Flux Pavilion - I Can't Stop|
+|259-261|Jetta - I'd Love to Change the World (Matstubs Remix)|
+|262-267|KDrew - Bullseye|
+|268-272|Knife Party - Bonfire|
+|273-277|Knife Party - Internet Friends|
+|278-282|Martin Garrix - Animals|
+|283|Major Lazer & DJ Snake - Lean On (feat. MØ)|
 |265||
 |265||
 |265||
 |265||
+|275||
+|275||
+|275||
 check every song on the op list is accounted for here
