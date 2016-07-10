@@ -9,3 +9,20 @@ SONGS OP LIST SKIP POSITION:
 |6-7|SKRILLEX - Kill EVERYBODY|
 |8|Skrillex - First Of The Year (Equinox)|
 |9-10|Benny Benassi ft. Gary Go - Cinema (Skrillex Remix)|
+|11|Skrillex & Damian "Jr. Gong" Marley - Make It Bun Dem|
+|13|Dr. Dre - The Next Episode (San Holo Remix)|
+|14-16|Yellow Claw - Shotgun ft. Rochelle|
+|17|Alan Walker - Fade|
+|18|Ahrix - Nova|
+|19|Alan Walker - Spectre|
+|18||
+|19||
+|20||
+|21||
+|22||
+|23||
+|24||
+|25||
+|26||
+|27||
+redo all above at least 19
