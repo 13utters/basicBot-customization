@@ -74,9 +74,13 @@ OP LIST:
 <li> Yellow Claw - Shotgun ft. Rochelle </li>
 </ol>
 
-The Chainsmokers - Don't Let Me Down
-Tristam and Braken - Frame of Mind
-The Chainsmokers - Roses ft. ROZES
-San Holo - We Rise
-Tristam & Braken - Flight
-Twenty One Pilots - Stressed Out (Tomsize Remix)
+<ol>
+<li> The Chainsmokers - Don't Let Me Down </li>
+<li> Tristam and Braken - Frame of Mind </li>
+<li> The Chainsmokers - Roses ft. ROZES </li>
+<li> San Holo - We Rise </li>
+<li> Tristam & Braken - Flight </li>
+<li> Twenty One Pilots - Stressed Out (Tomsize Remix) </li>
+<li> Virtual Riot - Idols </li>
+<li> TheFatRat - Xenogenesis </li>
+</ol>
