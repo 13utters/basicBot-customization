@@ -3,13 +3,14 @@ OP LIST CODE INDEX:
 |No.|Song|
 |:----------------------------------------:|:----------------------------------------:|
 |1-4|Eiffel 65 - Blue (KNY Factory Remix)|
-|3|AronChupa - I'm an Albatraoz|
+|5-9|AronChupa - I'm an Albatraoz|
+|10-12|SKRILLEX - Bangarang feat. Sirah|
+|13-17|SKRILLEX - Scary Monsters And Nice Sprites|
+|18-26|SKRILLEX - Kill EVERYBODY|
+|27-31|Skrillex - First Of The Year (Equinox)|
+|32-41|Benny Benassi ft. Gary Go - Cinema (Skrillex Remix)|
+|42|Levels by Avicii (Skrillex Remix)|
 |add||
-|4|SKRILLEX - Bangarang feat. Sirah|
-|5|SKRILLEX - Scary Monsters And Nice Sprites|
-|6-7|SKRILLEX - Kill EVERYBODY|
-|8|Skrillex - First Of The Year (Equinox)|
-|9-10|Benny Benassi ft. Gary Go - Cinema (Skrillex Remix)|
 |11|Skrillex & Damian "Jr. Gong" Marley - Make It Bun Dem|
 |12|DELETED|
 |13|Dr. Dre - The Next Episode (San Holo Remix)|
