@@ -61,13 +61,20 @@ OP LIST CODE INDEX:
 |297-299|Spag Heddy - Love On First Sine|
 |300-302|KDrew - Circles|
 |303-304|Martin Garrix & Jay Hardway - Wizard|
-|305-|Dimitri Vegas, Martin Garrix, Like Mike - Tremor|
-|310||
-|310||
-|310||
-|310||
-|320||
-|320||
-|320||
-|340||
+|305|Dimitri Vegas, Martin Garrix, Like Mike - Tremor|
+|306-308|M4SONIC - Weapon|
+|309-310|M4SONIC - Virus|
+|311-312|Imagine Dragons - Radioactive (Synchronice Remix)|
+|313-314|Krewella - Enjoy the Ride|
+|315|Fetty Wap - Trap Queen (K Theory Remix)|
+|316-318|Lorde - Tennis Court (Flume Remix)|
+|319-325|The Chainsmokers - Don't Let Me Down ft. Daya|
+|326-331|Tristam & Braken - Frame of Mind|
+|332-339|The Chainsmokers - Roses ft. ROZES|
+|340-343|San Holo - We Rise|
+|344-345|Tristam & Braken - Flight|
+|346-347|Twenty One Pilots - Stressed Out (Tomsize Remix)|
+|348-350|Virtual Riot - Idols|
+|351-354|TheFatRat - Xenogenesis|
+|355-360|Alan Walker - Faded|
 check every song on the op list is accounted for here
