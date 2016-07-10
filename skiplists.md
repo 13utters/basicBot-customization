@@ -1,7 +1,7 @@
 OP LIST: 
 ========
 <ol>
-<li> Ahrix - Nova </li> <li> Alan Walker - Fade </li>
+<li> Ahrix - Nova </li>
 <li> Alan Walker - Fade </li>
 <li> Alan Walker - Spectre </li>
 <li> AronChupa - I'm an Albatraoz </li>
