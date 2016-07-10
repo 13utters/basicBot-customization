@@ -1,6 +1,7 @@
 SONGS:
-|||
+======
 |No.|Song|
+|:----------------------------------------:|:----------------------------------------:|
 |1-2|Eiffel 65 - Blue (KNY Factory Remix)|
 |3|AronChupa - I'm an Albatraoz|
 |4|SKRILLEX - Bangarang feat. Sirah|
