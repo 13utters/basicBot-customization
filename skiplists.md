@@ -1,6 +1,6 @@
 OP LIST: 
 ========
-<ol>**
+<ol>
 <li> Ahrix - Nova </li>
 <li> Alan Walker - Fade </li>
 <li> Alan Walker - Spectre </li>
@@ -72,4 +72,4 @@ OP LIST:
 <li> Virtual Riot - Energy Drink </li>
 <li> Waka Flocka - No Handz (CRNKN Remix) </li>
 <li> Yellow Claw - Shotgun ft. Rochelle </li>
-**</ol>
+</ol>
