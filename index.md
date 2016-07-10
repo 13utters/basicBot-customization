@@ -32,7 +32,7 @@ OP LIST CODE INDEX:
 |37-38|Galantis - Runaway (U & I)|
 |39-40|OMFG - Hello|
 |41|DELETED|
-|42&45|Krewella - Come & Get It|  FIX NUMBERING HERE
+|42&45|Krewella - Come & Get It               FIX NUMBERING HERE|
 |43-44|Krewella - Come And Get It (Razihel Remix)|
 |44||
 |45||
