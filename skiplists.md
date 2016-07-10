@@ -45,8 +45,8 @@ OP LIST:
 <li> KDrew - Circles </li>
 <li> Knife Party - Bonfire </li>
 <li> Knife Party - Internet Friends </li>
-<li> Krewella - Come And Get It (Razihel Remix) </li>
 <li> Krewella - Come and Get It </li>
+<li> Krewella - Come And Get It (Razihel Remix) </li>
 <li> Krewella - Enjoy the Ride </li>
 <li> Levels by Avicii (Skrillex Remix) </li>
 <li> Lorde - Tennis Court (Flume Remix) </li>
