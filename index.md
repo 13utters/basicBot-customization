@@ -13,17 +13,16 @@ OP LIST CODE INDEX:
 |48-54|Skrillex & Damian "Jr. Gong" Marley - Make It Bun Dem|
 |55-69|Dr. Dre - The Next Episode (San Holo Remix)|
 |70-77|Yellow Claw - Shotgun ft. Rochelle|
-|78|Alan Walker - Fade|
+|78-80|Alan Walker - Fade|
+|81-86|Ahrix - Nova|
+|87-89|Alan Walker - Spectre|
+|90-98|Different Heaven & EH!DE - My Heart|
+|99-107|Chief Keef - Love Sosa (RL Grime Remix)|
+|108-110|DJ Snake, Lil Jon - Turn Down For What (Onderkoffer Remix)|
+|111-117|DJ Snake, Lil Jon - Turn Down for What|
+|118-122|Waka Flocka - No Handz (CRNKN Remix)|
+|123|Spooky Scary Skeletons (Remix)|
 |add||
-|18|Ahrix - Nova|
-|19|Alan Walker - Spectre|
-|20|Different Heaven & EH!DE - My Heart|
-|21|DELETED|
-|22|Chief Keef - Love Sosa (RL Grime Remix)|
-|23|DJ Snake, Lil Jon - Turn Down For What (Onderkoffer Remix)|
-|24|DJ Snake, Lil Jon - Turn Down for What |
-|25|Waka Flocka - No Handz (CRNKN Remix)|
-|26|Spooky Scary Skeletons (Remix)|
 |27-28|Virtual Riot - Energy Drink|
 |29|Itro & Tobu - Cloud 9|
 |30|Electro-Light - Symbolism|
@@ -33,7 +32,7 @@ OP LIST CODE INDEX:
 |37-38|Galantis - Runaway (U & I)|
 |39-40|OMFG - Hello|
 |41|DELETED|
-|42-43|Krewella - Come & Get It               FIX NUMBERING HERE|
+|42-43|Krewella - Come & Get It|
 |44-46|Krewella - Come And Get It (Razihel Remix)|
 |47|DJ Fresh - Gold Dust (Flux Pavilion Remix)|
 |48|DELETED|
