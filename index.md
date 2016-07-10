@@ -32,11 +32,17 @@ OP LIST CODE INDEX:
 |37-38|Galantis - Runaway (U & I)|
 |39-40|OMFG - Hello|
 |41|DELETED|
-|42&45|Krewella - Come & Get It               FIX NUMBERING HERE|
-|43-44|Krewella - Come And Get It (Razihel Remix)|
-|44||
-|45||
-|46||
+|42-43|Krewella - Come & Get It               FIX NUMBERING HERE|
+|44-46|Krewella - Come And Get It (Razihel Remix)|
+|47|DJ Fresh - Gold Dust (Flux Pavilion Remix)|
 |47||
 |48||
+|49||
+|50||
+|50||
+|50||
+|50||
+|50||
+|50||
+|50||
 redo all above at least 42
