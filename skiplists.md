@@ -36,7 +36,6 @@ OP LIST:
 <li> Galantis - Runaway (U & I) </li>
 <li> Galantis - You </li>
 <li> Imagine Dragons - Radioactive (Synchronice Remix) </li>
-<li> Jay-Z & Kanye West - Niggas In Paris (Onderkoffer Remix) </li>
 <li> Jetta - I'd Love to Change the World (Matstubs Remix) </li>
 <li> KDrew - Bullseye </li>
 <li> KDrew - Circles </li>
