@@ -77,4 +77,3 @@ OP LIST CODE INDEX:
 |348-350|Virtual Riot - Idols|
 |351-354|TheFatRat - Xenogenesis|
 |355-360|Alan Walker - Faded|
-check every song on the op list is accounted for here
