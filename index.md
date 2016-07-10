@@ -40,9 +40,14 @@ OP LIST CODE INDEX:
 |211-213|CAZZETTE - Beam Me Up|
 |214-216|The Chainsmokers - #SELFIE|
 |217|David Guetta - Hey Mama ft Nicki Minaj, Bebe Rexha & Afrojack|
-|218-|Deorro - Five Hours |
-|220||
+|218-226|Deorro - Five Hours|
+|227-233|Diplo & GTA - Boy Oh Boy|
+|234||
 |221||
 |221||
 |221||
+|221||
+|250||
+|250||
+|250||
 check every song on the op list is accounted for here
