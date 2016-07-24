@@ -88,6 +88,15 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Please do not abuse the !dc command. !dc is for when you have internet issues; Not for when you leave to go to another community and or leave to go do something else.");}}};
 
+bot.commands.adminCommand = {
+command: 'admin',
+rank: 'user',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me Admin is a rank on plug.dj that only a few select people have, they are developers for plug.dj that work on the site.");}}};
+
 bot.commands.allbotstuffCommand = {
 command: 'allbotstuff',
 rank: 'user',
