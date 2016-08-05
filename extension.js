@@ -282,7 +282,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Want to give input to our community, feel free to answer our weekly question: http://www.questionpro.com/t/ALh4WZU4FE");}}};
+else {API.sendChat("/me Want to give input to our community, feel free to answer our community question: http://www.questionpro.com/t/ALh4WZU4FE");}}};
 
 bot.commands.doarefreshCommand = {
 command: 'ref',
