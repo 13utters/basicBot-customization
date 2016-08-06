@@ -367,7 +367,7 @@ else {API.sendChat("/me TheQTpi is live right now! Come watch her stream with us
 
 bot.commands.updateCommand = {
 command: 'update',
-rank: 'manager',
+rank: 'user',
 type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
