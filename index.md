@@ -42,37 +42,37 @@ OP LIST CODE INDEX:
 |217|David Guetta - Hey Mama ft Nicki Minaj, Bebe Rexha & Afrojack|
 |218-226|Deorro - Five Hours|
 |227-228|Diplo - Revolution (Gioni Remix)|
-|228-232|Fetty Wap - Trap Queen (Crankdat Remix)|
-|233-237|Flo Rida - GDFR (K Theory Remix)|
-|238-242|Galantis - Peanut Butter Jelly|
-|243|Galantis - You|
-|244-248|Daft Punk - Harder, Better, Faster, Stronger|
-|249-250|Flux Pavilion - I Can't Stop|
-|251-253|Jetta - I'd Love to Change the World (Matstubs Remix)|
-|254-259|KDrew - Bullseye|
-|260-264|Knife Party - Bonfire|
-|265-269|Knife Party - Internet Friends|
-|270-274|Martin Garrix - Animals|
-|275-277|Major Lazer & DJ Snake - Lean On (feat. MØ)|
-|278-284|Mako - Our Story|
-|285-286|OMFG - I Love You|
-|287-288|Rae Sremmurd - No Type|
-|289-291|Spag Heddy - Love On First Sine|
-|292-294|KDrew - Circles|
-|295-296|Martin Garrix & Jay Hardway - Wizard|
-|297|Dimitri Vegas, Martin Garrix, Like Mike - Tremor|
-|298-300|M4SONIC - Weapon|
-|301-302|M4SONIC - Virus|
-|303-304|Imagine Dragons - Radioactive (Synchronice Remix)|
-|305-306|Krewella - Enjoy the Ride|
-|307|Fetty Wap - Trap Queen (K Theory Remix)|
-|308-310|Lorde - Tennis Court (Flume Remix)|
-|311-317|The Chainsmokers - Don't Let Me Down ft. Daya|
-|318-323|Tristam & Braken - Frame of Mind|
-|324-331|The Chainsmokers - Roses ft. ROZES|
-|332-335|San Holo - We Rise|
-|336-337|Tristam & Braken - Flight|
-|338-339|Twenty One Pilots - Stressed Out (Tomsize Remix)|
-|340-342|Virtual Riot - Idols|
-|343-346|TheFatRat - Xenogenesis|
-|347-352|Alan Walker - Faded|
+|229-233|Fetty Wap - Trap Queen (Crankdat Remix)|
+|234-238|Flo Rida - GDFR (K Theory Remix)|
+|239-243|Galantis - Peanut Butter Jelly|
+|244|Galantis - You|
+|245-249|Daft Punk - Harder, Better, Faster, Stronger|
+|250-251|Flux Pavilion - I Can't Stop|
+|252-254|Jetta - I'd Love to Change the World (Matstubs Remix)|
+|255-260|KDrew - Bullseye|
+|261-265|Knife Party - Bonfire|
+|266-270|Knife Party - Internet Friends|
+|271-275|Martin Garrix - Animals|
+|276-278|Major Lazer & DJ Snake - Lean On (feat. MØ)|
+|279-285|Mako - Our Story|
+|286-287|OMFG - I Love You|
+|288-289|Rae Sremmurd - No Type|
+|290-292|Spag Heddy - Love On First Sine|
+|293-295|KDrew - Circles|
+|296-297|Martin Garrix & Jay Hardway - Wizard|
+|298|Dimitri Vegas, Martin Garrix, Like Mike - Tremor|
+|299-301|M4SONIC - Weapon|
+|302-303|M4SONIC - Virus|
+|304-305|Imagine Dragons - Radioactive (Synchronice Remix)|
+|306-307|Krewella - Enjoy the Ride|
+|308|Fetty Wap - Trap Queen (K Theory Remix)|
+|309-311|Lorde - Tennis Court (Flume Remix)|
+|312-318|The Chainsmokers - Don't Let Me Down ft. Daya|
+|319-324|Tristam & Braken - Frame of Mind|
+|325-332|The Chainsmokers - Roses ft. ROZES|
+|333-336|San Holo - We Rise|
+|337-338|Tristam & Braken - Flight|
+|339-340|Twenty One Pilots - Stressed Out (Tomsize Remix)|
+|341-343|Virtual Riot - Idols|
+|344-347|TheFatRat - Xenogenesis|
+|348-353|Alan Walker - Faded|
