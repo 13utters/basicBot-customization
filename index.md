@@ -76,3 +76,15 @@ OP LIST CODE INDEX:
 |341-343|Virtual Riot - Idols|
 |344-347|TheFatRat - Xenogenesis|
 |348-353|Alan Walker - Faded|
+|354-357|Alan Walker - Sing Me To Sleep|
+|358-367|Black Coast - TRNDSTTR (Lucian Remix)|
+|368|Boregore - 100s|
+|369-384|Disclosure - You & Me (Flume Remix)|
+|385-390|K.Flay - FML (Vanic Remix)|
+|391-393|Martin Garrix - Forbidden Voices|
+|394-400|MNEK, Zara Larsson - Never Forget You|
+|401-419|Stephen Swartz -- Bullet Train (Feat. Joni Fatora)|
+|420-429|The Eden Project - XO|
+|430-436|TheFatRat - Monody (feat. Laura Brehm)|
+|437-441|TheFatRat - Windfall|
+|442-446|Yellow Claw- Till It Hurts|
