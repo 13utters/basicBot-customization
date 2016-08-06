@@ -41,13 +41,13 @@ OP LIST CODE INDEX:
 |214-216|The Chainsmokers - #SELFIE|
 |217|David Guetta - Hey Mama ft Nicki Minaj, Bebe Rexha & Afrojack|
 |218-226|Deorro - Five Hours|
-|227-228|Diplo - Revolution (Gioni Remix)|
+|227&228|Diplo - Revolution (Gioni Remix)|
 |229-233|Fetty Wap - Trap Queen (Crankdat Remix)|
 |234-238|Flo Rida - GDFR (K Theory Remix)|
 |239-243|Galantis - Peanut Butter Jelly|
 |244|Galantis - You|
 |245-249|Daft Punk - Harder, Better, Faster, Stronger|
-|250-251|Flux Pavilion - I Can't Stop|
+|250&251|Flux Pavilion - I Can't Stop|
 |252-254|Jetta - I'd Love to Change the World (Matstubs Remix)|
 |255-260|KDrew - Bullseye|
 |261-265|Knife Party - Bonfire|
@@ -55,24 +55,24 @@ OP LIST CODE INDEX:
 |271-275|Martin Garrix - Animals|
 |276-278|Major Lazer & DJ Snake - Lean On (feat. MØ)|
 |279-285|Mako - Our Story|
-|286-287|OMFG - I Love You|
-|288-289|Rae Sremmurd - No Type|
+|286&287|OMFG - I Love You|
+|288&289|Rae Sremmurd - No Type|
 |290-292|Spag Heddy - Love On First Sine|
 |293-295|KDrew - Circles|
-|296-297|Martin Garrix & Jay Hardway - Wizard|
+|296&297|Martin Garrix & Jay Hardway - Wizard|
 |298|Dimitri Vegas, Martin Garrix, Like Mike - Tremor|
 |299-301|M4SONIC - Weapon|
-|302-303|M4SONIC - Virus|
-|304-305|Imagine Dragons - Radioactive (Synchronice Remix)|
-|306-307|Krewella - Enjoy the Ride|
+|302&303|M4SONIC - Virus|
+|304&305|Imagine Dragons - Radioactive (Synchronice Remix)|
+|306&307|Krewella - Enjoy the Ride|
 |308|Fetty Wap - Trap Queen (K Theory Remix)|
 |309-311|Lorde - Tennis Court (Flume Remix)|
 |312-318|The Chainsmokers - Don't Let Me Down ft. Daya|
 |319-324|Tristam & Braken - Frame of Mind|
 |325-332|The Chainsmokers - Roses ft. ROZES|
 |333-336|San Holo - We Rise|
-|337-338|Tristam & Braken - Flight|
-|339-340|Twenty One Pilots - Stressed Out (Tomsize Remix)|
+|337&338|Tristam & Braken - Flight|
+|339&340|Twenty One Pilots - Stressed Out (Tomsize Remix)|
 |341-343|Virtual Riot - Idols|
 |344-347|TheFatRat - Xenogenesis|
 |348-353|Alan Walker - Faded|
