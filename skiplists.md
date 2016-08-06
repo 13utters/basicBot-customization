@@ -41,6 +41,7 @@ OP LIST:
 <li> Galantis - You </li>
 <li> Imagine Dragons - Radioactive (Synchronice Remix) </li>
 <li> Jetta - I'd Love to Change the World (Matstubs Remix) </li>
+<li> K.Flay - FML (Vanic Remix) </li>
 <li> KDrew - Bullseye </li>
 <li> KDrew - Circles </li>
 <li> Knife Party - Bonfire </li>
@@ -56,7 +57,9 @@ OP LIST:
 <li> Mako - Our Story </li>
 <li> Martin Garrix & Jay Hardway - Wizard </li>
 <li> Martin Garrix - Animals </li>
+<li> Martin Garrix - Forbidden Voices </li>
 <li> Meg & Dia - Monster (DotEXE Remix) </li>
+<li> MNEK, Zara Larsson - Never Forget You </li>
 <li> OMFG - Hello </li>
 <li> OMFG - I Love You </li>
 <li> Rae Sremmurd - No Type </li>
@@ -68,10 +71,14 @@ OP LIST:
 <li> Skrillex - Scary Monsters And Nice Sprites </li>
 <li> Spag Heddy - Love On First Sine </li>
 <li> Spooky Scary Skeletons (Remix) </li>
+<li> Stephen Swartz -- Bullet Train (Feat. Joni Fatora) </li>
 <li> The Chainsmokers - Don't Let Me Down ft. Daya </li>
 <li> The Chainsmokers - Roses ft. ROZES </li>
 <li> The Chainsmokers - #SELFIE </li>
+<li> The Eden Project - XO </li>
+<li> TheFatRat - Monody (feat. Laura Brehm) </li>
 <li> TheFatRat - Unity </li>
+<li> TheFatRat - Windfall </li>
 <li> TheFatRat - Xenogenesis </li>
 <li> Tristam and Braken - Flight </li>
 <li> Tristam and Braken - Frame of Mind </li>
@@ -80,5 +87,6 @@ OP LIST:
 <li> Virtual Riot - Idols </li>
 <li> Waka Flocka - No Handz (CRNKN Remix) </li>
 <li> Yellow Claw - Shotgun ft. Rochelle </li>
+<li> Yellow Claw- Till It Hurts </li>
 </ol>
-#### And all bass boosted versions of any these songs.
+#### And all bass boosted versions of these songs.
