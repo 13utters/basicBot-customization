@@ -1,9 +1,8 @@
-(function () {
+(function (){
 
 function extend() {
 if (!window.bot) {
-return setTimeout(extend, 1 * 1000);
-}
+return setTimeout(extend, 1 * 1000);}
 
 var autoDiscord = true;
 var autoDubtrack = true;
@@ -20,8 +19,7 @@ bot.retrieveSettings();
 
 var spamWords = ['spam1234', 'spam2341', 'spam3412', 'spam4123'];
 for (var i = 0; i < spamWords.length; i++) {
-window.bot.chatUtilities.spam.push(spamWords[i]);
-}
+window.bot.chatUtilities.spam.push(spamWords[i]);}
 
 setInterval(function () {
 if(autoShuffle === true) {
@@ -373,7 +371,6 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me update log to recent changes of qtbot: https://git.io/v638C");}}};
-
 //
 bot.loadChat();}
 localStorage.setItem("basicBotsettings", JSON.stringify({
