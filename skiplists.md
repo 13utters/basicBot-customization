@@ -4,11 +4,14 @@ OP LIST:
 <li> Ahrix - Nova </li>
 <li> Alan Walker - Fade </li>
 <li> Alan Walker - Faded </li>
+<li> Alan Walker - Sing Me To Sleep </li>
 <li> Alan Walker - Spectre </li>
 <li> AronChupa - I'm an Albatraoz </li>
 <li> Avicii - Levels </li>
 <li> Benny Benassi - Satisfaction </li>
 <li> Benny Benassi ft. Gary Go - Cinema (Skrillex Remix) </li>
+<li> Black Coast - TRNDSTTR (Lucian Remix) </li>
+<li> Boregore - 100s </li> 
 <li> Cash Cash - Michael Jackson </li>
 <li> Cash Cash - Overtime </li>
 <li> Cazzette - Beam Me Up </li>
@@ -20,6 +23,7 @@ OP LIST:
 <li> Dimitri Vegas, Martin Garrix, Like Mike - Tremor </li>
 <li> Diplo & GTA - Boy Oh Boy </li>
 <li> Diplo - Revolution (Gioni Remix) </li>
+<li> Disclosure - You & Me (Flume Remix) </li>
 <li> DJ ASSASS1N - Frag Out </li>
 <li> DJ Fresh - Gold Dust (Flux Pavilion Remix) </li>
 <li> DJ Snake, Lil Jon - Turn Down for What </li>
@@ -76,4 +80,5 @@ OP LIST:
 <li> Virtual Riot - Idols </li>
 <li> Waka Flocka - No Handz (CRNKN Remix) </li>
 <li> Yellow Claw - Shotgun ft. Rochelle </li>
+And all bass boosted versions of these songs.
 </ol>
