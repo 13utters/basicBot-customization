@@ -42,9 +42,6 @@ OP LIST CODE INDEX:
 |217|David Guetta - Hey Mama ft Nicki Minaj, Bebe Rexha & Afrojack|
 |218-226|Deorro - Five Hours|
 |227-228|Diplo - Revolution (Gioni Remix)|
-
--8 to everything
-
 |228-232|Fetty Wap - Trap Queen (Crankdat Remix)|
 |233-237|Flo Rida - GDFR (K Theory Remix)|
 |238-242|Galantis - Peanut Butter Jelly|
@@ -57,8 +54,6 @@ OP LIST CODE INDEX:
 |265-269|Knife Party - Internet Friends|
 |270-274|Martin Garrix - Animals|
 |275-277|Major Lazer & DJ Snake - Lean On (feat. MØ)|
-
-
 |278-284|Mako - Our Story|
 |285-286|OMFG - I Love You|
 |287-288|Rae Sremmurd - No Type|
