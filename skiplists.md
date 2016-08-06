@@ -80,5 +80,6 @@ OP LIST:
 <li> Virtual Riot - Idols </li>
 <li> Waka Flocka - No Handz (CRNKN Remix) </li>
 <li> Yellow Claw - Shotgun ft. Rochelle </li>
-And all bass boosted versions of these songs.
+
+####### And all bass boosted versions of any these songs.
 </ol>
