@@ -88,3 +88,81 @@ OP LIST CODE INDEX:
 |430-436|TheFatRat - Monody (feat. Laura Brehm)|
 |437-441|TheFatRat - Windfall|
 |442-446|Yellow Claw- Till It Hurts|
+|447-449|Ahrix - Nova (Bass Boosted)|
+|450-453|Alan Walker - Fade (Bass Boosted)|
+|454&455|Alan Walker - Faded (Bass Boosted)|
+|456&457|Ahrix - Nova (Nightcore)|
+|458-462|Alan Walker - Fade (Nightcore)|
+|463-470|Alan Walker - Faded (Nightcore)|
+|471|Alan Walker - Sing Me To Sleep (Bass Boosted)|
+|472-478|Alan Walker - Sing Me To Sleep (Nightcore)|
+|479&480|Alan Walker - Spectre (Bass Boosted)|
+|481-486|Alan Walker - Spectre (Nightcore)|
+|487-491|AronChupa - I'm an Albatraoz (Bass Boosted)|
+|492-508|AronChupa - I'm an Albatraoz (Nightcore)|
+|509&510|Avicii - Levels (Bass Boosted)|
+|511&512|Avicii - Levels (Nightcore)|
+|513|Avicii - Levels (Nightstep)|
+|514-516|Benny Benassi - Satisfaction (Bass Boosted)|
+|517&518|Benny Benassi - Satisfaction (Nightcore)|
+|519-521|Black Coast - TRNDSTTR (Lucian Remix) (Bass Boosted)|
+|522-525|Black Coast - TRNDSTTR (Lucian Remix) (Nightcore)|
+|526-528|Cash Cash - Michael Jackson (Nightcore)|
+|529&530|Cash Cash - Overtime (Bass Boosted)|
+|531&532|Cash Cash - Overtime (Nightcore)|
+|533&534|Cazzette - Beam Me Up (Bass Boosted)|
+|535-539|Cazzette - Beam Me Up (Nightcore)|
+|540-544|Chief Keef - Love Sosa (RL Grime Remix) (Bass Boosted)|
+|545|Chief Keef - Love Sosa (RL Grime Remix) (Nightcore)|
+|546&547|Daft Punk - Harder, Better, Faster, Stronger (Bass Boosted)|
+|548-555|Daft Punk - Harder, Better, Faster, Stronger (Nightcore)|
+|556-560|Darude - Sandstorm (Bass Boosted)|
+|561-565|Darude - Sandstorm (Nightcore)|
+|566|David Guetta - Hey Mama ft Nicki Minaj, Bebe Rexha & Afrojack (Bass Boosted)|
+|567-569|David Guetta - Hey Mama ft Nicki Minaj, Bebe Rexha & Afrojack (Nightcore)|
+|570-573|Deorro - Five Hours (Bass Boosted)|
+|574-576|Deorro - Five Hours (Bass Boosted)|
+|577-579|Dimitri Vegas, Martin Garrix, Like Mike - Tremor (Bass Boosted)|
+|580&581|Dimitri Vegas, Martin Garrix, Like Mike - Tremor (Nightcore)|
+|582|Diplo - Revolution (Gioni Remix) (Bass Boosted)|
+|583|Diplo - Revolution (Gioni Remix) (Nightcore)|
+|584-586|Disclosure - You & Me (Flume Remix) (Bass Boosted)|
+|587&588|Disclosure - You & Me (Flume Remix) (Nightcore)|
+|589&590|DJ ASSASS1N - Frag Out (Bass Boosted)|
+|591&592|DJ ASSASS1N - Frag Out (Nightstep)|
+|593-595|DJ Fresh - Gold Dust (Flux Pavilion Remix) (Bass Boosted)|
+|596-603|DJ Snake, Lil Jon - Turn Down for What (Bass Boosted)|
+|604-607|DJ Snake, Lil Jon - Turn Down for What (Nightcore)|
+|608|DJ Snake, Lil Jon - Turn Down For What (Onderkoffer Remix) (Bass Boosted)|
+|609&610|Different Heaven & EH!DE - My Heart (Bass Boosted)|
+|611-617|Different Heaven & EH!DE - My Heart (Nightcore)|
+|618|Different Heaven & EH!DE - My Heart (Nightstep)|
+|619-623|Dr. Dre - The Next Episode (San Holo Remix) (Bass Boosted)|
+|624|Dr. Dre - The Next Episode (San Holo Remix) (Nightcore)|
+|625-627|Eiffel 65 - Blue (KNY Factory Remix) (Bass Boosted)|
+|628|Eiffel 65 - Blue (KNY Factory Remix) (Nightcore)|
+|629|Electro-Light - Symbolism (Bass Boosted)|
+|630|Electro-Light - Symbolism (Nightcore)|
+|631-636|Fetty Wap - Trap Queen (Crankdat Remix) (Bass Boosted)|
+|637-639|Fetty Wap - Trap Queen (Crankdat Remix) (Nightcore)|
+|640&641|Flo Rida - GDFR (K Theory Remix) (Bass Boosted)|
+|642-649|Flux Pavillion - I Can't Stop (Bass Boosted)|
+|650&651|Flux Pavillion - I Can't Stop (Nightcore)|
+|652|Galantis - Peanut Butter Jelly (Bass Boosted)|
+|653&654|Galantis - Peanut Butter Jelly (Nightcore)|
+|655&656|Galantis - Runaway (U & I) (Bass Boosted)|
+|657-662|Galantis - Runaway (U & I) (Nightcore)|
+|663|Imagine Dragons - Radioactive (Synchronice Remix) (Bass Boosted)|
+|664-668|Jetta - I'd Love to Change the World (Matstubs Remix) (Bass Boosted)|
+|669-675|Jetta - I'd Love to Change the World (Matstubs Remix) (Nightcore)|
+|676|K.Flay - FML (Vanic Remix) (Bass Boosted)|
+|677-680|KDrew - Bullseye (Bass Boosted)|
+|681&682|KDrew - Bullseye (Nightcore)|
+|683&684|KDrew - Circles (Bass Boosted)|
+|685-688|KDrew - Circles (Nightcore)|
+|689-691|Knife Party - Bonfire (Bass Boosted)|
+|692&693|Knife Party - Bonfire (Nightcore)|
+|694-696|Knife Party - Internet Friends (Bass Boosted)|
+|697-700|Knife Party - Internet Friends (Nightcore)|
+|701-711|Krewella - Come and Get It (Nightcore)|
+|712-718|Krewella - Come And Get It (Razihel Remix) (Bass Boosted)|
