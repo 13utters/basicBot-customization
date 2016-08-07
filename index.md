@@ -232,3 +232,4 @@ OP LIST CODE INDEX:
 |924-926|Yellow Claw - Shotgun ft. Rochelle (Bass Boosted)|
 |927|Yellow Claw - Shotgun ft. Rochelle (Nightcore)|
 |928&929|Yellow Claw- Till It Hurts (Bass Boosted)|
+|930&931|Yellow Claw- Till It Hurts (Nightcore)|
