@@ -69,7 +69,7 @@ OP LIST:
 <li> Skrillex - Kill Everybody </li>
 <li> Skrillex - Scary Monsters And Nice Sprites </li>
 <li> Spag Heddy - Love On First Sine </li>
-<li> Spooky Scary Skeletons (Remix) </li>
+<li> Spooky Scary Skeletons (The Living Tombstone Remix) </li>
 <li> Stephen Swartz -- Bullet Train (Feat. Joni Fatora) </li>
 <li> The Chainsmokers - Don't Let Me Down ft. Daya </li>
 <li> The Chainsmokers - Roses ft. ROZES </li>
