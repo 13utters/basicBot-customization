@@ -21,7 +21,6 @@ OP LIST:
 <li> David Guetta - Hey Mama ft Nicki Minaj, Bebe Rexha & Afrojack </li>
 <li> Deorro - Five Hours </li>
 <li> Dimitri Vegas, Martin Garrix, Like Mike - Tremor </li>
-<li> Diplo & GTA - Boy Oh Boy </li>
 <li> Diplo - Revolution (Gioni Remix) </li>
 <li> Disclosure - You & Me (Flume Remix) </li>
 <li> DJ ASSASS1N - Frag Out </li>
