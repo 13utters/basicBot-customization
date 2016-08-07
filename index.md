@@ -165,4 +165,5 @@ OP LIST CODE INDEX:
 |694-696|Knife Party - Internet Friends (Bass Boosted)|
 |697-700|Knife Party - Internet Friends (Nightcore)|
 |701-711|Krewella - Come and Get It (Nightcore)|
-|712-718|Krewella - Come And Get It (Razihel Remix) (Bass Boosted)|
+|712-714|Krewella - Come And Get It (Razihel Remix) (Bass Boosted)|
+|715-718|Krewella - Come And Get It (Razihel Remix) (Nightcore)|
