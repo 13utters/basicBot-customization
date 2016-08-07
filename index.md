@@ -21,7 +21,7 @@ OP LIST CODE INDEX:
 |108-110|DJ Snake, Lil Jon - Turn Down For What (Onderkoffer Remix)|
 |111-117|DJ Snake, Lil Jon - Turn Down for What|
 |118-122|Waka Flocka - No Handz (CRNKN Remix)|
-|123-128|Spooky Scary Skeletons (Remix)|
+|123-128|Spooky Scary Skeletons (The Living Tombstone Remix)|
 |129-135|Virtual Riot - Energy Drink|
 |136-138|Electro-Light - Symbolism|
 |139-143|DJ ASSASS1N - Frag Out|
@@ -167,3 +167,68 @@ OP LIST CODE INDEX:
 |701-711|Krewella - Come and Get It (Nightcore)|
 |712-714|Krewella - Come And Get It (Razihel Remix) (Bass Boosted)|
 |715-718|Krewella - Come And Get It (Razihel Remix) (Nightcore)|
+|719-723|Krewella - Enjoy the Ride (Nightcore)|
+|719-727|Levels by Avicii (Skrillex Remix) (Bass Boosted)|
+|728|Levels by Avicii (Skrillex Remix) (Nightcore)|
+|729|Lorde - Tennis Court (Flume Remix) (Bass Boosted)|
+|730|Lorde - Tennis Court (Flume Remix) (Nightcore)|
+|731|M4SONIC - Weapon (Live Launchpad Mashup) (Bass Boosted)|
+|732-735|Major Lazer & DJ Snake - Lean On (feat. MØ) (Bass Boosted)|
+|736-740|Major Lazer & DJ Snake - Lean On (feat. MØ) (Nightcore)|
+|741|Mako - Our Story (Nightcore)|
+|742&743|Martin Garrix & Jay Hardway - Wizard (Bass Boosted)|
+|744&745|Martin Garrix & Jay Hardway - Wizard (Nightcore)|
+|746-755|Martin Garrix - Animals (Bass Boosted)|
+|756-760|Martin Garrix - Animals (Nightcore)|
+|761|Martin Garrix - Forbidden Voices (Nightcore)|
+|762-764|Meg & Dia - Monster (DotEXE Remix) (Bass Boosted)|
+|765-768|Meg & Dia - Monster (DotEXE Remix) (Nightcore)|
+|769&770|MNEK, Zara Larsson - Never Forget You (Bass Boosted)|
+|771-776|MNEK, Zara Larsson - Never Forget You (Nightcore)|
+|777-780|OMFG - Hello (Bass Boosted)|
+|781-785|OMFG - Hello (Nightcore)|
+|786-790|OMFG - I Love You (Bass Boosted)|
+|791-798|OMFG - I Love You (Nightcore)|
+|799-806|Rae Sremmurd - No Type (Bass Boosted)|
+|807-809|Rae Sremmurd - No Type (Nightcore)|
+|810-812|San Holo - We Rise (Bass Boosted)|
+|813-815|Skrillex & Damian "Jr. Gong" Marley - Make It Bun Dem (Bass Boosted)|
+|816&817|Skrillex & Damian "Jr. Gong" Marley - Make It Bun Dem (Nightcore)|
+|818|Skrillex - Bangarang feat. Sirah (Bass Boosted)|
+|819-825|Skrillex - First Of The Year (Equinox) (Bass Boosted)|
+|826-828|Skrillex - First Of The Year (Equinox) (Nightcore)|
+|829-831|Skrillex - Kill Everybody (Bass Boosted)|
+|832-837|Skrillex - Kill Everybody (Nightcore)|
+|838-845|Skrillex - Scary Monsters And Nice Sprites (Bass Boosted)|
+|846-850|Skrillex - Scary Monsters And Nice Sprites (Nightcore)|
+|851|Spag Heddy - Love On First Sine (Nightcore)|
+|852|Spooky Scary Skeletons (The Living Tombstone Remix) (Bass Boosted)|
+|853-858|Spooky Scary Skeletons (The Living Tombstone Remix) (Nightcore)|
+|859-862|Stephen Swartz -- Bullet Train (Feat. Joni Fatora) (Bass Boosted)|
+|863&864|Stephen Swartz -- Bullet Train (Feat. Joni Fatora) (Nightcore)|
+|865-867|The Chainsmokers - Don't Let Me Down ft. Daya (Bass Boosted)|
+|868-872|The Chainsmokers - Don't Let Me Down ft. Daya (Nightcore)|
+|873&874|The Chainsmokers - Roses ft. ROZES (Bass Boosted)|
+|875-877|The Chainsmokers - Roses ft. ROZES (Nightcore)|
+|878&879|The Chainsmokers - #SELFIE (Bass Boosted)|
+|880-882|The Chainsmokers - #SELFIE (Nightcore)|
+|883|The Eden Project - XO (Nightcore)|
+|884-886|TheFatRat - Monody (feat. Laura Brehm) (Nightcore)|
+|887|TheFatRat - Unity (Bass Boosted)|
+|888-893|TheFatRat - Unity (Nightcore)|
+|894|TheFatRat - Windfall (Bass Boosted)|
+|895-897|TheFatRat - Windfall (Nightcore)|
+|898|TheFatRat - Xenogenesis (Bass Boosted)|
+|899|TheFatRat - Xenogenesis (Nightcore)|
+|900-904|Tristam and Braken - Flight (Bass Boosted)|
+|905&906|Tristam and Braken - Flight (Nightcore)|
+|907-910|Twenty One Pilots - Stressed Out (Tomsize Remix) (Bass Boosted)|
+|911&912|Twenty One Pilots - Stressed Out (Tomsize Remix) (Nightcore)|
+|913-915|Virtual Riot - Energy Drink (Bass Boosted)|
+|916|Virtual Riot - Energy Drink (Nightcore)|
+|917|Virtual Riot - Idols (Bass Boosted)|
+|918-920|Virtual Riot - Idols (Nightcore)|
+|921-923|Waka Flocka - No Handz (CRNKN Remix) (Bass Boosted)|
+|924-926|Yellow Claw - Shotgun ft. Rochelle (Bass Boosted)|
+|927|Yellow Claw - Shotgun ft. Rochelle (Nightcore)|
+|928&929|Yellow Claw- Till It Hurts (Bass Boosted)|
