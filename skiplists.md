@@ -34,7 +34,7 @@ OP LIST:
 <li> Fetty Wap - Trap Queen (Crankdat Remix) </li>
 <li> Fetty Wap - Trap Queen (K Theory Remix) </li>
 <li> Flo Rida - GDFR (K Theory Remix) </li>
-<li> Flux Pavillion - I Can't Stop </li>
+<li> Flux Pavilion - I Can't Stop </li>
 <li> Galantis - Peanut Butter Jelly </li>
 <li> Galantis - Runaway (U & I) </li>
 <li> Galantis - You </li>
