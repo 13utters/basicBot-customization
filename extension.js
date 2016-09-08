@@ -345,6 +345,15 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me What are subscriptions? http://goo.gl/Lcw6wX");}}};
 
+bot.commands.triggeredCommand = {
+command: 'triggered',
+rank: 'user',
+type: 'exact',
+functionality: function (chat, cmd) {
+if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
+if (!bot.commands.executable(this.rank, chat)) return void (0);
+else {API.sendChat("/me :warning: Triggered! :warning:");}}};
+
 bot.commands.twitchCommand = {
 command: 'twitch',
 rank: 'user',
