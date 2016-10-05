@@ -416,7 +416,7 @@ commandCooldown: 15,
 usercommandsEnabled: true,
 skipPosition: 1,
 skipReasons: [
-["theme", "This song does not fit the room theme. "],
+["theme", "This song does not fit the room theme, Community Theme: http://en.wikipedia.org/wiki/List_of_electronic_music_genres"],
 ["op", "This song is on the OP list. "],
 ["history", "This song is in the history. "],
 ["sound", "The song you played had bad sound quality or no sound. "],
