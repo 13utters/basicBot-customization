@@ -21,7 +21,6 @@ OP LIST CODE INDEX:
 |108-110|DJ Snake, Lil Jon - Turn Down For What (Onderkoffer Remix)|
 |111-117|DJ Snake, Lil Jon - Turn Down for What|
 |118-122|Waka Flocka - No Handz (CRNKN Remix)|
-|123-128|Spooky Scary Skeletons (The Living Tombstone Remix)|
 |129-135|Virtual Riot - Energy Drink|
 |136-138|Electro-Light - Symbolism|
 |139-143|DJ ASSASS1N - Frag Out|
