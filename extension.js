@@ -4,7 +4,6 @@ function extend() {
 if (!window.bot) {
 return setTimeout(extend, 1 * 1000);}
 
-var autoDiscord = true;
 var autoDubtrack = true;
 var autoFav = true;
 var autoQuestion = true;
@@ -50,13 +49,6 @@ API.sendChat("!rules");
 1000 * 60 * 78);
 
 setInterval(function () {
-if(autoAppear === true) {
-API.sendChat("!discord");
-}
-},
-1000 * 60 * 87);
-
-setInterval(function () {
 if(autoRules === true) {
 API.sendChat("!question");
 }
@@ -94,15 +86,6 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Admin is a rank on plug.dj that only a few select people have, they are developers for plug.dj that work on the site.");}}};
-
-bot.commands.appearCommand = {
-command: 'appear',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Feel like talking with us, maybe showing your face, join here: https://appear.in/its-a-trap-and-edm");}}};
 
 bot.commands.automateDiscord = {
 command: ['autodiscord'],
