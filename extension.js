@@ -204,7 +204,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me http://www.twitch.tv/theqtpi");}}};
+else {API.sendChat("/me ");}}};
 
 bot.commands.twitchliveCommand = {
 command: 'twitchlive',
@@ -213,7 +213,7 @@ type: 'exact',
 functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me TheQTpi is live right now! Come watch her stream with us here: http://www.twitch.tv/theqtpi");}}};
+else {API.sendChat("/me ");}}};
 
 //
 bot.loadChat();}
