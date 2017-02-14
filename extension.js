@@ -4,12 +4,9 @@ function extend() {
 if (!window.bot) {
 return setTimeout(extend, 1 * 1000);}
 
-var autoDubtrack = true;
 var autoFav = true;
-var autoQuestion = true;
 var autoRoulette = true;
 var autoRules = true;
-var autoShuffle = true;
 var autoTwitch = false;
 var bot = window.bot;
 var minute= 1000 * 60;
@@ -19,13 +16,6 @@ bot.retrieveSettings();
 var spamWords = ['spam1234', 'spam2341', 'spam3412', 'spam4123'];
 for (var i = 0; i < spamWords.length; i++) {
 window.bot.chatUtilities.spam.push(spamWords[i]);}
-
-setInterval(function () {
-if(autoShuffle === true) {
-API.sendChat("!shuffle");
-}
-},
-1000 * 60 * 49);
 
 setInterval(function () {
 if(autoRoulette === true) {
@@ -47,20 +37,6 @@ API.sendChat("!rules");
 }
 },
 1000 * 60 * 78);
-
-setInterval(function () {
-if(autoRules === true) {
-API.sendChat("!question");
-}
-},
-1000 * 60 * 109);
-
-setInterval(function () {
-if(autoDubtrack === true) {
-API.sendChat("!dubtrack");
-}
-},
-1000 * 60 * 193);
 
 setInterval(function () {
 if(autoTwitch === true) {
@@ -87,28 +63,6 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Admin is a rank on plug.dj that only a few select people have, they are developers for plug.dj that work on the site.");}}};
 
-bot.commands.automateDiscord = {
-command: ['autodiscord'],
-rank: 'manager',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {
-autoDiscord = !autoDiscord;
-API.sendChat("/me Discord Message now set to " + autoDiscord);}}};
-
-bot.commands.automateDubtrack = {
-command: ['autodubtrack'],
-rank: 'manager',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {
-autoDubtrack = !autoDubtrack;
-API.sendChat("/me Dubtrack Message now set to " + autoDubtrack);}}};
-
 bot.commands.automateFav = {
 command: ['autofav'],
 rank: 'manager',
@@ -119,17 +73,6 @@ if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
 autoFav = !autoFav;
 API.sendChat("/me Fav Message now set to " + autoFav);}}};
-
-bot.commands.automateQuestion = {
-command: ['autoquestion'],
-rank: 'manager',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {
-autoQuestion = !autoQuestion;
-API.sendChat("/me Question Message now set to " + autoQuestion);}}};
 
 bot.commands.automateRoulette = {
 command: ['autoroulette'],
@@ -152,17 +95,6 @@ if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {
 autoRules = !autoRules;
 API.sendChat("/me Rules now set to " + autoRules);}}};
-
-bot.commands.automateShuffle = {
-command: ['autoshuffle'],
-rank: 'manager',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {
-autoShuffle = !autoShuffle;
-API.sendChat("/me Shuffle message now set to " + autoShuffle);}}};
 
 bot.commands.automateTwitch = {
 command: ['autotwitch'],
@@ -193,15 +125,6 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Do !dc if you have recently disconnected to get your position on the waitlist back!");}}};
 
-bot.commands.discordCommand = {
-command: 'discord',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me We have a discord room! You can come and chat with us here: https://discord.gg/0oAkP2A4t9ryA7Yh");}}};
-
 bot.commands.djcycleinfoCommand = {
 command: 'djcycleinfo',
 rank: 'user',
@@ -210,15 +133,6 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me Djcycle is a setting that automatically adds you back onto the waitlist after playing a song. If it's disabled you will have to manually add yourself back.");}}};
-
-bot.commands.dubtrackCommand = {
-command: 'dubtrack',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Remember to bookmark our Dubtrack room so if Plug.dj is down you can still hang out with us, it can be found here: https://www.dubtrack.fm/join/its-a-trap-and-edm");}}};
 
 bot.commands.favCommand = {
 command: 'fav',
@@ -247,24 +161,6 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me http://i.imgur.com/7JEucMA.png");}}};
 
-bot.commands.lastfmCommand = {
-command: 'lastfm',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me List of recently played songs in this community: http://www.last.fm/user/ureadmyname");}}};
-
-bot.commands.questionCommand = {
-command: 'question',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Want to give input to our community, feel free to answer our community question: http://www.questionpro.com/t/ALh4WZVEYd");}}};
-
 bot.commands.doarefreshCommand = {
 command: 'ref',
 rank: 'user',
@@ -291,51 +187,6 @@ functionality: function (chat, cmd) {
 if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me http://goo.gl/5SNSgo Rule 8: Please don't beg to be part of the community staff.");}}};
-
-bot.commands.shufflezonesCommand = {
-command: 'shufflezones',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me The timezones used in shuffle days: http://i.imgur.com/8teoFKk.png");}}};
-
-bot.commands.shuffleCommand = {
-command: 'shuffle',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Like other genres than EDM? Then you better be here Monday and Friday Shuffle, any genre is allowed! Shuffle time is run 12am EST till 12am PDT");}}};
-
-bot.commands.staffCommand = {
-command: 'staff',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Tips for trying to get staff: http://git.io/vG7Wj");}}};  
-
-bot.commands.steamCommand = {
-command: 'steam',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me Use Steam at all? Come join our Steam community: http://steamcommunity.com/groups/plugdjitsaTRAPandEDM");}}}; 
-
-bot.commands.whatissubCommand = {
-command: 'subinfo',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me What are subscriptions? http://goo.gl/Lcw6wX");}}};
 
 bot.commands.triggeredCommand = {
 command: 'triggered',
@@ -364,19 +215,11 @@ if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0)
 if (!bot.commands.executable(this.rank, chat)) return void (0);
 else {API.sendChat("/me TheQTpi is live right now! Come watch her stream with us here: http://www.twitch.tv/theqtpi");}}};
 
-bot.commands.updateCommand = {
-command: 'update',
-rank: 'user',
-type: 'exact',
-functionality: function (chat, cmd) {
-if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
-if (!bot.commands.executable(this.rank, chat)) return void (0);
-else {API.sendChat("/me update log to recent changes of qtbot: https://git.io/v63BR");}}};
 //
 bot.loadChat();}
 localStorage.setItem("basicBotsettings", JSON.stringify({
 
-botName: "qtbot",
+botName: "nerdbot",
 language: "english",
 chatLink: "https://rawgit.com/ureadmyname/basicBot/master/lang/en.json",
 scriptLink: "https://rawgit.com/ureadmyname/basicBot/master/basicBot.js",
@@ -424,7 +267,7 @@ etaRestriction: false,
 welcome: true,
 opLink: "http://git.io/vOTmj",
 rulesLink: "http://goo.gl/5SNSgo",
-themeLink: "Community Theme: http://en.wikipedia.org/wiki/List_of_electronic_music_genres",
+themeLink: "",
 fbLink: "No FB link at the moment.",
 youtubeLink: "No YT link at the moment.",
 website: "No website at the moment.",
